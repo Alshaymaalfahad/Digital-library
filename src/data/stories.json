@@ -1,0 +1,2132 @@
+[
+  {
+    "id": 1,
+    "title": "التاجر الصغير الأمين",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "الصدق والأمانة يجلبان البركة والسمعة الطيبة",
+    "cover": {
+      "imagePrompt": "A vibrant illustration in minimal kids book style showing a 12-year-old Saudi boy (Kareem) wearing a white thobe and red shemagh, standing proudly in front of a traditional Medina marketplace (souq). The background shows the iconic green dome of Prophet's Mosque. The scene is warm and welcoming, with traditional Arabic architectural elements and market stalls visible. Kareem's expression is kind and confident."
+    },
+    "backCover": {
+      "imagePrompt": "A group shot showing all the characters from the story: Kareem, his father, the elderly man, and various customers gathered in front of the perfume shop. The Prophet's Mosque is visible in the background. The scene is joyful and celebratory, with traditional Arabic architectural elements framing the composition. Space is left at the bottom for story information. The art style remains consistent with the minimal kids book style used throughout."
+    },
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في المدينة المنورة المباركة، عاش فتىً يُدعى كريم مع عائلته الكريمة. كان كريم يحب مساعدة والده في متجره بالسوق القديم، حيث يبيعون العطور والتوابل العربية الأصيلة. في كل صباح، يستيقظ كريم باكراً، يتوضأ ويصلي الفجر مع والده في المسجد النبوي الشريف، ثم يذهبان معاً إلى المتجر، وهو يردد: 'بسم الله، توكلنا على الله'.",
+        "imagePrompt": "A morning scene in Medina showing Kareem and his father walking through the streets at dawn. They are dressed in traditional Saudi clothing, heading towards their shop. The scene captures the beautiful architecture of Medina, with the morning light creating a peaceful atmosphere. Both characters are drawn in a warm, approachable cartoon style."
+      },
+      {
+        "pageNumber": 2,
+        "text": "في أحد الأيام، جاء إلى المتجر رجل كبير في السن يتكئ على عصاه. أراد شراء بعض العطور لحفيدته. بينما كان والد كريم مشغولاً مع زبون آخر، تقدم كريم لمساعدة الرجل المسن قائلاً: 'تفضل يا عمي، كيف يمكنني خدمتك؟' ابتسم الرجل المسن وقال: 'جزاك الله خيراً يا بني'.",
+        "imagePrompt": "Inside a traditional Arabian perfume shop, showing Kareem helping an elderly man with a walking stick. The shop is decorated with colorful bottles of perfume and spices. The lighting is warm and inviting, and the elderly man has a gentle smile. The scene emphasizes the respectful interaction between young and old."
+      },
+      {
+        "pageNumber": 3,
+        "text": "قدم كريم للرجل المسن أفضل أنواع العطور، وشرح له بأدب عن كل نوع وسعره. وعندما اختار الرجل العطر المناسب، أعطى كريم خصماً خاصاً دون أن يطلب منه أحد. قال الرجل المسن متعجباً: 'لماذا الخصم يا بني؟' أجاب كريم: 'لأن نبينا محمد صلى الله عليه وسلم علمنا إكرام كبار السن'.",
+        "imagePrompt": "A detailed scene of Kareem showing different perfume bottles to the elderly man. The shelves behind them are filled with traditional Arabic perfume bottles and spices. Kareem is shown explaining with animated hand gestures while the elderly man listens attentively. The art style maintains its warm, traditional Middle Eastern atmosphere."
+      },
+      {
+        "pageNumber": 4,
+        "text": "أعجب الرجل المسن بأخلاق كريم وأمانته، فأصبح من الزبائن الدائمين للمتجر. وفي كل مرة يأتي فيها، يحكي للناس عن الفتى الأمين الذي يبيع العطور. سمع والد كريم هذا الثناء، فقال لابنه: 'الحمد لله، يا بني، الأمانة والصدق هما أساس التجارة الناجحة'.",
+        "imagePrompt": "The elderly man is shown talking to other customers in the marketplace about Kareem's honesty. Kareem and his father are in the background of their shop, with the father's hand proudly on Kareem's shoulder. The scene captures the bustling marketplace atmosphere with various people listening to the elderly man's story."
+      },
+      {
+        "pageNumber": 5,
+        "text": "مر الوقت، وازداد عدد الزبائن في متجر كريم ووالده. وأصبح الناس يقولون: 'اذهب إلى متجر كريم، فهناك تجد الصدق والأمانة'. فرح كريم بهذه السمعة الطيبة، وقال لوالده: 'الحمد لله يا أبي، هذا من فضل ربي علينا'. ابتسم الوالد وقال: 'نعم يا بني، فالبركة تأتي مع الصدق والأمانة'.",
+        "imagePrompt": "A busy scene of the perfume shop now full of customers. Kareem and his father are serving multiple customers with bright smiles. The shop looks more prosperous, with new displays and a warm, inviting atmosphere. The artistic style emphasizes the joy and success while maintaining traditional Saudi elements."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "تمور الطيبة",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "العطاء والكرم يجلبان السعادة للنفس وللآخرين",
+    "cover": {
+      "imagePrompt": "A warm, inviting illustration of a young Saudi girl (Noura) standing in front of a beautiful date palm farm at sunset. She's wearing a colorful traditional dress and holding a decorative woven basket. The palm trees are laden with golden-brown dates. Art style: Pixar-like 3D animation with rich, warm colors. The title 'تمور الطيبة' appears in decorative Arabic calligraphy at the top."
+    },
+    "backCover": {
+      "imagePrompt": "A group portrait of all characters from the story: Noura, her parents, grandmother, Umm Saad, and other neighbors, standing together in front of the date palm farm at sunset. Everyone is holding dates or baskets, smiling warmly. The scene captures the story's themes of generosity and community. Art style: Pixar-like 3D animation. Space at the bottom for story information and summary."
+    },
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مزرعة النخيل الجميلة، عاشت نورة مع عائلتها الكريمة. كانت نورة تحب مساعدة والدها في جمع التمور كل صباح، وكانت جدتها قد أهدتها سلة جميلة مزينة بألوان زاهية لتضع فيها التمور. 'الحمد لله على هذه النعم'، كانت نورة تردد دائماً وهي تنظر إلى النخيل الباسق.",
+        "imagePrompt": "A morning scene in a date palm farm. Noura and her father are collecting dates. Noura is wearing a colorful traditional dress and holding her grandmother's decorated basket. The sun is rising, casting golden light through the palm trees. Art style: Pixar-like 3D animation."
+      },
+      {
+        "pageNumber": 2,
+        "text": "في يوم من الأيام، رأت نورة جارتهم العجوز أم سعد تمشي ببطء. فكرت نورة في مشاركة بعض التمور معها، لكنها ترددت قليلاً. تذكرت كلام والدتها: 'الكريم حبيب الله'. قررت نورة أن تملأ سلتها بأجمل التمور وتذهب لزيارة أم سعد.",
+        "imagePrompt": "Noura looking thoughtfully at an elderly neighbor (Umm Saad) walking slowly with a cane. Noura is standing by her basket full of dates. The scene shows traditional Saudi houses in the background. Art style: Pixar-like 3D animation."
+      },
+      {
+        "pageNumber": 3,
+        "text": "طرقت نورة باب أم سعد، وعندما فتحت الباب، قالت نورة: 'السلام عليكم يا أم سعد، هذه تمور طازجة من مزرعتنا'. ابتسمت أم سعد ابتسامة دافئة وقالت: 'جزاكِ الله خيراً يا بنيتي، ما أجمل أخلاقك!'",
+        "imagePrompt": "A heartwarming scene at Umm Saad's traditional door. Noura is offering her basket of dates to the smiling elderly woman. The scene shows traditional Saudi architectural details. Art style: Pixar-like 3D animation."
+      },
+      {
+        "pageNumber": 4,
+        "text": "في المساء، أخبرت نورة والديها عما فعلت. فرح والداها كثيراً وأثنيا على تصرفها. قال والدها: 'نعم النخلة شجرة معطاءة، ونحن يجب أن نتعلم منها العطاء'. ابتسمت نورة وقررت أن تجعل مشاركة التمور مع الجيران عادة جميلة.",
+        "imagePrompt": "A cozy family scene inside a traditional Saudi home. Noura is sitting with her parents on traditional cushions, telling them about her day. There's a plate of dates on a traditional coffee table. Art style: Pixar-like 3D animation."
+      },
+      {
+        "pageNumber": 5,
+        "text": "مرت الأيام، وأصبحت نورة معروفة في الحي بكرمها وطيبة قلبها. كان الجميع يدعون لها بالخير، وكانت سعيدة جداً لأنها استطاعت أن تدخل السرور على قلوب الآخرين. وهكذا تعلمت نورة أن العطاء هو أجمل الهدايا.",
+        "imagePrompt": "A final scene showing Noura sharing dates with various neighbors in her community. The scene shows multiple generations, traditional clothing, and architecture. Everyone is smiling and happy. The date palms are visible in the background. Art style: Pixar-like 3D animation."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "فيصل الشجاع في نجران",
+    "type": "مغامرات",
+    "ageRange": "10-12 سنوات",
+    "moral": "الشجاعة, المسؤولية, مساعدة الآخرين",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مدينة نجران الجميلة، عاش صبي صغير اسمه فيصل مع عائلته في بيت قريب من سفوح الجبال. كان فيصل يحب مساعدة والده في رعاية الأغنام، وكان يفخر بأنه أصبح راعياً صغيراً يعتمد عليه.",
+        "imagePrompt": "1. **Character Description**:\nFaisal is a young Saudi boy from Najran who lives near the mountains with his family. He's a responsible and brave shepherd boy who helps his father tend to their sheep. Despite his young age (likely 8-10 years old), he shows remarkable maturity and courage. He wears traditional Saudi clothing suitable for shepherding and has a strong sense of duty. His character demonstrates wisdom beyond his years, prioritizing others' needs before his own, and showing both physical bravery and moral courage in challenging situations.\n\n2. **Visual Prompts**:\n\n1. \"A picturesque scene of Najran's mountainous landscape with a young Saudi boy in traditional clothes tending to sheep with his father in the foreground\""
+      },
+      {
+        "pageNumber": 2,
+        "text": "في أحد الأيام، بينما كان فيصل يرعى الأغنام مع والده، لاحظ أن إحدى النعاج الصغيرة مفقودة. قال والده: \"لا بد أنها ابتعدت عن القطيع. يجب أن نجدها قبل غروب الشمس.\"\nبدأ فيصل ووالده في البحث، لكن الوقت كان يمر سريعاً. فجأة، سمع فيصل صوت ثغاء خافت يأتي من اتجاه الوادي. قال لوالده: \"أبي، أسمع صوتاً من هناك!\"",
+        "imagePrompt": "1. **Character Description**:\nFaisal is a young Saudi boy from Najran who lives near the mountains with his family. He's a responsible and brave shepherd boy who helps his father tend to their sheep. Despite his young age (likely 8-10 years old), he shows remarkable maturity and courage. He wears traditional Saudi clothing suitable for shepherding and has a strong sense of duty. His character demonstrates wisdom beyond his years, prioritizing others' needs before his own, and showing both physical bravery and moral courage in challenging situations.\n\n2. **Visual Prompts**:\n2. \"A dramatic moment showing a concerned Faisal and his father discovering one sheep is missing, with the setting sun casting long shadows across the valley\""
+      },
+      {
+        "pageNumber": 3,
+        "text": "وبينما هما يتجهان نحو الصوت، تعثر والد فيصل وأصيب في قدمه. قال الوالد متألماً: \"يا فيصل، لا أستطيع المشي. عليك العودة إلى البيت وإخبار عمك ليأتي للمساعدة.\"\nلكن فيصل فكر في النعجة الصغيرة وحيدة في الوادي. قال: \"أبي، سأذهب لإحضار النعجة أولاً، ثم أعود لطلب المساعدة. أعرف الطريق جيداً.\"\nتردد الوالد قليلاً ثم قال: \"حسناً يا بني، لكن كن حذراً جداً.\"",
+        "imagePrompt": "1. **Character Description**:\nFaisal is a young Saudi boy from Najran who lives near the mountains with his family. He's a responsible and brave shepherd boy who helps his father tend to their sheep. Despite his young age (likely 8-10 years old), he shows remarkable maturity and courage. He wears traditional Saudi clothing suitable for shepherding and has a strong sense of duty. His character demonstrates wisdom beyond his years, prioritizing others' needs before his own, and showing both physical bravery and moral courage in challenging situations.\n\n2. **Visual Prompts**:\n\n\n3. \"A tense scene of Faisal carefully climbing down a rocky valley in search of the lost lamb, with dark rain clouds gathering overhead\""
+      },
+      {
+        "pageNumber": 4,
+        "text": "اتبع فيصل الصوت حتى وجد النعجة الصغيرة عالقة بين الصخور. وفجأة، بدأت السماء تمطر! كان هذا نادراً في نجران، لكن فيصل لم يخف. حمل النعجة الصغيرة بكل قوته وبدأ يصعد الوادي ببطء وحذر.\nعندما وصل إلى والده، كان مبللاً تماماً لكنه فخور بنفسه. ساعد والده على الوقوف، وأمسك بالنعجة بيد وساند والده باليد الأخرى حتى وصلوا إلى مكان آمن.",
+        "imagePrompt": "1. **Character Description**:\nFaisal is a young Saudi boy from Najran who lives near the mountains with his family. He's a responsible and brave shepherd boy who helps his father tend to their sheep. Despite his young age (likely 8-10 years old), he shows remarkable maturity and courage. He wears traditional Saudi clothing suitable for shepherding and has a strong sense of duty. His character demonstrates wisdom beyond his years, prioritizing others' needs before his own, and showing both physical bravery and moral courage in challenging situations.\n\n2. **Visual Prompts**:\n4. \"A heartwarming image of Faisal carrying a small wet sheep in his arms while supporting his limping father, all three making their way through the rain\""
+      },
+      {
+        "pageNumber": 5,
+        "text": "في المساء، جمع والد فيصل العائلة وقال: \"اليوم، أظهر فيصل شجاعة كبيرة. لم يفكر في نفسه بل فكر في مساعدة الآخرين أولاً.\"\nفرح فيصل كثيراً بكلمات والده، وأدرك أن الشجاعة الحقيقية ليست في عدم الخوف، بل في التغلب على الخوف لمساعدة الآخرين.",
+        "imagePrompt": "1. **Character Description**:\nFaisal is a young Saudi boy from Najran who lives near the mountains with his family. He's a responsible and brave shepherd boy who helps his father tend to their sheep. Despite his young age (likely 8-10 years old), he shows remarkable maturity and courage. He wears traditional Saudi clothing suitable for shepherding and has a strong sense of duty. His character demonstrates wisdom beyond his years, prioritizing others' needs before his own, and showing both physical bravery and moral courage in challenging situations.\n\n2. **Visual Prompts**:\n\n5. \"An evening family gathering inside a traditional Saudi home, with Faisal's father proudly telling the story while family members listen attentively around him\""
+      },
+      {
+        "pageNumber": 6,
+        "text": "منذ ذلك اليوم، أصبح فيصل معروفاً في نجران بشجاعته وحكمته، وكان الأطفال الصغار يستمعون بإعجاب لقصته عن يوم المطر والنعجة الضائعة.\n\nالنهاية\nالقيمة التربوية: تعلم الشجاعة والمسؤولية ومساعدة الآخرين في وقت الحاجة.",
+        "imagePrompt": "1. **Character Description**:\nFaisal is a young Saudi boy from Najran who lives near the mountains with his family. He's a responsible and brave shepherd boy who helps his father tend to their sheep. Despite his young age (likely 8-10 years old), he shows remarkable maturity and courage. He wears traditional Saudi clothing suitable for shepherding and has a strong sense of duty. His character demonstrates wisdom beyond his years, prioritizing others' needs before his own, and showing both physical bravery and moral courage in challenging situations.\n\n2. **Visual Prompts**:\n\n6. \"A final illustration of Faisal sitting among younger children in traditional dress, animated as he tells his story, with the mountains of Najran visible through a window\""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "مُبتَكِرُ المُستَقبَل",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "أهمية معرفة تاريخ الوطن وتناقل القصص بين الأجيال",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مَدينَةِ الرِّياضِ العَامِرَةِ، عاشَ فَتىً صَغيرٌ اسمُهُ سَلمان. كانَ سَلمانُ يُحِبُّ الاخْتِراعاتِ كَثيراً، وَيَقْضي وَقْتَهُ في غُرْفَتِهِ يَرْسُمُ وَيُصَمِّمُ أَفْكاراً جَديدَةً.",
+        "imagePrompt": "A young Saudi boy in traditional thobe sitting at a desk in his room, drawing inventions and designs, with modern Riyadh skyline visible through the window"
+      },
+      {
+        "pageNumber": 1,
+        "text": "في الدرعية العريقة، جلس الجد سلطان مع حفيده خالد تحت ظل شجرة نخيل قديمة. قال خالد: يا جدي، حدثني عن تاريخ بلادنا الغالية. ابتسم الجد وبدأ يروي القصة.",
+        "imagePrompt": "An elderly Saudi grandfather and his grandson sitting under a palm tree in old Diriyah, traditional clothing, late afternoon"
+      },
+      {
+        "pageNumber": 2,
+        "text": "ذاتَ يَوْمٍ، شاهَدَ سَلمانُ إِعْلاناً عَنْ مُسابَقَةِ الابْتِكارِ الوَطَنِيَّةِ لِلأَطْفالِ. فَرِحَ كَثيراً وَقَرَّرَ المُشارَكَةَ بِفِكْرَةٍ لِتَحْسينِ حَياةِ كِبارِ السِّنِّ.",
+        "imagePrompt": "A digital screen showing a national innovation competition announcement, with excited Salman looking at it in a modern Saudi shopping mall"
+      },
+      {
+        "pageNumber": 3,
+        "text": "ذَهَبَ سَلمانُ إِلى مَكْتَبَةِ المَدينَةِ لِيَقْرَأَ عَنِ الاخْتِراعاتِ. وَجَدَ كُتُباً كَثيرَةً تَتَحَدَّثُ عَنْ رُؤْيَةِ المَمْلَكَةِ وَدَعْمِها لِلمُبْتَكِرينَ الصِّغارِ.",
+        "imagePrompt": "A modern Saudi public library interior with Salman reading books surrounded by technology and innovation displays"
+      },
+      {
+        "pageNumber": 4,
+        "text": "عَمِلَ سَلمانُ بِجِدٍّ عَلى مَشْروعِهِ في مَرْكَزِ الابْتِكارِ. صَمَّمَ جِهازاً ذَكِيّاً يُساعِدُ كِبارَ السِّنِّ عَلى تَناوُلِ دَوائِهِمْ في الوَقْتِ المُحَدَّدِ.",
+        "imagePrompt": "Inside a modern innovation center, Salman working on his smart device prototype with digital tools and equipment"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في يَوْمِ المُسابَقَةِ، عَرَضَ سَلمانُ اخْتِراعَهُ أَمامَ اللَّجْنَةِ. فَرِحَ الجَميعُ بِفِكْرَتِهِ الَّتي تَخْدِمُ المُجْتَمَعَ، وَفازَ بِالمَرْكَزِ الأَوَّلِ.",
+        "imagePrompt": "A modern exhibition hall with Salman presenting his invention to judges, with Saudi flags and technology displays in background"
+      },
+      {
+        "pageNumber": 6,
+        "text": "تَعَلَّمَ سَلمانُ أَنَّ وَطَنَهُ يَدْعَمُ أَبْناءَهُ دائِماً لِيُحَقِّقوا أَحْلامَهُمْ. وَأَدْرَكَ أَنَّ خِدْمَةَ الوَطَنِ تَكونُ بِالعِلْمِ وَالعَمَلِ وَالابْتِكارِ. وَطَني يَسْتَحِقُّ مِنّا كُلَّ الإِبْداعِ وَالعَطاءِ.",
+        "imagePrompt": "Salman holding his award with the Saudi flag behind him, modern buildings of Riyadh visible through large windows, showing pride and achievement"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "حكاية الدرعية",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "الاعتزاز بالوطن وتاريخه والعمل على تطويره",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 2,
+        "text": "قال الجد: كانت الدرعية قديماً مركزاً مهماً، يجتمع فيها الناس للتجارة وطلب العلم. عاش أجدادنا في بيوت من الطين، وزرعوا النخيل، وعاشوا حياة بسيطة مليئة بالقناعة والكرم.",
+        "imagePrompt": "Historic Diriyah mud houses, palm groves, and traditional marketplace with people in traditional dress"
+      },
+      {
+        "pageNumber": 3,
+        "text": "وفي يوم من الأيام، جاء الملك عبدالعزيز رحمه الله إلى الدرعية. كان رجلاً شجاعاً وحكيماً، حلم بتوحيد البلاد تحت راية واحدة، ليعيش الناس في أمان وسلام.",
+        "imagePrompt": "King Abdulaziz in traditional Saudi dress arriving at Diriyah on horseback, people gathering to greet him"
+      },
+      {
+        "pageNumber": 4,
+        "text": "اجتمع القادة والشيوخ في ساحة الدرعية الكبيرة. تحدث الملك عبدالعزيز عن حلمه في توحيد البلاد. كان الجميع يصغون إليه باهتمام، وقرروا الوقوف معه لتحقيق هذا الحلم العظيم.",
+        "imagePrompt": "Historic meeting in Diriyah square with King Abdulaziz and tribal leaders sitting in traditional majlis setting"
+      },
+      {
+        "pageNumber": 5,
+        "text": "وبفضل الله ثم بحكمة الملك عبدالعزيز وشجاعته، توحدت البلاد. أصبحت المملكة العربية السعودية دولة قوية، يعيش فيها الناس في أمن ورخاء، ويحافظون على عاداتهم وتقاليدهم الأصيلة.",
+        "imagePrompt": "Saudi flag raising ceremony in unified Saudi Arabia, with traditional buildings and celebrating people"
+      },
+      {
+        "pageNumber": 6,
+        "text": "قال خالد: ما أجمل قصة بلادنا يا جدي! نحن فخورون بتاريخنا وأجدادنا. علينا أن نحافظ على وطننا ونعمل بجد لنبنيه مثلما فعل الملك عبدالعزيز وأجدادنا الأوائل.",
+        "imagePrompt": "Sunset view of modern Diriyah with grandfather and grandson looking at the historic site, Saudi flag waving"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "حلم وطن",
+    "type": "اكتشاف",
+    "ageRange": "10-12 سنوات",
+    "moral": "النجاح يتحقق بالعمل الجاد والمثابرة مهما كان عمر الإنسان",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مدينةِ الرياضِ الجميلةِ، كانَ ماجدٌ تلميذاً في الصفِ الرابعِ. يُحِبُّ ماجدٌ الاختراعاتِ كثيراً، ويقضي وقتَ فراغِهِ في صُنعِ نماذجَ صغيرةٍ مِنْ موادَ بسيطةٍ.",
+        "imagePrompt": "A Saudi boy in his room working on a small invention model, with modern Riyadh skyline visible through the window"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في المدرسةِ، تحدَّثَ المعلمُ عن رؤيةِ 2030 وكيفَ يُخطِّطُ الأميرُ محمدُ بنُ سلمانَ لجعلِ المملكةِ مركزاً للابتكارِ والتقنيةِ. تحمَّسَ ماجدٌ كثيراً وقرَّرَ المشاركةَ في معرضِ المدرسةِ للابتكاراتِ.",
+        "imagePrompt": "A classroom scene with a teacher explaining Vision 2030 using a modern smart board, showing images of future Saudi projects"
+      },
+      {
+        "pageNumber": 3,
+        "text": "بدأَ ماجدٌ في تصميمِ جهازٍ لتنقيةِ الهواءِ باستخدامِ الطاقةِ الشمسيةِ. لكنَّ التجاربَ الأولى لم تنجحْ، وشعرَ بالإحباطِ. لكنَّهُ تذكَّرَ كلماتِ القيادةِ عن المثابرةِ والإصرارِ.",
+        "imagePrompt": "The boy working on his solar-powered air purifier project, looking determined despite initial failure"
+      },
+      {
+        "pageNumber": 4,
+        "text": "ساعدَهُ والدُهُ في البحثِ عن معلوماتٍ إضافيةٍ، وشجَّعَتْهُ والدتُهُ على الاستمرارِ. وبعدَ محاولاتٍ عديدةٍ، نجحَ ماجدٌ في تطويرِ نموذجِهِ الأوَّلِ.",
+        "imagePrompt": "The boy with his parents, researching on a tablet and working on an improved version of his project"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في يومِ المعرضِ، عرضَ ماجدٌ اختراعَهُ أمامَ زملائِهِ ومعلميهِ. أثنى الجميعُ على فكرتِهِ التي تدعمُ البيئةَ النظيفةَ وتستخدمُ الطاقةَ المتجددةَ.",
+        "imagePrompt": "School innovation fair with the boy presenting his project to teachers and students, with his solar-powered device displayed"
+      },
+      {
+        "pageNumber": 6,
+        "text": "فازَ ماجدٌ بالمركزِ الأوَّلِ في المعرضِ، وأدركَ أنَّ النجاحَ يأتي مع المثابرةِ والعملِ الجادِ. وعرفَ أنَّهُ يستطيعُ المساهمةَ في تحقيقِ رؤيةِ وطنِهِ مهما كانَ صغيراً.",
+        "imagePrompt": "Award ceremony at school with the boy receiving first place, his project displayed prominently, and a banner of Vision 2030 in the background"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "رحلة في تراثنا الجميل",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "أهمية الحفاظ على التراث والهوية الثقافية",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشرقٍ، جلسَ سلطانُ مع جدّتِهِ أمام بيتِهم في القريةِ. كانت جدّتُهُ تحيكُ السدو، وهو نسيجٌ جميلٌ تشتهرُ به المملكةُ. سألَ سلطانٌ: 'حدّثيني يا جدّتي عن تراثِنا الجميل'.                  ",
+        "imagePrompt": "An elderly Saudi grandmother sitting with her grandson outside a traditional house, weaving Sadu textile with colorful patterns"
+      },
+      {
+        "pageNumber": 2,
+        "text": "قالت الجدّةُ: 'في شمالِ المملكةِ، يعيشُ أهلُنا في بيوتٍ من حجرٍ، ويلبسونَ الثوبَ والشماغَ. وفي الجنوبِ، تنتشرُ البيوتُ الطينيّةُ المزخرفةُ، ويشتهرُ أهلُها بالزراعةِ.'",
+        "imagePrompt": "Split scene showing traditional stone houses in the north and decorated mud houses in the south of Saudi Arabia"
+      },
+      {
+        "pageNumber": 3,
+        "text": "وأضافت: 'في شرقِ المملكةِ، يصنعُ الناسُ الفخّارَ الجميلَ، ويصطادونَ السمكَ. أمّا في الغربِ، فيشتهرُ أهلُنا بصناعةِ العطورِ والحِرَفِ اليدويّةِ.'",
+        "imagePrompt": "Split scene showing pottery making in the east and traditional perfume making in the west"
+      },
+      {
+        "pageNumber": 4,
+        "text": "تابعت الجدّةُ: 'وفي وسطِ المملكةِ حيثُ نعيشُ، نشتهرُ بالقهوةِ السعودية والتمورِ. ونستقبلُ ضيوفَنا في المجلسِ بكلِّ حفاوةٍ وترحيب.'",
+        "imagePrompt": "Traditional Saudi majlis with Arabic coffee and dates being served to guests"
+      },
+      {
+        "pageNumber": 5,
+        "text": "سألَ سلطانٌ: 'وما أجملُ ما في تراثِنا يا جدّتي؟' أجابت: 'أجملُ ما فيهِ هو كَرَمُنا وحُسنُ ضيافتِنا، وحُبُّنا للخيرِ، ومساعدةُ المحتاجين.'",
+        "imagePrompt": "Grandmother teaching grandson traditional values, with traditional decorations in background"
+      },
+      {
+        "pageNumber": 6,
+        "text": "فرحَ سلطانٌ وقال: 'سأحافظُ على تراثِنا الجميلِ يا جدّتي، وسأحكي لأصدقائي عن عاداتِنا وتقاليدِنا الأصيلةِ.' ابتسمت الجدّةُ وقالت: 'بارَكَ اللهُ فيكَ يا بُنيّ.'",
+        "imagePrompt": "Grandson proudly holding a piece of traditional Sadu textile with his grandmother, both smiling"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "سالم والتمرة الذهبية",
+    "type": "قيم وأخلاق",
+    "ageRange": "10-12 سنوات",
+    "moral": "المثابرة والصبر في تحقيق الأهداف",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "سالم طفلٌ نشيط يحب اللعب في مزرعة جده الواسعة. كان سالم يحلم بقطف أكبر تمرة في النخلة العالية جدًا. كل يوم، كان يحاول الوصول إليها، لكنها كانت بعيدة جدًا عنه.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في أحد الأيام، بينما كان سالم يلعب، رأى العم فهد وهو يحاول إصلاح سياج المزرعة الخشبي. كان العم فهد كبيراً في السن ويواجه صعوبة في رفع الأخشاب الثقيلة بمفرده.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 3,
+        "text": "فكر سالم قليلاً في حلمه بالتمرة الذهبية التي ينتظرها. ثم قرر أن يترك حلمه مؤقتًا ليقدم المساعدة. قال في نفسه: \"مساعدة العم فهد أهم الآن من أي شيء آخر\". ركض سالم بسرعة ليساعد العم فهد.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 4,
+        "text": "\nعمل سالم والعم فهد معًا بجد ونشاط. سالم كان يحمل الأخشاب الخفيفة ويناولها للعم فهد الذي كان يثبتها. وبعد قليل، انتهيا من إصلاح السياج المتضرر تمامًا.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 5,
+        "text": "\nشكر العم فهد سالم كثيرًا على مساعدته وقال له بحب: \"أنت ولد طيب ومساعد يا سالم، تستحق مكافأة كبيرة على عملك الصالح\". ثم أشار العم فهد بيده نحو النخلة العالية جدًا",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 6,
+        "text": "صعد العم فهد السلم وأحضر لسالم أكبر تمرة كان يحلم بها، بل وأحضر له سلة مليئة بالتمر اللذيذ! تعلم سالم أن مساعدة الآخرين تجلب السعادة والخير الكثير دائمًا، وأن العطاء أجمل من الأخذ.",
+        "imagePrompt": "generated from Gemini"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "ليلى والزهرة العطشى",
+    "type": "قيم وأخلاق",
+    "ageRange": "4-6 سنوات",
+    "moral": "الرفق بالمخلوقات والعناية بها",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "ليلى فتاةٌ صغيرةٌ تحبُ اللعبَ في حديقةِ منزلِها. كانت ترتدي حجابها الجميلَ وتستمتعُ بأشعةِ الشمسِ الدافئةِ. كانَ معها عصفورُها الصغيرُ \"سما\"، يطيرُ حولَها ويراقبُها بصمتٍ، وعلى وجهها ابتسامةٌ عريضةٌ.\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 2,
+        "text": "بينما كانت ليلى تلعبُ، لمحت زهرةً صغيرةً في ركنِ الحديقةِ. كانت الزهرةُ ذابلةً وحزينةً. ظهرت على وجهِ ليلى ملامحُ التعجبِ والاهتمامِ.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 3,
+        "text": "اقتربت ليلى من الزهرةِ بحذرٍ. عرفت أن الزهرةَ عطشى وتحتاجُ إلى الماءِ. نظرت إلى سما، وعلى وجهها علاماتُ العزمِ، وقالت في نفسها: \"يجبُ أن أساعدَ هذه الزهرةَ!\"",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 4,
+        "text": "ذهبت ليلى إلى مكانِ أدواتِ الحديقةِ. أمسكتْ بمرشِّ الماءِ الصغيرِ وملأتهُ بالماءِ النظيفِ. كانت متحمسةً لمساعدةِ الزهرةِ.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 5,
+        "text": "عادت ليلى إلى الزهرةِ بحذرٍ. بدأت تسقيها قطرةً قطرةً، وهي تبتسمُ بلطفٍ. ظهرت على وجهِها ملامحُ التركيزِ والحنانِ وهي تعتني بالزهرةِ.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 6,
+        "text": "بعدَ قليلٍ، بدأت الزهرةُ تنتعشُ وتفردُ أوراقَها الجميلةَ. شعرت ليلى بسعادةٍ كبيرةٍ وفخرٍ بما فعلتْ. عادت إلى منزلها وقلبها مليءٌ بالرضا، وسما يطيرُ بجانبِها بصمتٍ. وهكذا، تعلمت ليلى أن العنايةَ بالآخرينَ والرفقَ بهم يجعلانِ القلوبَ سعيدةً والعالمَ أجملَ.\n",
+        "imagePrompt": "generated from Gemini"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "سالم والمزهرية",
+    "type": "قيم وأخلاق",
+    "ageRange": "4-6 سنوات",
+    "moral": "الصدق منجاة وأساس الثقة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "سالم ولد صغير يحب اللعب كثيراً. في يوم من الأيام، كان يلعب في ساحة البيت الواسعة. كان الجو جميلاً والشمس مشرقة.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 2,
+        "text": "وبينما كان سالم يركض، تعثر وسقط. سقطت معه مزهرية جميلة كانت على الطاولة. انكسرت المزهرية إلى قطع صغيرة.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 3,
+        "text": "خاف سالم كثيراً. فكر: \"ماذا سأقول لأبي؟\" قرر سالم أن يقول شيئاً غير الحقيقة ليخفي ما حدث.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 4,
+        "text": "جاء الأب وسأل: \"ماذا حدث هنا يا سالم؟\" أجاب سالم بصوت خافت: \"لا أعرف يا أبي، ربما سقطت وحدها.\" شعر سالم بقلبه يؤلمه.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 5,
+        "text": "لاحظ الأب حزن سالم. قال الأب بحنان: \"يا سالم، الصدق هو أجمل صفة. لا تخف، قل لي الحقيقة.\" نظر سالم إلى أبيه.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 6,
+        "text": "قال سالم بصوت واضح: \"أنا آسف يا أبي، لقد كسرتها أنا.\" ابتسم الأب وقال: \"أحسنت يا بني، الصدق ينجي صاحبه.\" تعلم سالم أن الصدق خير دائماً. قال رسول الله صلى الله عليه وسلم: \"عليكم بالصدق فإن الصدق يهدي إلى البر، وإن البر يهدي إلى الجنة.\"",
+        "imagePrompt": "generated from Gemini"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "مها تساعد أمها",
+    "type": "قيم وأخلاق",
+    "ageRange": "4-6 سنوات",
+    "moral": "مساعدة الآخرين تزيد المحبة وتسهّل العمل",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "مها فتاة صغيرة تحب أمها كثيرًا. كانت مها دائمًا سعيدة بمساعدة أمها. اليوم، ستأتي الضيفات لزيارة أمها.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 2,
+        "text": "قالت الأم: \"يا مها، هل تساعديني في تجهيز البيت؟\" أجابت مها بحماس: \"نعم يا أمي، سأساعدك!\"",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 3,
+        "text": "بدأت مها بجمع الألعاب ووضعها في سلة الألعاب. ثم ساعدت أمها في ترتيب الوسائد على الكنبة.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 4,
+        "text": "بعد ذلك، ذهبت مها إلى المطبخ مع أمها. ساعدت مها أمها في وضع التمر في طبق جميل.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 5,
+        "text": "وصلت الضيفات، والبيت أصبح نظيفًا وجميلًا. كانت أم مها سعيدة جدًا بمساعدة ابنتها.",
+        "imagePrompt": "generated from Gemini"
+      },
+      {
+        "pageNumber": 6,
+        "text": "قالت الأم لمها: \"شكرًا لكِ يا حبيبتي، مساعدتكِ جعلت كل شيء أسهل وأجمل.\" تعلمت مها أن مساعدة الآخرين تجعلنا سعداء وتجعل العمل أسهل للجميع.",
+        "imagePrompt": "generated from Gemini"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "سارة والمحفظة المفقودة",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "الأمانة قيمة تحفظ الحقوق وتزرع الثقة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشمسٍ جميل، كانت سارة تتنزه مع والدتها في حديقة الردف بمدينة الطائف. بينما كانت تجمع بعض الأزهار البرية الجميلة، لمحت شيئاً يلمع تحت إحدى الشجيرات.",
+        "imagePrompt": "1. **Character Description**:\nSarah is a kind-hearted, honest young Arab girl around 7-8 years old who lives in Taif, Saudi Arabia. She enjoys spending time outdoors with her mother and has a younger sister named Nora. Sarah demonstrates strong moral values, particularly honesty and integrity, which she's learned from her parents and religious teachings. She's naturally curious but responsible, and takes pride in doing the right thing. Her character embodies the virtues of trustworthiness and selflessness, refusing monetary rewards for her good deeds.\n\n2. **Visual Prompts**:\n\n1. \"A sunny day in Al-Radf Park, Taif, with a young Arab girl in modest clothing discovering something shiny under a bush while collecting wildflowers. Her mother watches from nearby.\""
+      },
+      {
+        "pageNumber": 2,
+        "text": "اقتربت سارة بفضول، وإذا بها تجد محفظة جلدية سوداء. حملتها بحذر وركضت نحو والدتها قائلة: \"أمي! أمي! انظري ماذا وجدت!\"\n\nنظرت الأم إلى المحفظة وفتحتها بحذر. وجدت بداخلها بطاقة هوية وطنية، ومبلغاً كبيراً من المال، وبطاقات بنكية.\n\nقالت سارة: \"يا أمي، يجب أن نجد صاحب هذه المحفظة. أكيد هو حزين جداً لفقدانها.\"\n\nابتسمت الأم وقالت: \"أحسنتِ يا سارة. هذا هو التصرف الصحيح.\"",
+        "imagePrompt": "2. \"Close-up of small hands carefully holding a black leather wallet, with colorful flowers in the background and a park setting.\""
+      },
+      {
+        "pageNumber": 3,
+        "text": "في المحفظة، وجدوا رقم هاتف صاحبها. اتصلت الأم بالرقم، وردت سيدة تبدو قلقة جداً. أخبرتهم أنها كانت تتنزه في الحديقة صباحاً مع أطفالها، ولم تلاحظ سقوط محفظتها.\n\nاتفقوا على اللقاء في مقهى قريب من الحديقة. عندما وصلت السيدة، كانت سعيدة جداً باستعادة محفظتها. شكرت سارة ووالدتها بحرارة وقالت: \"أنتِ فتاة أمينة يا سارة. الله يبارك فيكِ.\"",
+        "imagePrompt": "3. \"A cozy café scene with Sarah and her mother meeting an relieved-looking woman in traditional Saudi dress, with the wallet being returned across a table.\""
+      },
+      {
+        "pageNumber": 4,
+        "text": "حاولت السيدة إعطاء سارة مكافأة مالية، لكن سارة رفضت بأدب قائلة: \"لا شكر على واجب. هذا ما علمني إياه ديننا وأهلي.\"\nفي طريق العودة إلى المنزل، قالت الأم لسارة: \"أنا فخورة بك يا ابنتي. الأمانة من أجمل الصفات.\"\nابتسمت سارة وقالت: \"نعم يا أمي. وأنا سعيدة لأنني ساعدت شخصاً اليوم.\"",
+        "imagePrompt": "4. \"Interior evening scene of two sisters, Sarah and Nora, sitting on a colorful bedroom floor, Sarah gesturing while telling her story to her younger sister who looks up at her admiringly.\""
+      },
+      {
+        "pageNumber": 5,
+        "text": "في المساء، حكت سارة لأختها الصغيرة نورة عن المحفظة، وكيف أن الأمانة مهمة في حياتنا. قالت نورة: \"عندما أكبر، أريد أن أكون أمينة مثلك يا سارة!\"\nضحكت سارة وعانقت أختها قائلة: \"كلنا يجب أن نكون أمناء يا نورة. فالأمانة تجلب السعادة للجميع.\"",
+        "imagePrompt": "5. \"A heartwarming moment showing the grateful woman trying to offer Sarah a reward, while Sarah politely refuses with a gentle smile, her mother standing proudly behind her.\""
+      },
+      {
+        "pageNumber": 6,
+        "text": "هكذا، نامت سارة تلك الليلة سعيدة، تشعر بالرضا لأنها تصرفت بأمانة وأعادت المحفظة لصاحبتها.\n\n**النهاية**",
+        "imagePrompt": "6. \"Final scene of Sarah sleeping peacefully in her bed, a gentle smile on her face, with moonlight streaming through a window and traditional Arabian room decorations visible.\""
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "رحلة خالد إلى العُلا",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "الاعتزاز بالتاريخ الوطني والحفاظ على التراث",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ جميلٍ، ذَهَبَ خالدٌ مع والديه في رحلةٍ إلى محافظة العُلا. كان خالدٌ متحمساً جداً، فهذه أول مرة يزور فيها هذا المكان الجميل. قال والده: 'سنرى اليوم كنوزاً تاريخيةً عظيمةً يا خالد'.",
+        "imagePrompt": "A Saudi family in traditional dress arriving at AlUla entrance, with the young boy Khalid looking excited. Desert landscape and mountains in background."
+      },
+      {
+        "pageNumber": 2,
+        "text": "وصل خالدٌ إلى مدائن صالح، ورأى الجبال العظيمة المنحوتة. سأل والده متعجباً: 'كيف حُفرت هذه البيوت في الجبال يا أبي؟' ابتسم الأب وقال: 'هذه آثار الأنباط، شعبٌ عاش هنا قبل آلاف السنين'.",
+        "imagePrompt": "Khalid and his father looking at Hegra's rock-cut tombs in Madain Saleh, with the boy pointing in amazement at the ancient structures."
+      },
+      {
+        "pageNumber": 3,
+        "text": "جلس خالدٌ مع عائلته يستمع إلى المرشد السياحي وهو يحكي عن القوافل التجارية القديمة. تخيّل خالد الجِمال تحمل البضائع، والتجار يتبادلون الذهب والعطور. شعر كأنه يسافر عبر الزمن إلى الماضي البعيد.",
+        "imagePrompt": "Family sitting with a tour guide in traditional Saudi dress, with ancient trade route illustrations or holograms showing camels and merchants in the background."
+      },
+      {
+        "pageNumber": 4,
+        "text": "في المساء، زار خالد متحف العُلا. رأى الأواني القديمة والنقوش الجميلة على الحجارة. قالت أمه: 'كل قطعة هنا تحكي قصة أجدادنا'. لمعت عينا خالد وهو يتأمل كل قطعة بعناية.",
+        "imagePrompt": "Khalid in AlUla museum looking at ancient artifacts in glass displays, with his mother pointing at ancient inscriptions."
+      },
+      {
+        "pageNumber": 5,
+        "text": "عندما حلّ الظلام، جلس خالد مع عائلته تحت النجوم. قال بحماس: 'الآن فهمت يا أبي! هذه الآثار ليست مجرد حجارة، إنها تحكي قصة وطننا الغالي'. ابتسم الأب فرحاً بفهم ابنه.",
+        "imagePrompt": "Family sitting under the starry desert sky, with Khalid talking enthusiastically while ancient monuments silhouetted in the background."
+      },
+      {
+        "pageNumber": 6,
+        "text": "في طريق العودة، قال خالد: 'سأحكي لأصدقائي عن جمال تاريخنا، وكم هو مهم أن نحافظ على آثارنا'. عانقه والده وقال: 'نعم يا بُني، فمن يحفظ تاريخه، يبني مستقبله بفخر واعتزاز'.",
+        "imagePrompt": "Khalid and his family in their car leaving AlUla, with the boy holding a small souvenir model of Hegra, looking proud and happy."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "رحلة سلطان إلى عالم المهن",
+    "type": "اكتشاف",
+    "ageRange": "10-12 سنوات",
+    "moral": "احترام المهن وتقدير دور كل فرد في بناء الوطن",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشرقٍ، ذَهَبَ سلطانُ مع والدِهِ في رحلةٍ خاصةٍ لاكتشافِ المهنِ المختلفةِ في مدينتِهِ. توقَّفَت سيارتُهُم أمامَ المتحفِ الوطنيِّ الكبيرِ، حيثُ استقبلَهُم المرشدُ السياحيُّ بابتسامةٍ عريضةٍ.",
+        "imagePrompt": "A young Saudi boy and his father standing in front of a modern museum entrance, being greeted by a smiling tour guide in traditional Saudi dress"
+      },
+      {
+        "pageNumber": 2,
+        "text": "قالَ المرشدُ السياحيُّ: 'أحبُّ عملي كثيراً، فأنا أروي قصصَ أجدادِنا وتاريخَنا العريقَ للزوارِ'. أخذَ سلطانُ يستمعُ بشغفٍ إلى شرحِ المرشدِ عن القطعِ الأثريةِ القديمةِ.",
+        "imagePrompt": "Inside the museum, the tour guide enthusiastically explaining ancient artifacts to the boy and his father, with traditional Saudi items displayed in glass cases"
+      },
+      {
+        "pageNumber": 3,
+        "text": "بعدَ الظهرِ، وصلَ سلطانُ ووالدُهُ إلى مزرعةٍ كبيرةٍ. استقبلَهُم المزارعُ عبدُ الله، الذي أراهُم كيفَ يزرعُ النخيلَ والخضرواتِ. قالَ المزارعُ: 'بدأتُ العملَ في المزرعةِ منذُ كنتُ صغيراً مع والدي'.",
+        "imagePrompt": "A traditional Saudi farm with date palms and vegetable gardens, where a farmer is showing agricultural tools to the boy and his father"
+      },
+      {
+        "pageNumber": 4,
+        "text": "تعلَّمَ سلطانُ كيفَ يسقي النباتاتِ ويعتني بها. أعجبَهُ كثيراً كيفَ تنمو البذورُ الصغيرةُ لتصبحَ نباتاتٍ كبيرةً. شكرَ المزارعَ على وقتِهِ وجهدِهِ في توفيرِ الغذاءِ للناسِ.",
+        "imagePrompt": "The farmer teaching the boy how to water plants, with farming equipment visible and the sun setting over the farm"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في المساءِ، زارَ سلطانُ المرصدَ الفلكيَّ. هناكَ، قابلَ عالمَ الفلكِ الدكتورَ فهد، الذي سمحَ له بالنظرِ في التلسكوبِ الكبيرِ. رأى سلطانُ النجومَ والكواكبَ تلمعُ في السماءِ.",
+        "imagePrompt": "Inside an observatory, an astronomer helping the boy look through a large telescope, with star charts on the walls"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في نهايةِ اليومِ، قالَ سلطانٌ لوالدِهِ: 'تعلمتُ اليومَ أنَّ كلَّ مهنةٍ مهمةٌ وجميلةٌ. المرشدُ يحفظُ تاريخَنا، والمزارعُ يوفرُ طعامَنا، وعالمُ الفلكِ يكتشفُ أسرارَ الكونِ. كلُّ شخصٍ يساهمُ في بناءِ وطنِنا الغالي'.",
+        "imagePrompt": "The boy and his father driving home at sunset, with thought bubbles showing the different professions they encountered during their day"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "رحلة راكان مع الخير",
+    "type": "اكتشاف",
+    "ageRange": "10-12 سنوات",
+    "moral": "العطاء الإنساني يعكس قيمة الوطن ورسالته في الخير",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في يومٍ من الأيام جلسَ راكانُ مَعَ والِدِهِ يُشاهِدُ التِّلْفازَ. وَظَهَرَتْ أَخْبارٌ عَنْ مُساعَداتِ المَمْلَكَةِ لِلدُّوَلِ العَرَبِيَّةِ. قالَ الوالِدُ: 'يا راكان، بِلادُنا تُساعِدُ كُلَّ مُحْتاجٍ'. فَرِحَ راكانُ وَقالَ: 'أُريدُ أَنْ أَرى ذلِكَ بِنَفْسي'.",
+        "imagePrompt": "Saudi boy Rakan sitting with his father watching TV showing news about Saudi aid"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في اليَوْمِ التّالي، قالَ الوالِدُ: 'سَتُرافِقُني في رِحْلَةِ عَمَلٍ لِزِيارَةِ المَشاريعِ'. رَكِبَ راكانُ الطّائِرَةَ لأَوَّلِ مَرَّةٍ. كانَ صَوْتُ المُحَرِّكاتِ قَوِيًّا، وَقَلْبُهُ يَخْفِقُ مِنَ الحَماسِ.",
+        "imagePrompt": "Excited Rakan with his father boarding a plane, showing the aircraft interior"
+      },
+      {
+        "pageNumber": 3,
+        "text": "وَصَلا إِلى بَلَدٍ عَرَبِيٍّ، وَزارا مَدْرَسَةً جَديدَةً. قالَ المُديرُ: 'هذِهِ المَدْرَسَةُ هَدِيَّةٌ مِنَ المَمْلَكَةِ'. رَأى راكانُ الطُّلّابَ يَدْرُسونَ بِسَعادَةٍ، وَشارَكَهُمْ في حِصَّةِ الرِّياضِيّاتِ.",
+        "imagePrompt": "Rakan visiting a new school, seeing happy students in classroom"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في البَلَدِ الثّاني، زارا مُسْتَشْفىً كَبيرًا. رَأى راكانُ الأَطِبّاءَ يُعالِجونَ المَرْضى، وَشاهَدَ شِعارَ المَمْلَكَةِ عَلى الجِدارِ. قالَ الطَّبيبُ: 'نُعالِجُ هُنا آلافَ المَرْضى كُلَّ عامٍ'.",
+        "imagePrompt": "Rakan at a hospital seeing doctors treating patients, Saudi logo on wall"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في اليَوْمِ الأَخيرِ، رَأى راكانُ فِرَقَ الإِغاثَةِ السُّعودِيَّةَ تُوَزِّعُ الطَّعامَ وَالمُساعَداتِ. كانَ النّاسُ يَدْعونَ لِلمَمْلَكَةِ بِالخَيْرِ. شَعَرَ راكانُ بِالفَخْرِ الشَّديدِ.",
+        "imagePrompt": "Saudi relief teams distributing food and aid, Rakan watching proudly"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عادَ راكانُ إِلى مَدْرَسَتِهِ وَحَكى لِزُمَلائِهِ ما شاهَدَ. قالَ: 'عَرَفْتُ أَنَّ بِلادي تَصْنَعُ الخَيْرَ في كُلِّ مَكانٍ. وَأَنا أُريدُ أَنْ أَكونَ مِثْلَها عِنْدَما أَكْبَرُ'.",
+        "imagePrompt": "Rakan sharing his experience with classmates in his Saudi school"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "فارس وجبل طويق",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "القوة والإصرار قيم تبني الوطن وتصنع مستقبله",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشرقٍ، خرج فارسٌ مع والديه في رحلةٍ إلى جبلِ طويق العظيم. كان فارسٌ متحمساً جداً لرؤية الجبل الذي سمع عنه كثيراً في المدرسة. قال والده: 'هيا يا فارس، سنرى اليوم أجمل معالم بلادنا.'",
+        "imagePrompt": "A Saudi family in traditional clothes arriving at Tuwaiq Mountain in their car, morning sunlight, desert landscape"
+      },
+      {
+        "pageNumber": 2,
+        "text": "وقف فارسٌ أمام الجبل مندهشاً من ضخامته وارتفاعه الشاهق. سأل والده: 'أبي، لماذا يتحدث الجميع عن جبل طويق؟' ابتسم الأب وقال: 'لأنه يشبهنا نحن السعوديين في قوتنا وثباتنا.'",
+        "imagePrompt": "Young Saudi boy looking up in awe at the massive Tuwaiq Mountain, father pointing at the mountain"
+      },
+      {
+        "pageNumber": 3,
+        "text": "بدأ فارسٌ وعائلته يتسلقون جزءاً آمناً من الجبل. شعر فارس بالتعب، لكنه واصل المسير. قال في نفسه: 'سأكون قوياً مثل هذا الجبل.' رأى في طريقه غزالاً جميلاً يقفز بين الصخور برشاقة.",
+        "imagePrompt": "Family carefully climbing a safe trail on Tuwaiq Mountain, with a mountain gazelle in the background"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في الأعلى، جلس فارسٌ مع والده يشربان الشاي. قال الأب: 'أتعرف يا بُني؟ قال ولي عهدنا إن شعب السعودية مثل جبل طويق في صلابته.' تأمل فارسٌ المشهد من الأعلى وشعر بالفخر.",
+        "imagePrompt": "Father and son sitting on mountain, drinking tea, overlooking vast Saudi landscape"
+      },
+      {
+        "pageNumber": 5,
+        "text": "سأل فارس: 'كيف نكون أقوياء مثل الجبل يا أبي؟' أجاب الأب: 'بالعمل الجاد، والتمسك بقيمنا، والإصرار على النجاح. فنحن شعبٌ لا يستسلم للصعاب.'",
+        "imagePrompt": "Close-up of father and son having a meaningful conversation, Tuwaiq Mountain in background"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في طريق العودة، نظر فارسٌ إلى الجبل العظيم وقال: 'سأكون دائماً قوياً وصامداً مثل طويق.' ابتسم الأب فخوراً بابنه الذي فهم أن قوة الوطن تأتي من قوة أبنائه وتمسكهم بقيمهم.",
+        "imagePrompt": "Sunset view of Tuwaiq Mountain, with father and son walking back to their car, mountain silhouette in background"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "ناصر وفرحة التأسيس",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "حب الوطن والانتماء له",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحِ يومٍ جميلٍ، استيقظَ ناصرٌ على صوتِ والدِهِ يناديه: 'هيّا يا ناصر، اليومُ يومٌ مميّزٌ!' فتحَ ناصرٌ عينيهِ متسائلاً عن سببِ هذا الحماس.",
+        "imagePrompt": "A Saudi boy (Nasser) waking up in his bedroom, with traditional Saudi decorations visible through his window"
+      },
+      {
+        "pageNumber": 2,
+        "text": "قالَ الوالدُ: 'اليومُ يومُ التأسيسِ يا بُنيّ، اليومُ نحتفلُ بتأسيسِ دولتِنا الغالية'. ارتدى ناصرٌ ثوبَهُ الأبيضَ وشماغَهُ الجديد، وخرجَ معَ والدِهِ إلى الشارع.",
+        "imagePrompt": "Nasser and his father dressed in traditional Saudi clothing, getting ready to go out"
+      },
+      {
+        "pageNumber": 3,
+        "text": "انبهرَ ناصرٌ بما رآه في الشوارع! الأعلامُ الخضراءُ ترفرفُ في كلِّ مكان، والزينةُ تملأُ المباني، والناسُ يلبسونَ الأخضرَ احتفالاً بهذا اليومِ العظيم.",
+        "imagePrompt": "Decorated Saudi streets with green flags and lights, people wearing green"
+      },
+      {
+        "pageNumber": 4,
+        "text": "سألَ ناصرٌ والدَه: 'أخبرني يا أبي عن تاريخِ بلادِنا'. ابتسمَ الوالدُ وبدأَ يحكي لناصرٍ عن تأسيسِ الدولةِ السعوديةِ الأولى وكيفَ توحّدت البلاد.",
+        "imagePrompt": "Father and son sitting in a traditional majlis, father explaining history"
+      },
+      {
+        "pageNumber": 5,
+        "text": "شعرَ ناصرٌ بالفخرِ والسعادةِ وهو يستمعُ إلى قصةِ وطنِه. رأى مجموعةً من الصقورِ تحلّقُ في السماءِ وكأنّها تشاركُ في الاحتفال.",
+        "imagePrompt": "Falcons flying in the sky above decorated buildings, Nasser looking up proudly"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في نهايةِ اليوم، قالَ ناصرٌ: 'أحبُّ وطني كثيراً يا أبي، وأتمنى أن أكبرَ لأخدمَه كما فعلَ أجدادُنا'. ابتسمَ الوالدُ فخوراً بابنِه الصغير.",
+        "imagePrompt": "Sunset scene with Nasser and his father watching the Saudi flag, both looking proud"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "صَدَفَةُ جُود",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "تقدير تراث الأجداد والتعلم من تاريخهم",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صَباحٍ مُشمِسٍ، زارَت جُودُ جَدَّتَها في مَدينةِ الدَّمامِ. كانَت الجَدَّةُ تَحتَفِظُ بِصُندوقٍ خَشَبِيٍّ قَديمٍ مَليءٍ بِالذِّكرَياتِ.",
+        "imagePrompt": "A young Saudi girl in modern clothes sitting with her grandmother in a traditional Eastern Province house, looking at an old wooden chest"
+      },
+      {
+        "pageNumber": 2,
+        "text": "فَتَحَت الجَدَّةُ الصُّندوقَ وَأَخرَجَت مِنهُ صَدَفَةً كَبيرَةً لامِعَةً. سَأَلَت جُودُ بِفُضولٍ: 'ما هَذِهِ يا جَدَّتي؟'",
+        "imagePrompt": "Grandmother's hands holding a large, pearly seashell while young Jood looks on with curiosity"
+      },
+      {
+        "pageNumber": 3,
+        "text": "قالَت الجَدَّةُ: 'هَذِهِ صَدَفَةٌ مِن أَيّامِ جَدِّكِ، عِندَما كانَ يَغوصُ في البَحرِ بَحثاً عَن اللُّؤلُؤِ. كانَ عَمَلاً صَعباً يَتَطَلَّبُ الشَّجاعَةَ وَالصَّبرَ.'",
+        "imagePrompt": "Traditional pearl diver illustration with wooden boat (dhow) and diving equipment from old times"
+      },
+      {
+        "pageNumber": 4,
+        "text": "أَمسَكَت جُودُ بِالصَّدَفَةِ بِحَذَرٍ، شاعِرَةً بِمَلمَسِها النّاعِمِ. تَخَيَّلَت كَيفَ كانَ جَدُّها يَغوصُ في الأَعماقِ البَعيدَةِ.",
+        "imagePrompt": "Close-up of Jood's hands carefully holding the shell, with wonder in her eyes"
+      },
+      {
+        "pageNumber": 5,
+        "text": "حَكَت الجَدَّةُ عَن حَياةِ الغَوّاصينَ وَكَيفَ كانوا يَتَعاوَنونَ مَعاً. وَكَيفَ كانَت العائِلاتُ تَنتَظِرُ عَودَةَ أَحِبّائِها مِنَ البَحرِ.",
+        "imagePrompt": "Historical scene of families waiting at the shore for pearl diving boats to return"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في نِهايَةِ اليَومِ، قالَت جُودُ: 'أَنا فَخورَةٌ بِتاريخِ عائِلَتي يا جَدَّتي. سَأَحكي هَذِهِ القِصَّةَ لِأَصدِقائي في المَدرَسَةِ.' ابتَسَمَت الجَدَّةُ وَأَهدَتها الصَّدَفَةَ.",
+        "imagePrompt": "Grandmother giving the shell to Jood as a gift, both smiling warmly in the evening light"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "حديث النخلة الحكيمة",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "احترام الطبيعة والتأمل في نعم الله",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مزرعةٍ جميلةٍ بالأحساء، جلسَ سلمانُ تحتَ نخلةٍ عملاقةٍ وقتَ الغروب. كانت الشمسُ تُلوِّنُ السماءَ بألوانٍ ذهبيةٍ رائعة، والنسيمُ العليلُ يداعبُ سعفَ النخيل.",
+        "imagePrompt": "A Saudi farm in Al-Ahsa at sunset, with golden sky and date palms. Young boy Salman sitting under a large palm tree."
+      },
+      {
+        "pageNumber": 2,
+        "text": "أغمضَ سلمانُ عينيهِ يستمتعُ بالهدوء، وفجأةً سمعَ صوتاً لطيفاً يأتي من فوق: 'مرحباً يا صغيري'. فتحَ عينيهِ مندهشاً - كانت النخلةُ تتحدثُ إليه!",
+        "imagePrompt": "Close-up of Salman with closed eyes under the palm tree, peaceful expression, magical moment."
+      },
+      {
+        "pageNumber": 3,
+        "text": "قالت النخلة: 'أنا هنا منذُ مئةِ عام، أُطعمُ الناسَ وأحمي المزارعين من الشمس. كلُّ تمرةٍ أُقدمها هي هديةٌ من الله'. تأملَ سلمانُ النخلةَ العظيمةَ بإعجاب.",
+        "imagePrompt": "The majestic palm tree with dates, showing its height and grandeur, Salman looking up in wonder."
+      },
+      {
+        "pageNumber": 4,
+        "text": "سألَ سلمان: 'وكيفَ تعيشينَ كلَّ هذا العمر؟' أجابت: 'بالصبرِ والقناعة. جذوري تمتدُّ عميقاً في الأرض، وقلبي دائماً يشكرُ الله على نعمه.'",
+        "imagePrompt": "Illustration showing palm tree roots underground, with Salman sitting cross-legged, listening attentively."
+      },
+      {
+        "pageNumber": 5,
+        "text": "علَّمت النخلةُ سلمانَ كيفَ يستمعُ إلى صوتِ الطبيعة: حفيفِ السعف، وزقزقةِ العصافير، وهمسِ الرياح. شعرَ سلمانُ بسلامٍ عميق.",
+        "imagePrompt": "Peaceful scene with birds in the palm tree, leaves swaying in the wind, Salman looking peaceful."
+      },
+      {
+        "pageNumber": 6,
+        "text": "منذُ ذلكَ اليوم، صارَ سلمانُ يزورُ النخلةَ كلَّ أسبوع، يتأملُ جمالَ الطبيعة، ويشكرُ الله على نِعَمِهِ الكثيرة. وأدركَ أنَّ في الطبيعةِ دروساً عظيمةً لمن يُحسنُ الإصغاء.",
+        "imagePrompt": "Sunset scene with Salman regularly visiting the palm tree, showing growth in his appreciation of nature."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "ساعة المستقبل العجيبة",
+    "type": "الخيال",
+    "ageRange": "7-9 سنوات",
+    "moral": "حب الوطن والإيمان بمستقبله المشرق",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشمسٍ، خرجَ ناصرٌ مع والدِهِ في رحلةٍ إلى الصحراءِ القريبةِ من مدينةِ الرياض. كانَ يحبُّ جمعَ الصخورِ الملوَّنةِ التي تنتشرُ في رمالِ الصحراءِ الذهبية.",
+        "imagePrompt": "A young Saudi boy with his father in a golden desert near Riyadh, looking for colorful rocks"
+      },
+      {
+        "pageNumber": 2,
+        "text": "وبينما كانَ ناصرٌ يبحثُ بينَ الرمالِ، لمعَ شيءٌ غريبٌ تحتَ ضوءِ الشمس. اقتربَ منهُ فوجدَ ساعةً قديمةً تتوهجُ بضوءٍ أخضرَ جميل.",
+        "imagePrompt": "Close-up of an ancient-looking watch with green glow partially buried in desert sand"
+      },
+      {
+        "pageNumber": 3,
+        "text": "ما إن لمسَ ناصرٌ الساعةَ حتى أحسَّ بدوارٍ خفيف، وفجأةً وجدَ نفسَهُ في مكانٍ مختلفٍ تماماً. كانت المباني عاليةً وجميلةً، والسياراتُ تطيرُ في السماء!",
+        "imagePrompt": "Futuristic Saudi city with flying cars and tall, modern buildings with Islamic architecture"
+      },
+      {
+        "pageNumber": 4,
+        "text": "نظرَ ناصرٌ حولَهُ بدهشة. رأى حدائقَ خضراءَ تملأُ المدينة، وأشجاراً عملاقةً تنمو في الصحراء. كانَ الناسُ يرتدونَ ثياباً سعوديةً تقليديةً لكن بتصاميمَ مستقبلية.",
+        "imagePrompt": "Green parks and giant trees in a desert city, people wearing modern versions of traditional Saudi clothes"
+      },
+      {
+        "pageNumber": 5,
+        "text": "سألَ ناصرٌ أحدَ المارَّة: 'في أيِّ سنةٍ نحن؟' فأجابَه: 'نحنُ في عام 2030'. أدركَ ناصرٌ أنَّهُ يرى مستقبلَ وطنِهِ الحبيب، وشعرَ بالفخرِ والسعادة.",
+        "imagePrompt": "The boy talking to a person in futuristic Saudi dress, with amazing city views in background"
+      },
+      {
+        "pageNumber": 6,
+        "text": "وفجأةً عادَ ناصرٌ إلى زمنِهِ في الصحراء. نظرَ إلى الساعةِ في يدِهِ فوجدَها قد اختفت. ركضَ إلى والدِهِ وقال: 'يا أبي، وطنُنا سيصبحُ أجملَ وأجملَ!' ابتسمَ الأبُ وقال: 'نعم يا بُني، بسواعدِ أبنائِهِ المخلصين.'",
+        "imagePrompt": "The boy excitedly telling his father about his vision, with the desert sunset in background"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "صندوق القناعة",
+    "type": "قيم وأخلاق",
+    "ageRange": "10-12 سنوات",
+    "moral": "القناعة والرضا بنعم الله",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "فِي حَيٍّ هَادِئٍ مِن أَحْيَاءِ المَدِينَةِ المُنَوَّرَةِ، كَانَ يَعِيشُ فَتًى يُدْعَى رَاكَان. وَكَانَ رَاكَانُ يُكْثِرُ مُقَارَنَةَ نَفْسِهِ بِغَيْرِهِ، وَيَتَمَنَّى دَائِمًا لَوْ يَمْلِكُ مَا يَمْلِكُهُ أَصْحَابُهُ مِن لُعَبٍ جَدِيدَةٍ وَدَرَّاجَاتٍ لَامِعَةٍ.",
+        "imagePrompt": "A young Saudi boy standing in a peaceful Medina neighborhood at sunset, looking at other kids’ new bikes with longing"
+      },
+      {
+        "pageNumber": 2,
+        "text": "فِي يَوْمٍ مِن الأَيَّامِ، زَارَ الحَيَّ رَجُلٌ كَبِيرُ السِّنِّ يَبِيعُ صَنَادِيقَ صَغِيرَةً مِن الخَشَبِ. وَقَالَ لِأَهْلِ الحَيِّ:\n«هَذِهِ الصَّنَادِيقُ تُسَاعِدُ الأَطْفَالَ عَلَى مَعْرِفَةِ قِيمَةِ مَا يَمْلِكُونَ.»\nاقْتَرَبَ رَاكَانُ وَسَأَلَهُ، فَابْتَسَمَ الرَّجُلُ وَأَعْطَاهُ صُنْدُوقًا فَارِغًا، وَقَالَ:\n«اِمْلَأْهُ كُلَّ يَوْمٍ بِشَيْءٍ يُسْعِدُكَ.»",
+        "imagePrompt": "An elderly Saudi man in traditional attire handing a small wooden box to the boy in a simple neighborhood market"
+      },
+      {
+        "pageNumber": 3,
+        "text": "فِي البِدَايَةِ، شَعَرَ رَاكَانُ بِالْحَيْرَةِ، وَلَكِنَّهُ جَرَّبَ.\nفِي اليَوْمِ الأَوَّلِ، وَضَعَ فِي الصُّنْدُوقِ حَصَاةً مُلَوَّنَةً وَجَدَهَا فِي الطَّرِيقِ.\nوَفِي اليَوْمِ التَّالِي، وَضَعَ وَرَقَةَ شُكْرٍ كَتَبَهَا لَهُ أَخُوهُ الصَّغِيرُ، ثُمَّ وَضَعَ زَهْرَةً وَجَدَهَا أَمَامَ البَيْتِ.\nوَمَعَ الوَقْتِ، بَدَأَ يُدْرِكُ أَنَّ حَيَاتَهُ مَلِيئَةٌ بِأَشْيَاءَ صَغِيرَةٍ تُدْخِلُ السُّرُورَ إِلَى قَلْبِهِ دُونَ أَنْ يَشْتَرِيَ شَيْئًا جَدِيدًا.",
+        "imagePrompt": "The boy placing colorful small items—like a pebble and a note—inside a wooden box, looking thoughtful"
+      },
+      {
+        "pageNumber": 4,
+        "text": "بَدَأَ رَاكَانُ يَرَى مَا لَمْ يَكُنْ يَرَاهُ مِنْ قَبْلُ؛\nصَارَ يَسْتَمْتِعُ بِاللَّعِبِ مَعَ إِخْوَتِهِ، وَيُقَدِّرُ وَجْبَةَ الغَدَاءِ الَّتِي تُعِدُّهَا لَهُ وَالِدَتُهُ، وَيَضْحَكُ بِنَقَاءِ عَلَى المَوَاقِفِ البَسِيطَةِ.\nوَلَمْ يَعُدْ يَشْعُرُ بِالغَيْرَةِ كَمَا كَانَ مِنْ قَبْلُ.",
+        "imagePrompt": "The boy happily playing with his siblings outside while holding the box, smiling genuinely"
+      },
+      {
+        "pageNumber": 5,
+        "text": "بَعْدَ أَسَابِيعَ، عَادَ الرَّجُلُ الكَبِيرُ إِلَى الحَيِّ، فَسَأَلَهُ رَاكَانُ:\n«كَيْفَ جَعَلَنِي هَذَا الصُّنْدُوقُ أَكْثَرَ سَعَادَةً؟»\nفَابْتَسَمَ الرَّجُلُ وَقَالَ:\n«أَنْتَ الَّذِي فَعَلْتَ ذَلِكَ. فَحِينَ تَبْحَثُ عَنِ النِّعَمِ… تَرَاهَا. وَكُلَّمَا امْتَلَأَ قَلْبُكَ، امْتَلَأَ صُنْدُوقُكَ.»",
+        "imagePrompt": "The boy talking to the elderly man again in the market, holding his now-filled wooden box proudly"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عَادَ رَاكَانُ إِلَى بَيْتِهِ وَهُوَ يَشْعُرُ بِالسُّكُونِ وَالرِّضَا.\nفَتَحَ صُنْدُوقَهُ وَنَظَرَ فِي مَا جَمَعَهُ، فَابْتَسَمَ.\nوَأَدْرَكَ أَنَّ السَّعَادَةَ لَيْسَتْ فِي كَثْرَةِ المُمْتَلَكَاتِ، بَلْ فِي تَقْدِيرِ النِّعَمِ الصَّغِيرَةِ الَّتِي يَمْنَحُهَا اللهُ لَهُ كُلَّ يَوْمٍ.",
+        "imagePrompt": "The boy sitting in his garden, opening the box filled with small meaningful items, smiling contentedly"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "الجِدارُ المُتَكَلِّم",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "احترام التراث والتاريخ الوطني",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَت نورةُ تَمشي في حَيِّ الطُّرَيف القَديم، تَتأمَّلُ الجُدرانَ الطِّينِيَّةَ العَتيقَة. تَوَقَّفَت أمامَ جِدارٍ عالٍ وَقالَت: 'كَم أَتَمَنّى لَو يُخبِرُني هذا الجِدارُ عَن تاريخِ الدِّرعِيَّة!'",
+        "imagePrompt": "A young Saudi girl in traditional dress standing before an ancient mud wall in historical Turaif district, looking up curiously"
+      },
+      {
+        "pageNumber": 2,
+        "text": "وَفَجأةً، سَمِعَت صَوتاً عَميقاً يَقول: 'أَهلاً يا نورة!' ارتَجَفَت نورةُ وَنَظَرَت حَولَها. قالَ الصَّوت: 'لا تَخافي، أنا الجِدارُ الَّذي أمامَك. شاهَدتُ تاريخَ الدِّرعِيَّةِ مُنذُ مِئاتِ السِّنين.'",
+        "imagePrompt": "The wall with a gentle face-like texture, speaking to the surprised girl. Traditional Saudi architectural details visible"
+      },
+      {
+        "pageNumber": 3,
+        "text": "قالَ الجِدار: 'كُنتُ هُنا عِندَما كانَت الدِّرعِيَّةُ عاصِمَةً. رَأيتُ التُّجّارَ يَأتونَ مِن كُلِّ مَكان، وَشاهَدتُ العُلَماءَ يَتَناقَشونَ في المَساجِدِ القَريبَة.'",
+        "imagePrompt": "Historical scene showing merchants and scholars in old Diriyah, with the wall as a silent witness"
+      },
+      {
+        "pageNumber": 4,
+        "text": "وَأكمَلَ الجِدار: 'رَأيتُ النّاسَ يَبنونَ البُيوتَ بِالطّينِ وَسَعَفِ النَّخيل. كانوا يَتَعاوَنونَ وَيَعمَلونَ بِجِدٍّ لِيَجعَلوا مَدينَتَهُم جَميلَةً وَقَوِيَّة.'",
+        "imagePrompt": "Historical scene of people building traditional mud houses in old Diriyah, working together"
+      },
+      {
+        "pageNumber": 5,
+        "text": "سَأَلَت نورة: 'وَماذا تُريدُ أن تَقولَ لِأطفالِ اليَوم؟' أَجابَ الجِدار: 'أُريدُ أن أَقولَ لَهُم: حافِظوا عَلى تاريخِكُم، فَهوَ جُزءٌ مِن هُوِيَّتِكُم.'",
+        "imagePrompt": "Close-up of the wall and the girl in conversation, with traditional Saudi architectural elements in the background"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "الجِدارُ المُتَكَلِّم",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "حب القراءة والمعرفة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَ سَلْمانُ طِفْلاً يَعْشَقُ القِراءَةَ، يَحْمِلُ كِتابَهُ أَيْنَما ذَهَبَ. في إحْدى اللَّيالي، جَلَسَ في حَديقَةِ مَنْزِلِهِ يَقْرَأُ تَحْتَ ضَوْءِ القَمَرِ.",
+        "imagePrompt": "Saudi boy reading a book in his garden at night, with moon and stars visible"
+      },
+      {
+        "pageNumber": 2,
+        "text": "رَفَعَ سَلْمانُ رَأْسَهُ إلى السَّماءِ، فَرَأى النُّجومَ تَتَلأْلَأُ بِشَكْلٍ غَريبٍ. وَفَجْأَةً، بَدَأَتِ النُّجومُ تَتَحَوَّلُ إلى كُتُبٍ مُضيئَةٍ تَطيرُ في السَّماءِ!",
+        "imagePrompt": "Stars in the night sky transforming into glowing books, with the boy watching in amazement"
+      },
+      {
+        "pageNumber": 3,
+        "text": "نَزَلَ أَحَدُ الكُتُبِ المُضيئَةِ بِلُطْفٍ إلى يَدَيْ سَلْمان. فَتَحَهُ بِحَماسٍ، فَوَجَدَ فيهِ قِصَصاً عَنْ تاريخِ المَمْلَكَةِ العَرَبِيَّةِ السُّعودِيَّةِ.",
+        "imagePrompt": "A glowing book floating down into the boy's hands, with traditional Saudi architectural elements in background"
+      },
+      {
+        "pageNumber": 4,
+        "text": "بَدَأَ سَلْمانُ يَقْرَأُ بِشَغَفٍ عَنْ الصَّحْراءِ وَالواحاتِ وَالقُصورِ القَديمَةِ. وَكُلَّما قَرَأَ صَفْحَةً، ظَهَرَتْ صُوَرُها في السَّماءِ كَأَنَّها شاشَةٌ كَبيرَةٌ.",
+        "imagePrompt": "Stars forming images of Saudi desert, oases and old palaces in the night sky as the boy reads"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في الصَّباحِ التّالي، ذَهَبَ سَلْمانُ إلى المَكْتَبَةِ العامَّةِ. أَخْبَرَ أَصْدِقاءَهُ عَنْ مُغامَرَتِهِ مَعَ الكُتُبِ المُضيئَةِ، وَشَجَّعَهُمْ عَلى القِراءَةِ.",
+        "imagePrompt": "Boy enthusiastically telling his friends about books at a modern Saudi public library"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عادَت نورةُ إلى البَيتِ وَهيَ فَخورَةٌ بِتاريخِ بَلَدِها. وَأصبَحَت تَزورُ الجِدارَ كُلَّ أُسبوعٍ لِتَسمَعَ المَزيدَ مِن حِكاياتِ الماضي الجَميل.",
+        "imagePrompt": "The girl walking home at sunset, looking back at the wall with respect and appreciation, Diriyah's skyline in the background"
+      },
+      {
+        "pageNumber": 6,
+        "text": "مُنْذُ ذَلِكَ اليَوْمِ، أَصْبَحَ سَلْمانُ وَأَصْدِقاؤُهُ يَزورونَ المَكْتَبَةَ كُلَّ أُسْبوعٍ. وَكُلَّما نَظَرَ إلى النُّجومِ لَيْلاً، تَذَكَّرَ أَنَّ كُلَّ كِتابٍ يَحْمِلُ نوراً مِنْ المَعْرِفَةِ.",
+        "imagePrompt": "Boy and his friends reading together at the library, with a window showing stars twinkling in the night sky"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "حقيبة جدي العجيبة",
+    "type": "الخيال",
+    "ageRange": "7-9 سنوات",
+    "moral": "الاعتزاز بالتاريخ والتراث",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشمسٍ، كان سلطان يساعد والدته في تنظيف غرفة جده القديمة. وبينما كان يرتب الخزانة، وجد حقيبة جلدية عتيقة مليئة بالغبار.",
+        "imagePrompt": "A Saudi boy helping his mother clean an old room, discovering a dusty leather bag in an old wooden closet"
+      },
+      {
+        "pageNumber": 2,
+        "text": "فتح سلطان الحقيبة بفضول، فوجد فيها عقالاً وبشتاً قديماً. وما إن لمس هذه الأشياء حتى وجد نفسه في مكان مختلف تماماً - في سوق شعبي قديم!",
+        "imagePrompt": "A traditional Saudi marketplace from the past with mud buildings, merchants, and camels"
+      },
+      {
+        "pageNumber": 3,
+        "text": "رأى سلطان التجار يبيعون القهوة والتمور، والقوافل تحمل البضائع على ظهور الجمال. كان الناس يرتدون الملابس التقليدية ويتحدثون بلهجة قديمة.",
+        "imagePrompt": "Close-up of merchants selling dates and coffee, with camel caravans in the background"
+      },
+      {
+        "pageNumber": 4,
+        "text": "انتقل سلطان إلى مشهد آخر، حيث رأى صيادي اللؤلؤ في الخليج العربي. كانوا يغوصون في المياه العميقة بحثاً عن المحار الثمين.",
+        "imagePrompt": "Pearl divers on traditional wooden boats in the Arabian Gulf"
+      },
+      {
+        "pageNumber": 5,
+        "text": "ثم وجد نفسه في مجلس كبير، حيث يجتمع شيوخ القبائل لحل المشكلات وشرب القهوة العربية. كان جده شاباً يجلس بينهم بكل هيبة واحترام.",
+        "imagePrompt": "Traditional Saudi majlis with tribal elders drinking Arabic coffee"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عندما عاد سلطان إلى الواقع، أدرك كم هو محظوظ بتراثه الغني. أخبر والديه عن رحلته العجيبة، وقرر أن يحفظ قصص الأجداد ويرويها دائماً بفخر واعتزاز.",
+        "imagePrompt": "The boy sitting with his parents in a modern Saudi living room, holding the old bag while telling his story enthusiastically"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "مدينة الألعاب العجيبة",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "احترام القواعد والنظام",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في يومٍ مشمسٍ جميل، ذَهَبَ سلطانُ مع والِدِهِ إلى مدينةِ الألعابِ الجديدةِ. كانت المدينةُ كبيرةً وملوّنةً، وعند مدخلِها لافتةٌ كُتِبَ عليها: مرحباً بكم في مدينةِ الألعابِ العجيبة!",
+        "imagePrompt": "A colorful amusement park entrance with Arabic signage, father and son standing in front, wearing traditional Saudi dress"
+      },
+      {
+        "pageNumber": 2,
+        "text": "رأى سلطانُ صديقَهُ أحمد، فقال له: 'هيّا نركبُ القطارَ السريعَ!' لكنّ أحمد قال: 'يجب أن نقفَ في الطابورِ أولاً يا سلطان.'",
+        "imagePrompt": "Two Saudi boys in traditional dress looking at a roller coaster, with a visible queue line"
+      },
+      {
+        "pageNumber": 3,
+        "text": "لم يُعجب سلطان الانتظار، وحاولَ أن يتجاوزَ الطابور. فجاءَ حارسُ المدينةِ وقال: 'كلُّ مَن يحترمُ النظامَ يحصلُ على نجمةٍ ذهبية!'",
+        "imagePrompt": "A security guard in uniform talking to children in line, holding a golden star badge"
+      },
+      {
+        "pageNumber": 4,
+        "text": "فكّرَ سلطانُ قليلاً ثم عادَ إلى آخرِ الطابور. وبينما كان ينتظر، رأى عصفوراً صغيراً يقفُ بانتظامٍ على غصنِ شجرةٍ مع بقيةِ العصافير.",
+        "imagePrompt": "A boy waiting in line, looking at birds perched orderly on a tree branch"
+      },
+      {
+        "pageNumber": 5,
+        "text": "عندما جاءَ دورُه، ركبَ سلطانُ القطارَ وكان مسروراً جداً. وفي نهايةِ الرحلةِ، حصلَ على النجمةِ الذهبيةِ التي وعدَه بها الحارس.",
+        "imagePrompt": "A happy boy receiving a golden star badge after exiting the roller coaster"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في طريقِ العودةِ، قال سلطانُ لوالدِه: 'تعلّمتُ اليومَ أنّ احترامَ النظامِ يجعلُ الجميعَ سعداء.' ابتسمَ الوالدُ وقال: 'أحسنتَ يا بُني!'",
+        "imagePrompt": "Father and son walking home at sunset, son proudly showing his golden star badge"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "رروبوت رِيشَة",
+    "type": "الخيال",
+    "ageRange": "7-9 سنوات",
+    "moral": "عطاءٌ ذكيّ",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "ِي مَدْرَسَةٍ صَغِيرَةٍ، كَانَ هُنَاكَ وَلَدٌ اسْمُهُ مازِن يُحِبُّ الِاخْتِرَاعَ.\nكُلَّ يَوْمٍ يَجْمَعُ أَسْلَاكًا، وَمَسامِيرَ، وَبَطَّارِيَّاتٍ، وَيَقُولُ بِحَمَاسٍ:\n«سَأَصْنَعُ شَيْئًا لَمْ يُصْنَعْ مِنْ قَبْلُ!»",
+        "imagePrompt": "A creative Saudi school boy in a small workshop, collecting wires, screws, batteries on a table, excited inventor expression, cozy warm lighting, colorful tools, child engineering vibe."
+      },
+      {
+        "pageNumber": 2,
+        "text": "ذَاتَ لَيْلَةٍ، بَقِيَ مازِنُ يَعْمَلُ حَتَّى تَأَخَّرَ الوَقْتُ.\nوَأَخِيرًا، صَنَعَ رُوبُوتًا صَغِيرًا لَهُ ذِرَاعٌ رَفِيعَةٌ تُشْبِهُ القَلَمَ.\nقَالَ بِفَخْرٍ:\n«سَأُسَمِّيكَ… رِيشَة!»",
+        "imagePrompt": "A small homemade robot with a thin pen-like arm standing on a workbench, boy smiling proudly, night time workshop, lamp light, tools and parts scattered, creative invention scene."
+      },
+      {
+        "pageNumber": 3,
+        "text": "ِفي اليَوْمِ التَّالِي، أَحْضَرَ مازِنٌ رِيشَةَ إِلَى المَدْرَسَةِ.\nضَغَطَ زِرًّا صَغِيرًا…\nفَبَدَأَ الرُّوبُوتُ يَرْسُمُ فِي الهَوَاءِ دُونَ أَنْ يَلْمَسَ السَّبُّورَةَ!\nدَوائِرُ، وَقُلُوبٌ، وَنُجُومٌ تَلْمَعُ!",
+        "imagePrompt": "Robot drawing glowing shapes in midair in front of a classroom board, children watching in amazement, floating stars, hearts, circles made of light, cheerful classroom, bright colors."
+      },
+      {
+        "pageNumber": 4,
+        "text": "َلكِنَّ رِيشَةَ لَمْ يَكُنْ رَسَّامًا فَقَطْ.\nعِنْدَمَا رَأَى طِفْلًا وَحِيدًا فِي الفُسْحَةِ، اقْتَرَبَ مِنْهُ وَرَسَمَ أَمَامَهُ وَجْهًا مُبْتَسِمًا.\nفَضَحِكَ الطِّفْلُ، ثُمَّ انْضَمَّ إِلَيْهِ أَصْدِقَاءٌ آخَرُونَ.",
+        "imagePrompt": "School playground, small robot drawing a glowing smiling face in the air for a lonely boy, other children joining, sunlight, happy friendly mood."
+      },
+      {
+        "pageNumber": 5,
+        "text": "و في يَوْمٍ، تَعَطَّلَتْ آلَةُ الطِّبَاعَةِ.\nلَمْ تستطع المُعَلِّمُة تَوْزِيعَ الأَوْرَاقِ.\nفَقَالَ مازِنُ:\n«دَعُوا رِيشَةَ يُسَاعِدْ!»\n",
+        "imagePrompt": "Teacher and children watching a small robot writing and handing out papers very fast, robot arm moving like a dancer, fun excitement, school hallway or classroom."
+      },
+      {
+        "pageNumber": 6,
+        "text": "فِي المَسَاءِ، جَلَسَ مازِنُ أَمَامَ الرُّوبُوتِ وَقَالَ:\n«كُنْتُ أَظُنُّ أَنِّي صَنَعْتُ آلَةً تَرْسُمُ…\nوَلَكِنَّنِي صَنَعْتُ صَدِيقًا يُسَاعِدُ وَيُسْعِدُ الآخَرِينَ.»\n\nأَضَاءَ رِيشَةُ بِضَوْءٍ خَفِيفٍ…\nوَكَأَنَّهُ ابْتَسَمَ.",
+        "imagePrompt": "Quiet warm bedroom or workshop evening, boy sitting with a small robot that glows softly, peaceful friendship vibe, robot looks like it is smiling, cozy atmosphere."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "قلبٌ من ذَهَب",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "الثقة بالنفس والقوة الحقيقية تنبع من الداخل",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَ سَلمانُ طِفلاً خَجولاً في مَدرَسَتِهِ، يَجلِسُ دائِماً في آخِرِ الصَّفِّ، ولا يُشارِكُ في النَّشاطاتِ مَعَ زُمَلائِهِ.",
+        "imagePrompt": "A shy Saudi boy sitting alone at the back of a classroom, looking down at his desk"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في يَومٍ مِنَ الأَيّامِ، وَجَدَ سَلمانُ مِصباحاً قَديماً في حَديقَةِ مَنزِلِهِم. وَعِندَما مَسَحَهُ، سَمِعَ صَوتاً هادِئاً يَقولُ: القُوَّةُ الحَقيقِيَّةُ في قَلبِكَ يا سَلمان.",
+        "imagePrompt": "A traditional Arabic lamp in a garden, with a gentle glow coming from it"
+      },
+      {
+        "pageNumber": 3,
+        "text": "في اليَومِ التّالي، رَأى سَلمانُ زَميلَهُ عَبدَاللهَ يُحاوِلُ حَملَ كُتُبِهِ الثَّقيلَةِ. تَشَجَّعَ سَلمانُ وَذَهَبَ لِمُساعَدَتِهِ.",
+        "imagePrompt": "Two Saudi boys helping each other carry books in a school hallway"
+      },
+      {
+        "pageNumber": 4,
+        "text": "وَفي سَاحَةِ المَدرَسَةِ، رَأى طِفلاً صَغيراً يَبكي لأَنَّهُ أَضاعَ حِذاءَهُ. بَحَثَ سَلمانُ في كُلِّ مَكانٍ حَتّى وَجَدَهُ.",
+        "imagePrompt": "A boy searching for a shoe in the school playground, with a small crying child nearby"
+      },
+      {
+        "pageNumber": 5,
+        "text": "بَدَأَ الجَميعُ يُلاحِظونَ طيبَةَ قَلبِ سَلمانَ وَشَجاعَتَهُ في مُساعَدَةِ الآخَرينَ. وَأَصبَحَ لَدَيهِ أَصدِقاءٌ كُثُر.",
+        "imagePrompt": "A group of boys gathering around Salman, smiling and patting him on the back"
+      },
+      {
+        "pageNumber": 6,
+        "text": "أَدرَكَ سَلمانُ أَنَّ المِصباحَ كانَ مُحِقّاً. فَالقُوَّةُ الحَقيقِيَّةُ لا تَكونُ في العَضَلاتِ، بَل في القَلبِ الطَّيِّبِ وَمُساعَدَةِ الآخَرينَ.",
+        "imagePrompt": "Salman looking confident and happy, holding the lamp while surrounded by friends in the schoolyard"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "حُلم سُلطان",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "الإصرار والمثابرة وعدم الاستسلام للإحباط",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَ سُلطانُ يَجلِسُ في حَديقَةِ مَنزِلِهِ في مَدينَةِ جِدَّة، يُراقِبُ طائِرَ العَقعَق وَهُوَ يَطيرُ بِحُرِّيَّةٍ في السَّماء. تَنَهَّدَ سُلطان وَقال: 'يا لَيتَني أَستَطيعُ الطَّيَران!'",
+        "imagePrompt": "A Saudi boy sitting in a garden in Jeddah, watching a magpie flying in the sky, dreamy expression on his face"
+      },
+      {
+        "pageNumber": 2,
+        "text": "ذَهَبَ سُلطانُ إلى والِدِهِ وَقالَ لَهُ: 'أبي، أُريدُ أَن أَكونَ طَيّارًا عِندَما أَكبَر!' ابتَسَمَ الوالِدُ وَقالَ: 'إذا ذاكَرتَ جَيِّدًا وَثابَرتَ، سَتَصِلُ إلى حُلمِكَ يا بُنَيّ.'",
+        "imagePrompt": "A Saudi father and son having a conversation in their traditional living room, father smiling encouragingly"
+      },
+      {
+        "pageNumber": 3,
+        "text": "في المَدرَسَةِ، ضَحِكَ أَحمَدُ مِن حُلمِ سُلطان وَقالَ: 'مُستَحيل! أَنتَ لا تَستَطيعُ حَتّى حَلَّ مَسائِلِ الرِّياضِيّات!' حَزِنَ سُلطانُ كَثيرًا.",
+        "imagePrompt": "In a Saudi school classroom, a sad boy being laughed at by another student"
+      },
+      {
+        "pageNumber": 4,
+        "text": "لَكِنَّ مُعَلِّمَ العُلومِ سَمِعَ ما حَدَثَ، فَدَعا سُلطانَ إلى مَكتَبِهِ وَأَراهُ صُوَرًا لِطائِراتٍ وَقالَ: 'كُلُّ الطَّيّارينَ بَدَؤوا بِحُلمٍ مِثلَكَ تَمامًا.'",
+        "imagePrompt": "A kind-looking science teacher showing airplane pictures to an interested student in his office"
+      },
+      {
+        "pageNumber": 5,
+        "text": "بَدَأَ سُلطانُ يَدرُسُ بِجِدٍّ. كانَ يَقرَأُ عَن الطّائِراتِ وَيَحُلُّ مَسائِلَ الرِّياضِيّاتِ وَيَتَعَلَّمُ العُلومَ. وَكُلَّما سَخِرَ مِنهُ أَحَدٌ، تَذَكَّرَ كَلِماتِ والِدِهِ وَمُعَلِّمِهِ.",
+        "imagePrompt": "A determined boy studying at his desk, surrounded by books about airplanes and mathematics"
+      },
+      {
+        "pageNumber": 6,
+        "text": "وَبَعدَ سَنَواتٍ مِن الاجتِهادِ، أَصبَحَ سُلطانُ طَيّارًا في الخُطوطِ السُّعودِيَّةِ. وَعِندَما يَرى الأَطفالَ يُلَوِّحونَ لَهُ مِن المَطارِ، يَبتَسِمُ وَيَتَذَكَّرُ أَنَّ الأَحلامَ تَتَحَقَّقُ بِالإصرارِ وَالمُثابَرَةِ.",
+        "imagePrompt": "A proud Saudi pilot in uniform standing next to a Saudi Airlines plane, waving at children in the airport"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "رسائل العنقاء",
+    "type": "الخيال",
+    "ageRange": "7-9 سنوات",
+    "moral": "الحكمة وأهمية التعلم من تجارب الحياة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَتْ سارَةُ تَجلِسُ كُلَّ صَباحٍ عِندَ نافِذَةِ غُرفَتِها في بَيتِها الجَميلِ في المَدينَةِ المُنَوَّرَةِ. وَذاتَ يَومٍ، لَمَحَتْ طائِراً ذَهَبِيّاً يَطيرُ في السَّماءِ.",
+        "imagePrompt": "A Saudi girl sitting by her window at dawn, watching a golden phoenix flying in the sky over Medina's landscape"
+      },
+      {
+        "pageNumber": 2,
+        "text": "كانَ الطّائِرُ يَحمِلُ في مِنقارِهِ رِسالَةً صَغيرَةً. حَطَّ عَلى حافَّةِ النّافِذَةِ وَتَرَكَ الرِّسالَةَ أمامَ سارَةَ، ثُمَّ حَلَّقَ بَعيداً.",
+        "imagePrompt": "A majestic golden phoenix leaving a small scroll on a windowsill, with the girl reaching for it"
+      },
+      {
+        "pageNumber": 3,
+        "text": "فَتَحَتْ سارَةُ الرِّسالَةَ بِحَماسٍ، وَقَرَأَتْ: 'مَنْ يَزرَعْ خَيراً يَحصُدْ سَعادَةً'. فَكَّرَتْ سارَةُ في مَعنى هَذِهِ الكَلِماتِ طَوالَ اليَومِ.",
+        "imagePrompt": "The girl reading a glowing scroll with Arabic calligraphy, sitting in her traditional Saudi room"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في المَدرَسَةِ، رَأَتْ سارَةُ زَميلَتَها نورَةَ تَبكي لِأَنَّها نَسِيَتْ طَعامَها. قَرَّرَتْ سارَةُ أنْ تُشارِكَ نورَةَ طَعامَها.",
+        "imagePrompt": "Two Saudi schoolgirls in uniform sharing food in a school courtyard"
+      },
+      {
+        "pageNumber": 5,
+        "text": "عِندَما عادَتْ إلى البَيتِ، وَجَدَتْ رِسالَةً جَديدَةً مِنَ العَنقاءِ تَقولُ: 'أَحسَنتِ يا سارَةُ! لَقَدْ فَهِمتِ مَعنى الرِّسالَةِ'.",
+        "imagePrompt": "The phoenix watching from a distance as the girl finds a new scroll at sunset"
+      },
+      {
+        "pageNumber": 6,
+        "text": "مُنذُ ذَلِكَ اليَومِ، أَصبَحَتْ سارَةُ تَنتَظِرُ رَسائِلَ العَنقاءِ بِشَوقٍ، وَتَحرِصُ دائِماً عَلى فِعلِ الخَيرِ وَمُساعَدَةِ الآخَرينَ.",
+        "imagePrompt": "The girl helping others at school while the phoenix's silhouette appears in the sky, creating a magical atmosphere"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "راشد والنخلة الصغيرة",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "الاهتمام بالمسؤولية والمثابرة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشمسٍ، أَهْدَى الجَدُّ حَفِيدَهُ راشِداً شَتْلَةَ نَخْلَةٍ صَغِيرَةً. قالَ الجَدُّ: 'يا راشِد، هَذِهِ أَمانَةٌ. اعْتَنِ بِها كُلَّ يَوْمٍ وَسَتَنْمو لِتُصْبِحَ نَخْلَةً كَبيرَةً'.",
+        "imagePrompt": "An elderly Saudi grandfather giving a small palm tree seedling to his grandson Rashid in their home garden, bright sunny day"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في الأيّامِ الأولى، كانَ راشِدٌ يَسْقي النَّخْلَةَ بِانْتِظامٍ. لَكِنَّهُ بَدَأَ يَنْشَغِلُ بِاللَّعِبِ مَعَ أَصْدِقائِهِ، وَنَسِيَ الاعْتِناءَ بِها.",
+        "imagePrompt": "Split scene: Rashid watering the plant carefully, then playing with friends while the plant looks dry"
+      },
+      {
+        "pageNumber": 3,
+        "text": "مَرَّتْ أَسابيعُ وَالنَّخْلَةُ تَذْبُلُ. حَزِنَ الجَدُّ عِنْدَما رَأى النَّخْلَةَ الصَّغيرَةَ. قالَ: 'يا راشِد، النَّخْلَةُ مِثْلُ الصَّديقِ، تَحْتاجُ إلى رِعايَةٍ دائِمَةٍ'.",
+        "imagePrompt": "A wilting palm seedling, grandfather looking sad, Rashid looking ashamed"
+      },
+      {
+        "pageNumber": 4,
+        "text": "شَعَرَ راشِدٌ بِالنَّدَمِ. قَرَّرَ أَنْ يُصْلِحَ خَطَأَهُ. بَدَأَ يَسْتَيْقِظُ باكِراً لِيَسْقيَ النَّخْلَةَ، وَيُنَظِّفُ حَوْلَها، وَيَحْميها مِنَ الشَّمْسِ الحارَّةِ.",
+        "imagePrompt": "Rashid taking care of the plant early morning, watering and cleaning around it"
+      },
+      {
+        "pageNumber": 5,
+        "text": "بِفَضْلِ اهْتِمامِ راشِدٍ، بَدَأَتِ النَّخْلَةُ تَنْمو مِنْ جَديدٍ. فَرِحَ الجَدُّ كَثيراً وَقالَ: 'أَحْسَنْتَ يا راشِد! هَذا دَرْسٌ مُهِمٌّ: مَنْ يَزْرَعُ الخَيْرَ يَحْصُدُ الخَيْرَ'.",
+        "imagePrompt": "The palm tree looking healthy again, grandfather patting Rashid's shoulder proudly"
+      },
+      {
+        "pageNumber": 6,
+        "text": "مَرَّتِ السَّنَواتُ، وَكَبُرَتِ النَّخْلَةُ مَعَ راشِدٍ. أَصْبَحَ يَفْتَخِرُ بِها وَيُخْبِرُ الجَميعَ كَيْفَ عَلَّمَتْهُ المَسْؤولِيَّةَ وَالمُثابَرَةَ.",
+        "imagePrompt": "A grown palm tree with dates, teenage Rashid standing proudly next to it with his grandfather"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "مشروع الصف الرائع",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "التعاون والعمل الجماعي",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مدرسةِ الأملِ الابتدائيةِ، طَلَبَ المعلمُ سعدٌ من تلاميذِهِ تنفيذَ مشروعٍ عن البيئةِ. قَسَّمَ الصفَّ إلى مجموعاتٍ، وكانَ في إحدى المجموعاتِ: خالدٌ وسلطانٌ وعبدُ اللهِ وفهدٌ.",
+        "imagePrompt": "A Saudi classroom with a male teacher explaining to students, four boys sitting together at a table looking uncertain"
+      },
+      {
+        "pageNumber": 2,
+        "text": "بدأَ كلُّ تلميذٍ يعملُ وحدَهُ. خالدٌ يرسمُ، وسلطانٌ يكتبُ، وعبدُ اللهِ يجمعُ الصورَ، وفهدٌ يبحثُ في الإنترنت. لم يتشاوروا معًا، ولم يتفقوا على خطةٍ واحدةٍ.",
+        "imagePrompt": "Four boys working separately on different tasks, looking frustrated and not communicating"
+      },
+      {
+        "pageNumber": 3,
+        "text": "عندما حانَ موعدُ تسليمِ المشروعِ، كانت النتيجةُ سيئةً. الرسوماتُ لا تتناسقُ مع النصوصِ، والمعلوماتُ متكررةٌ، والصورُ غيرُ مرتبةٍ. حَزِنَ الأولادُ كثيرًا.",
+        "imagePrompt": "A messy project display with disorganized papers and pictures, boys looking disappointed"
+      },
+      {
+        "pageNumber": 4,
+        "text": "جلسَ المعلمُ سعدٌ مع المجموعةِ وقالَ: 'أنتم تلاميذٌ مجتهدونَ، لكنَّكم لم تتعاونوا. التعاونُ مثلُ خليةِ النحلِ، كلُّ نحلةٍ تعملُ مع أخواتِها لصنعِ العسلِ.'",
+        "imagePrompt": "Teacher sitting with the boys in a circle, using hand gestures while explaining, with a small diagram of bees working together"
+      },
+      {
+        "pageNumber": 5,
+        "text": "قررَ الأولادُ إعادةَ المشروعِ. هذهِ المرةَ جلسوا معًا، ووزعوا الأدوارَ، وساعدَ كلُّ واحدٍ الآخرَ. كانوا يجتمعونَ كلَّ يومٍ في المكتبةِ للعملِ معًا.",
+        "imagePrompt": "Boys working together harmoniously in a school library, sharing ideas and helping each other"
+      },
+      {
+        "pageNumber": 6,
+        "text": "بعدَ أسبوعٍ، قدموا مشروعًا رائعًا عن إعادةِ التدويرِ في المملكةِ. نالَ المشروعُ إعجابَ الجميعِ، وعلَّقَهُ المعلمُ في لوحةِ الشرفِ. تعلمَ الأولادُ أنَّ التعاونَ هو سرُّ النجاحِ.",
+        "imagePrompt": "A beautiful project display on a school wall with the boys proudly standing next to it, teacher giving them thumbs up"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "نورة والنجاح",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "الاجتهاد والمثابرة طريق النجاح",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَتْ نورةُ تَجلِسُ في غُرفَتِها حَزينةً. نَظَرَتْ إلى دَرَجاتِها في الاختِبارِ الأخيرِ وَقالَتْ: 'لِماذا لَمْ أَحصُلْ عَلى دَرَجةٍ عالِيَةٍ مِثلَ زَميلاتي؟'",
+        "imagePrompt": "A young Saudi girl in school uniform sitting sadly at her desk, looking at a test paper with a low grade"
+      },
+      {
+        "pageNumber": 2,
+        "text": "دَخَلَتْ والِدَتُها وَسَأَلَتْها عَنْ سَبَبِ حُزنِها. قالَتْ نورةُ: 'يا أُمي، أُريدُ أَنْ أَكونَ مِنَ المُتَفَوِّقاتِ، وَلكِنَّني لا أَعرِفُ كَيفَ!'",
+        "imagePrompt": "Mother sitting next to her daughter, showing care and concern while the daughter explains her worries"
+      },
+      {
+        "pageNumber": 3,
+        "text": "ابتَسَمَتْ الأُمُّ وَقالَتْ: 'عَزيزَتي، النَّجاحُ يَحتاجُ إلى تَخطيطٍ وَجُهدٍ. دَعينا نَبدَأُ بِتَنظيمِ وَقتِكِ وَتَحديدِ أَوقاتٍ لِلمُذاكَرَةِ'.",
+        "imagePrompt": "Mother and daughter creating a colorful study schedule together at a desk"
+      },
+      {
+        "pageNumber": 4,
+        "text": "بَدَأَتْ نورةُ تَدرُسُ بِانتِظامٍ كُلَّ يَومٍ. كانَتْ تَكتُبُ مُلاحَظاتِها وَتُراجِعُ دُروسَها. وَكانَ عُصفورٌ صَغيرٌ يَقِفُ عَلى نافِذَتِها كُلَّ صَباحٍ يُشَجِّعُها.",
+        "imagePrompt": "Girl studying diligently at her desk with books and notes, a small desert bird watching from the window"
+      },
+      {
+        "pageNumber": 5,
+        "text": "وَبَعدَ شَهرٍ مِنَ الاجتِهادِ، جاءَ مَوعِدُ الاختِبارِ الجَديدِ. شَعَرَتْ نورةُ بِالثِّقَةِ لِأَنَّها كانَتْ مُستَعِدَّةً جَيِّداً هَذِهِ المَرَّةَ.",
+        "imagePrompt": "Confident girl taking a test in classroom, looking prepared and focused"
+      },
+      {
+        "pageNumber": 6,
+        "text": "فَرِحَتْ نورةُ كَثيراً عِندَما حَصَلَتْ عَلى دَرَجةٍ مُمتازَةٍ. عَرَفَتْ أَنَّ النَّجاحَ يَأتي بِالاجتِهادِ وَالمُثابَرَةِ، وَأَنَّ كُلَّ طالِبٍ يَستَطيعُ النَّجاحَ إذا بَذَلَ جُهداً كافِياً.",
+        "imagePrompt": "Happy girl showing her excellent test results to her proud mother, both smiling"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "أقنعة النجومية",
+    "type": "اكتشاف",
+    "ageRange": "10-12 سنوات",
+    "moral": "الأصالة وتقبل الذات والحفاظ على الهوية الحقيقية",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانت سارة فتاةً في الثانية عشرة من عمرها، تعيش في مدينة الرياض مع أسرتها. تحب الرسم والتصوير، وتقضي أوقاتًا ممتعة مع صديقاتها في المدرسة. ذات يوم، قررت مشاركة موهبتها في الرسم عبر حسابها على وسائل التواصل.",
+        "imagePrompt": "A 12-year-old Saudi girl in her room drawing beautiful artwork, surrounded by art supplies"
+      },
+      {
+        "pageNumber": 2,
+        "text": "انتشرت رسومات سارة بسرعة كبيرة، وأصبح لديها آلاف المتابعين. بدأت تتلقى تعليقات كثيرة وطلبات للمزيد من المحتوى. شعرت بسعادة غامرة في البداية، لكنها بدأت تشعر بضغط متزايد للظهور بشكل مثالي دائمًا.",
+        "imagePrompt": "Girl looking at her phone with mixed emotions, showing increasing follower count and comments"
+      },
+      {
+        "pageNumber": 3,
+        "text": "مع مرور الوقت، بدأت سارة تغير طريقة حديثها وملابسها لترضي متابعيها. أصبحت تقضي ساعات طويلة في تصوير مقاطع مثالية، وتكرر المحاولات عشرات المرات حتى تخرج بالشكل الذي يتوقعه الجمهور.",
+        "imagePrompt": "Girl repeatedly filming herself, looking frustrated, surrounded by multiple outfit changes"
+      },
+      {
+        "pageNumber": 4,
+        "text": "لاحظت والدة سارة تغير ابنتها. لم تعد تجلس معهم في جلسات العائلة كالسابق، وتراجعت درجاتها في المدرسة. حتى هوايتها الأصلية في الرسم أصبحت تفعلها فقط للتصوير وليس للاستمتاع.",
+        "imagePrompt": "Mother looking concerned at daughter who is busy with her phone during family gathering"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في إحدى الليالي، جلست والدة سارة معها في حديث طويل. قالت لها: 'يا بنيتي، إن أجمل ما فيكِ هو أنتِ الحقيقية، وليس ما يريد الآخرون أن يروه'. تأملت سارة كلمات والدتها طويلاً.",
+        "imagePrompt": "Mother and daughter having a heart-to-heart conversation in a cozy room"
+      },
+      {
+        "pageNumber": 6,
+        "text": "قررت سارة أن تعود لذاتها الحقيقية. نشرت مقطعًا صادقًا تتحدث فيه عن تجربتها وكيف كادت أن تفقد نفسها. فوجئت بتفاعل إيجابي كبير من متابعيها الذين قدروا صدقها. وأدركت أن تكون نفسها الحقيقية خير من أن تُصفّق لها الأقنعة.",
+        "imagePrompt": "Girl confidently creating authentic content in her room, looking happy and relaxed"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "نظافة اليدين",
+    "type": "قيم وأخلاق",
+    "ageRange": "4-6 سنوات",
+    "moral": "النظافة الشخصية والعناية بالصحة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مدرسةِ البناتِ الابتدائيةِ، جَلَسَت سارةُ في الفُسحةِ تأكلُ شطيرتَها. لم تَغسِل يَدَيها قبلَ الأكلِ كما تَنصَحُها دائماً معلمتُها.",
+        "imagePrompt": "A Saudi girl in school uniform sitting at a bench eating a sandwich without washing her hands first"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في المساءِ، شَعَرَت سارةُ بألمٍ في بطنِها. قالت لأمِّها: 'يا أمي، بطني تؤلمني!' فَسألَتها أمُّها: 'هل غَسَلتِ يديكِ قبلَ الأكلِ اليوم؟'",
+        "imagePrompt": "The girl holding her stomach in pain while her mother looks concerned"
+      },
+      {
+        "pageNumber": 3,
+        "text": "اعتَرَفَت سارةُ: 'لا يا أمي، لم أغسِل يَدَيَّ'. فأخَذَتها أمُّها إلى الطبيبةِ التي فَحَصَتها بِلُطفٍ.",
+        "imagePrompt": "Mother and daughter at a female doctor's clinic in Saudi Arabia"
+      },
+      {
+        "pageNumber": 4,
+        "text": "شَرَحَت الطبيبةُ لسارةَ: 'على أيدينا جراثيمٌ صغيرةٌ لا نَراها. عندما لا نَغسِلُ أيدينا، تَدخُلُ هذه الجراثيمُ إلى جِسمِنا مع الطعامِ.'",
+        "imagePrompt": "Doctor showing educational pictures about germs to the girl"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في اليومِ التالي، تَعَلَّمَت سارةُ في المدرسةِ الطريقةَ الصحيحةَ لِغَسلِ اليدينِ بالماءِ والصابونِ. كانَ عليها أن تَغسِلَ يَدَيها لمدةِ عشرينَ ثانيةً.",
+        "imagePrompt": "Girl washing hands properly at school sink with soap and water"
+      },
+      {
+        "pageNumber": 6,
+        "text": "أصبَحَت سارةُ الآنَ تَغسِلُ يَدَيها دائماً قبلَ الأكلِ وبعدَ اللعبِ. وعندما سألَتها المعلمةُ عن سببِ اهتمامِها بنظافةِ يَدَيها، شارَكَت سارةُ قصتَها مع زميلاتِها لِيَتَعَلَّمنَ من تَجرِبَتِها.",
+        "imagePrompt": "Girl happily showing her clean hands to her classmates while teacher smiles approvingly"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "راشد يزرع الخير",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "من يزرع الخير يحصد الخير",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في حيّ هادئ في مدينة الرياض، عاش فتىً اسمه راشد مع عائلته الصغيرة. كان راشد يحب مساعدة والدته في العناية بحديقة المنزل الصغيرة.",
+        "imagePrompt": "A Saudi boy helping his mother water plants in a small home garden in Riyadh"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في أحد الأيام، رأى راشد جاره المسن عمّ سلطان يحاول حمل أكياس البقالة الثقيلة. سأل راشد والدته: \"هل يمكنني مساعدة عمّ سلطان؟\" ابتسمت والدته وقالت: \"نعم يا بني، هذا عمل طيب.\"",
+        "imagePrompt": "An elderly Saudi man carrying grocery bags while a young boy approaches to help"
+      },
+      {
+        "pageNumber": 3,
+        "text": "ركض راشد نحو عمّ سلطان وقال: \"السلام عليكم عمّي، دعني أساعدك في حمل الأكياس.\" فرح عمّ سلطان وقال: \"جزاك الله خيراً يا بني.\"",
+        "imagePrompt": "The boy helping the elderly neighbor carry groceries to his house"
+      },
+      {
+        "pageNumber": 4,
+        "text": "أصبح راشد يزور عمّ سلطان كل يوم بعد المدرسة ليساعده في ترتيب حديقته. علّمه عمّ سلطان كيف يزرع النباتات ويعتني بها.",
+        "imagePrompt": "The boy and elderly man working together in a garden, planting seeds"
+      },
+      {
+        "pageNumber": 5,
+        "text": "مرّت الأيام، ومرض راشد ولم يستطع الذهاب إلى المدرسة. فوجئت عائلته بزيارة عمّ سلطان، يحمل صحناً من التمر وعسل النحل من نحله الخاص.",
+        "imagePrompt": "The elderly neighbor visiting the sick boy, bringing dates and honey"
+      },
+      {
+        "pageNumber": 6,
+        "text": "قال عمّ سلطان: \"من يزرع الخير يحصد الخير يا راشد.\" في تلك اللحظة، فهم راشد أن الخير الذي نقدمه للآخرين يعود إلينا بطرق جميلة، وأن مساعدة الآخرين تجلب السعادة للقلب.",
+        "imagePrompt": "The boy smiling in bed while the elderly neighbor and family gather around with warm expressions"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "رسائل الفجر",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "تقدير جهود الآخرين وعدم التقليل من أي عمل شريف",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشرقٍ، دخلَ طلابُ الصفِ الثالثِ إلى فصلِهم، فوجدوا أوراقًا صغيرةً ملوّنةً على مقاعدِهم. كانت تحملُ عباراتٍ جميلةً مثل: 'أنتَ مميّزٌ' و'يومٌ سعيدٌ'.",
+        "imagePrompt": "Saudi elementary school classroom in the morning, with colorful sticky notes on desks. Students entering with curious expressions."
+      },
+      {
+        "pageNumber": 2,
+        "text": "تساءلَ الطلابُ: مَن كتبَ هذه الرسائلَ الجميلة؟ كلَّ يومٍ تظهرُ رسائلُ جديدةٌ تُسعدُهم وتُشجّعُهم. بحثوا في كلِّ مكانٍ لكنّهم لم يجدوا مَن كتبَها.",
+        "imagePrompt": "Students gathered around desks, examining colorful notes, looking puzzled and happy."
+      },
+      {
+        "pageNumber": 3,
+        "text": "في يومٍ من الأيامِ، جاءَ أحمدُ مبكرًا إلى المدرسةِ قبلَ الفجرِ. رأى عمَّ سعدٍ - عاملَ النظافةِ - يكتبُ بخطٍّ جميلٍ على الأوراقِ الملوّنةِ.",
+        "imagePrompt": "Early dawn at school, elderly janitor writing notes at a desk with a small lamp, unaware of student watching from doorway."
+      },
+      {
+        "pageNumber": 4,
+        "text": "اقتربَ أحمدُ من عمِّ سعدٍ وسألَه: 'لماذا تكتبُ هذه الرسائلَ؟' ابتسمَ عمُّ سعدٍ وقال: 'أريدُ أن أجعلَ يومَكم سعيدًا. كلُّ عملٍ نقومُ به مهمٌّ مهما كانَ بسيطًا'.",
+        "imagePrompt": "Gentle interaction between student and elderly janitor, discussing the notes in semi-dark classroom."
+      },
+      {
+        "pageNumber": 5,
+        "text": "في اليومِ التالي، جمعَ أحمدُ زملاءَه وأخبرَهم عن عمِّ سعدٍ. قرّروا جميعًا أن يكتبوا له رسالةَ شكرٍ كبيرةً ويزيّنوها بالرسوماتِ الجميلةِ.",
+        "imagePrompt": "Students gathered around a large colorful thank-you card, drawing and writing together."
+      },
+      {
+        "pageNumber": 6,
+        "text": "فرحَ عمُّ سعدٌ كثيرًا برسالةِ الطلابِ. منذُ ذلكَ اليومِ، صارَ الجميعُ يحيّونَ عمَّ سعدٍ بابتسامةٍ كبيرةٍ، ويساعدونَ في المحافظةِ على نظافةِ مدرستِهم الجميلةِ.",
+        "imagePrompt": "Happy scene of janitor receiving thank-you card, surrounded by smiling students in clean school corridor."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "ساعةُ جَدِّي",
+    "type": "اكتشاف",
+    "ageRange": "10-12 سنوات",
+    "moral": "احترام كبار السن وتقدير وقتهم قبل فوات الأوان",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَ جَدِّي يَجلِسُ في زاوِيَتِهِ المُفَضَّلَةِ كُلَّ مَساءٍ، يَرتَدي ساعَتَهُ القَديمَةَ ويُنادي: 'نورَة، تَعالَي اسمَعي قِصَّةً جَديدَةً'. لَكِنَّني كُنتُ دائِماً مَشغولَةً بِهاتِفي وأَلعابي.",
+        "imagePrompt": "An elderly Saudi grandfather sitting in a traditional living room corner wearing a vintage watch, while his granddaughter is busy with her phone in the background"
+      },
+      {
+        "pageNumber": 2,
+        "text": "كُلَّما طَلَبَ مِنّي الجُلوسَ مَعَهُ، كُنتُ أَقولُ: 'لاحِقاً يا جَدّي'. وَفي كُلِّ مَرَّةٍ، كانَ يَبتَسِمُ بِحُزنٍ ويَنظُرُ إلى ساعَتِهِ القَديمَةِ.",
+        "imagePrompt": "Grandfather looking sadly at his watch while the granddaughter walks away, traditional Saudi home interior"
+      },
+      {
+        "pageNumber": 3,
+        "text": "وَفي صَباحِ يَومٍ حَزينٍ، رَحَلَ جَدّي إلى رَحمَةِ اللهِ. وَجَدتُ ساعَتَهُ القَديمَةَ عَلى طاوِلَتِهِ، تَحمِلُ سِرّاً لَم أَكُن أَعرِفُهُ.",
+        "imagePrompt": "An old vintage watch lying on a traditional wooden table, with prayer beads beside it"
+      },
+      {
+        "pageNumber": 4,
+        "text": "عِندَما ضَغَطتُ عَلى زِرٍّ صَغيرٍ في السّاعَةِ، سَمِعتُ صَوتَ جَدّي: 'نورَة حَبيبَتي، سَجَّلتُ لَكِ كُلَّ القِصَصِ الَّتي كُنتُ أُريدُ أَن أَحكيَها لَكِ'.",
+        "imagePrompt": "Close-up of the watch with a small hidden button, tears falling on its surface"
+      },
+      {
+        "pageNumber": 5,
+        "text": "جَلَستُ في زاوِيَتِهِ المُفَضَّلَةِ، أَستَمِعُ إلى قِصَصِهِ وَذِكرَياتِهِ. كانَ قَد سَجَّلَ قِصَصاً عَن طُفولَتِهِ، وَعَن تاريخِ عائِلَتِنا، وَعَن حُبِّهِ الكَبيرِ لي.",
+        "imagePrompt": "The granddaughter sitting in grandfather's corner, listening to the watch with tears in her eyes, surrounded by traditional Saudi decorations"
+      },
+      {
+        "pageNumber": 6,
+        "text": "الآنَ، أَفهَمُ أَنَّ الوَقتَ مَعَ مَن نُحِبُّ هُوَ أَثمَنُ ما نَملِكُ. وَأَصبَحَت ساعَةُ جَدّي كَنزي الثَّمينَ، أَستَمِعُ إلَيها كُلَّ مَساءٍ، وَأَتَمَنّى لَو أَنَّني قُلتُ لَهُ 'نَعَم' عِندَما كانَ يُناديني.",
+        "imagePrompt": "The watch displayed prominently on a shelf with family photos, as sunlight streams through a traditional Arabian window design"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "نهاية السُّخرية",
+    "type": "قيم وأخلاق",
+    "ageRange": "7-9 سنوات",
+    "moral": "عدم السخرية من الآخرين والتعامل معهم برحمة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في مدرسةٍ بمدينةِ الرياضِ، كانَ سلطانٌ يُحِبُّ أنْ يَسخَرَ مِنْ زُملائِهِ. يَضحَكُ على نَظّاراتِ خالدٍ الكَبيرةِ، ويَهزَأُ بِبُطءِ سَعدٍ في المَشي.",
+        "imagePrompt": "A Saudi school playground with a boy laughing and pointing at other children, wearing traditional Saudi school uniform"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في يَومٍ حارٍّ، تَعَثَّرَ سلطانٌ في سَاحَةِ المَدرَسَةِ ووَقَعَ أمامَ الجَميعِ. شَعَرَ بِالخَجَلِ الشَّديدِ وَاحمَرَّ وَجهُهُ.",
+        "imagePrompt": "A boy tripping and falling in a school courtyard, with his books scattered around"
+      },
+      {
+        "pageNumber": 3,
+        "text": "تَوَقَّعَ سلطانٌ أنْ يَضحَكَ عَليهِ الجَميعُ، كَما كانَ يَفعَلُ هُوَ. لَكِنَّ خالداً أسرَعَ لِمُساعَدَتِهِ، وَجاءَ سَعدٌ يَحمِلُ كُتُبَهُ المُتَناثِرَةَ.",
+        "imagePrompt": "Two boys helping another boy get up, picking up his books with kind expressions"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في المَنزِلِ، جَلَسَ سلطانٌ حَزيناً. سَأَلَهُ والِدُهُ عَنِ السَّبَبِ، فَحَكى لَهُ ما حَدَثَ. قالَ الوالِدُ: 'يا بُنَيَّ، الرَّحمَةُ خَيرٌ مِنَ السُّخريَةِ'.",
+        "imagePrompt": "A father and son having a heart-to-heart conversation in a traditional Saudi living room"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في اليَومِ التّالي، ذَهَبَ سلطانٌ إلى خالدٍ وَسَعدٍ. اعتَذَرَ مِنهُما بِصِدقٍ وَقالَ: 'آسِفٌ على سُخريَتي. أنتُما صَديقانِ طَيِّبانِ'.",
+        "imagePrompt": "Three boys in Saudi school uniform, one apologizing sincerely to the others"
+      },
+      {
+        "pageNumber": 6,
+        "text": "مَرَّتِ الأيّامُ، وَأصبَحَ سلطانٌ يُساعِدُ زُمَلاءَهُ بَدَلاً مِنَ السُّخريَةِ مِنهُم. وَعَرَفَ أنَّ السَّعادَةَ الحَقيقيَّةَ في مُساعَدَةِ الآخَرينَ وَاحتِرامِهِم.",
+        "imagePrompt": "A group of happy boys playing together in the schoolyard, showing friendship and respect"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "حَيُّنا الجَميل",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "التعاون والعمل الجماعي لخدمة المجتمع",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في حَيٍّ جَميلٍ في مَدينَةِ الرِّياض، كانَ سَعدٌ يَنظُرُ مِنْ نافِذَةِ غُرفَتِهِ إلى الشّارِعِ. لاحَظَ أنَّ هُناكَ بَعضَ الأوراقِ المُتَناثِرَةِ وَالأكياسِ البلاستيكيَّةِ.",
+        "imagePrompt": "A Saudi boy looking through his bedroom window at a street with some scattered litter"
+      },
+      {
+        "pageNumber": 2,
+        "text": "ذَهَبَ سَعدٌ إلى والِدِهِ وَقالَ: 'يا أبي، أُريدُ أنْ أُساعِدَ في تَنظيفِ شارِعِنا.' ابتَسَمَ الوالِدُ وَقالَ: 'فِكرَةٌ رائِعَةٌ! دَعْنا نَتَحَدَّثْ مَعَ جيرانِنا.'",
+        "imagePrompt": "A boy talking to his father in traditional Saudi dress in their living room"
+      },
+      {
+        "pageNumber": 3,
+        "text": "في المَساء، اجتَمَعَ أهلُ الحَيِّ في المَسجِدِ بَعدَ صَلاةِ المَغرِب. اتَّفَقوا جَميعاً عَلى تَنظيمِ حَملَةٍ لِتَنظيفِ الحَيِّ يَومَ الخَميسِ القادِم.",
+        "imagePrompt": "Community members gathering outside a mosque in evening light, discussing"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في يَومِ الحَملَة، شارَكَ الجَميعُ: الكِبارُ وَالصِّغارُ. ارتَدى كُلٌّ مِنهُم قُفّازاتٍ وَحَمَلوا أكياساً. حَتّى القِطُّ البُنِّيُّ الصَّغيرُ كانَ يُراقِبُهُم بِسَعادَةٍ.",
+        "imagePrompt": "People of different ages cleaning the neighborhood, wearing gloves and carrying bags, with a small brown cat watching"
+      },
+      {
+        "pageNumber": 5,
+        "text": "بَعدَ ساعَتَينِ، أصبَحَ الحَيُّ نَظيفاً وَجَميلاً. قَرَّرَ الجيرانُ وَضعَ سِلالِ مُهمَلاتٍ جَديدَةٍ وَزِراعَةَ بَعضِ الأشجارِ الصَّغيرَةِ.",
+        "imagePrompt": "Clean neighborhood street with new trash bins and people planting small trees"
+      },
+      {
+        "pageNumber": 6,
+        "text": "فَرِحَ سَعدٌ كَثيراً بِنَجاحِ الحَملَة. وَقالَ والِدُهُ: 'عِندَما نَتَعاوَنُ مَعاً، نَستَطيعُ أنْ نَصنَعَ الفَرقَ.' وَأصبَحَ حَيُّهُم مِثالاً يُحتَذى بِهِ في النَّظافَةِ وَالتَّعاوُن.",
+        "imagePrompt": "Happy community members admiring their clean neighborhood at sunset, with Saad and his father in the foreground"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "صديقٌ جديدٌ في مدرستِنا",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "الترحيب بالآخرين والتعاطف معهم",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في اليومِ الأوَّلِ مِنَ العامِ الدِّراسيِّ الجديدِ، دَخَلَ أحمدُ إلى صَفِّهِ الجديدِ. كانَ قلبُهُ يخفِقُ بشدَّةٍ، فقد انتقلَ مِنْ مدينةِ جدَّةَ إلى الرياضِ مَعَ عائلتِهِ.",
+        "imagePrompt": "A nervous-looking Saudi boy in school uniform standing at classroom door, holding his backpack"
+      },
+      {
+        "pageNumber": 2,
+        "text": "نَظَرَ أحمدُ إلى الطُّلابِ في الصَّفِّ. قالَ المُعلِّمُ: 'مَرحباً بِكَ يا أحمدُ. لدينا طالبٌ جديدٌ يا أولادُ، هَيَّا نُرَحِّبْ بِهِ.'",
+        "imagePrompt": "Teacher introducing Ahmed to his new classmates, students sitting at their desks"
+      },
+      {
+        "pageNumber": 3,
+        "text": "في وقتِ الفُسحةِ، جَلَسَ أحمدُ وَحيداً. اقتَرَبَ مِنهُ سَعدٌ وقالَ: 'تَعالَ مَعَنا يا أحمدُ، نَحنُ نَلعَبُ كُرةَ القَدَمِ في المَلعَبِ.'",
+        "imagePrompt": "School playground with boys playing football, Saad inviting Ahmed to join"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في الحِصَّةِ التاليةِ، لاحَظَ سَعدٌ أنَّ أحمدَ يَرسُمُ بِشَكلٍ جَميلٍ. قالَ سَعدٌ: 'ما شاء الله! أنتَ رَسَّامٌ ماهِرٌ يا أحمدُ.'",
+        "imagePrompt": "Ahmed showing his drawing to Saad in class, other students watching with interest"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في نِهايةِ اليَومِ، سَأَلَ سَعدٌ أحمدَ: 'هَل تُحِبُّ المَدرَسةَ الجَديدةَ؟' ابتَسَمَ أحمدُ وقالَ: 'نَعَم، الحَمدُ للهِ. أنتُم طَيِّبونَ جِدّاً.'",
+        "imagePrompt": "Ahmed and Saad walking together after school, both smiling and talking"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عَادَ أحمدُ إلى البَيتِ سَعيداً. قالَ لِوالِدَتِهِ: 'أُمِّي، وَجَدتُ أصدِقاءَ طَيِّبينَ في مَدرَسَتي الجَديدةِ. أشعُرُ أنَّني في بَيتي الثَّاني.'",
+        "imagePrompt": "Ahmed telling his mother about his day at home, looking happy and excited"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "سر الحديقة المهجورة",
+    "type": "الخيال",
+    "ageRange": "7-9 سنوات",
+    "moral": "الشجاعة والمثابرة في مواجهة التحديات",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في حَيِّنا القَديمِ في مَدينَةِ جِدَّة، كانَ هُناكَ مَنزِلٌ كَبيرٌ مَهجورٌ. وَكانَ سَعدٌ يَرى مِن نافِذَةِ غُرفَتِهِ حَديقَةَ المَنزِلِ المَليئَةَ بِالأَشجارِ العاليَةِ.",
+        "imagePrompt": "An old house in Jeddah with tall trees in its garden, viewed from a boy's window at dusk"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في أَحَدِ الأَيّامِ، لاحَظَ سَعدٌ قِطَّةً سَوداءَ تَجلِسُ عَلى سورِ الحَديقَةِ. كانَت تُراقِبُ شَيئاً ما بِاهتِمامٍ شَديدٍ. شَعَرَ سَعدٌ بِالفُضولِ وَالخَوفِ مَعاً.",
+        "imagePrompt": "A black cat sitting on a garden wall, intensely watching something, with a curious boy observing from afar"
+      },
+      {
+        "pageNumber": 3,
+        "text": "قَرَّرَ سَعدٌ أَن يَستَكشِفَ الأَمرَ. وَفي الصَّباحِ التّالي، ذَهَبَ مَعَ أَخيهِ الكَبيرِ إِلى الحَديقَةِ. وَجَدا في الأَرضِ صُندوقاً خَشَبِيّاً قَديماً.",
+        "imagePrompt": "Two Saudi boys discovering an old wooden box in an overgrown garden, with the black cat watching from nearby"
+      },
+      {
+        "pageNumber": 4,
+        "text": "حاوَلَ الأَخَوانِ فَتحَ الصُّندوقِ لَكِنَّهُ كانَ مُقفَلاً. فَجأَةً، ظَهَرَتِ القِطَّةُ السَّوداءُ وَبَدَأَت تَخدِشُ الأَرضَ بِجانِبِ شَجَرَةٍ قَديمَةٍ.",
+        "imagePrompt": "The black cat scratching the ground near an old tree, while two boys hold a mysterious wooden box"
+      },
+      {
+        "pageNumber": 5,
+        "text": "تَبِعَ سَعدٌ القِطَّةَ وَحَفَرَ في المَكانِ الَّذي أَشارَت إِلَيهِ. وَجَدَ مِفتاحاً صَدِئاً! بِيَدَينِ مُرتَعِشَتَينِ مِنَ الحَماسِ، أَدخَلَ المِفتاحَ في قُفلِ الصُّندوقِ.",
+        "imagePrompt": "A boy with trembling hands trying to open the box with a rusty key, his brother watching excitedly"
+      },
+      {
+        "pageNumber": 6,
+        "text": "فَتَحَ الصُّندوقَ لِيَجِدَ فيهِ صُوَراً قَديمَةً وَرِسائِلَ تَعودُ لِعائِلَةٍ عاشَت في المَنزِلِ قَبلَ سَنَواتٍ. سَلَّمَ الأَخَوانِ الصُّندوقَ لِوالِدِهِما الَّذي اسْتَطاعَ إيجادَ العائِلَةِ وَإعادَةَ ذِكرَياتِهِم الثَّمينَةِ إِلَيهِم.",
+        "imagePrompt": "The boys showing their father the box filled with old photos and letters, with the black cat watching contentedly from the window"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "النَّجْمَةُ الضَّائِعَة",
+    "type": "الخيال",
+    "ageRange": "7-9 سنوات",
+    "moral": "مساعدة الآخرين والتعاون على الخير",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في لَيْلَةٍ هَادِئَةٍ، كانَتْ نُورَة تَجْلِسُ في حَدِيقَةِ مَنْزِلِها في مَدِينَةِ الرِّياضِ، تَنْظُرُ إلى السَّماءِ المُزَيَّنَةِ بِالنُّجُومِ المُتَلَأْلِئَةِ.",
+        "imagePrompt": "A Saudi girl in traditional dress sitting in a garden at night, looking up at the starry sky"
+      },
+      {
+        "pageNumber": 2,
+        "text": "وَفَجْأَةً، رَأَتْ نُورَة شَيْئًا يَلْمَعُ يَسْقُطُ مِنَ السَّماءِ. كانَتْ نَجْمَةً صَغِيرَةً سَقَطَتْ بِجانِبِ شَجَرَةِ النَّخِيلِ.",
+        "imagePrompt": "A small glowing star falling near a palm tree in a garden, with the girl watching in amazement"
+      },
+      {
+        "pageNumber": 3,
+        "text": "اقْتَرَبَتْ نُورَة مِنَ النَّجْمَةِ الَّتي قالَتْ بِصَوْتٍ خافِتٍ: \"أَرْجُوكِ يا نُورَة، ساعِدِيني لِأَعُودَ إلى السَّماءِ. أَنا أَشْعُرُ بِالْوَحْدَةِ هُنا.\"",
+        "imagePrompt": "The girl kneeling next to a small glowing star on the ground, with a concerned expression"
+      },
+      {
+        "pageNumber": 4,
+        "text": "فَكَّرَتْ نُورَة قَلِيلًا ثُمَّ قالَتْ: \"سَأَطْلُبُ مُساعَدَةَ أَخي الْكَبِيرِ عُمَر. هُوَ يَعْرِفُ الْكَثِيرَ عَنِ النُّجُومِ وَالْفَضاءِ.\"",
+        "imagePrompt": "The girl running inside her house while the star waits in the garden"
+      },
+      {
+        "pageNumber": 5,
+        "text": "جاءَ عُمَر وَمَعَهُ تِلِسْكُوبُهُ الْكَبِيرُ. قالَ: \"يُمْكِنُنا أَنْ نَسْتَخْدِمَ التِّلِسْكُوبَ لِنَجِدَ مَكانَكِ في السَّماءِ أَوَّلًا.\"",
+        "imagePrompt": "An older boy with a telescope helping his sister and the glowing star"
+      },
+      {
+        "pageNumber": 6,
+        "text": "وَبِمُساعَدَةِ عُمَر، اسْتَطاعَتْ نُورَة أَنْ تُرْشِدَ النَّجْمَةَ إلى مَكانِها الصَّحِيحِ. وَمِنْ ذَلِكَ الْيَوْمِ، كُلَّما نَظَرَتْ نُورَة إلى السَّماءِ لَيْلًا، كانَتْ تَرى نَجْمَتَها تَلْمَعُ بِسَعادَةٍ وَتُلَوِّحُ لَها.",
+        "imagePrompt": "The star back in the night sky, twinkling brightly, while the siblings wave goodbye from their garden"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "رحلة إلى سوق عكاظ",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "تقدير التراث والتاريخ والثقافة السعودية",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَتْ نورةُ تَظُنُّ أنَّ السُّوقَ مَكانٌ مُمِلٌّ لِشِراءِ الحاجاتِ فَقَط. وَعِندَما أخبَرَها والِدُها عَنْ رِحلَةٍ إلى سوقِ عُكاظ، لَمْ تَكُنْ مُتَحَمِّسَةً.",
+        "imagePrompt": "A young Saudi girl Noura looking bored while her father talks enthusiastically about Souq Okaz. Traditional Saudi home setting."
+      },
+      {
+        "pageNumber": 2,
+        "text": "وَصَلَتْ نورةُ مَعَ أسرَتِها إلى سوقِ عُكاظ. كانَ المَكانُ مُختَلِفاً تَماماً عَمّا تَخَيَّلَتْ! رَأتْ خِياماً تاريخيَّةً جَميلَةً وَأناساً يَرتَدونَ مَلابِسَ تُشبِهُ مَلابِسَ أجدادِنا.",
+        "imagePrompt": "Wide view of Souq Okaz with traditional tents, people in historical clothes, and Noura's expression changing from boredom to amazement."
+      },
+      {
+        "pageNumber": 3,
+        "text": "تَوَقَّفَتْ نورةُ عِندَ خَيمَةِ الشُّعَراءِ. كانَ هُناكَ رَجُلٌ يُلقي قَصائِدَ جَميلَةً، وَالنّاسُ يَستَمِعونَ بِإعجابٍ. سَأَلَتْ والِدَها: 'هَلْ كانَ النّاسُ يَجتَمِعونَ هُنا مُنذُ زَمَنٍ بَعيدٍ؟'",
+        "imagePrompt": "Inside a traditional tent with a poet reciting, audience listening, and Noura asking her father questions."
+      },
+      {
+        "pageNumber": 4,
+        "text": "شَرَحَ والِدُها: 'نَعَم يا نورة، كانَ سوقُ عُكاظ مَكاناً مُهِمّاً لِلشِّعرِ وَالتِّجارَةِ مُنذُ أكثَرَ مِنْ ألفِ سَنَةٍ!' شاهَدَتْ نورةُ الحِرَفِيّينَ يَصنَعونَ الفَخّارَ وَيَنسِجونَ السَّجّادَ.",
+        "imagePrompt": "Traditional craftsmen working on pottery and carpet weaving, with Noura and her father watching."
+      },
+      {
+        "pageNumber": 5,
+        "text": "في المَساءِ، جَلَسَتْ نورةُ مَعَ عائِلَتِها يَتَناوَلونَ العَشاءَ في خَيمَةٍ تَقليديَّةٍ. قالَتْ: 'الآنَ عَرَفتُ لِماذا كانَ سوقُ عُكاظ مُهِمّاً. إنَّهُ يَحكي قِصَّةَ أجدادِنا الجَميلَةَ!'",
+        "imagePrompt": "Family dining in a traditional tent, with traditional Saudi food and Noura speaking excitedly."
+      },
+      {
+        "pageNumber": 6,
+        "text": "في طَريقِ العَودَةِ، كانَتْ نورةُ سَعيدَةً جِدّاً. طَلَبَتْ مِنْ والِدِها أنْ يَشتَريَ لَها كِتاباً عَنْ تاريخِ سوقِ عُكاظ. أصبَحَتْ تُدرِكُ أنَّ التّاريخَ لَيسَ مُمِلّاً أبَداً، بَلْ هُوَ مَليءٌ بِالقِصَصِ المُشَوِّقَةِ!",
+        "imagePrompt": "Noura in the car returning home, holding a book about Souq Okaz, looking happy and excited."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "اللوحة المتنفسة",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "الاعتزاز بالهوية والتراث",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في غرفته الهادئة، جلسَ سلطانُ أمامَ لوحتِهِ البيضاء. كانَ يحلمُ أن يرسمَ لوحةً تُعبِّرُ عن جمالِ وطنِهِ، لكنَّهُ شعرَ بالحيرةِ. كيفَ يمكنُ للألوانِ أن تحكيَ قصةَ بلدٍ عريق؟",
+        "imagePrompt": "A young Saudi boy sitting in front of a blank canvas in his room, surrounded by painting tools"
+      },
+      {
+        "pageNumber": 2,
+        "text": "بدأَ سلطانُ يرسمُ خيمةً في الصحراء، ونخلةً عاليةً، وجملاً يسيرُ بهدوء. لكنَّهُ توقَّفَ فجأةً وهمسَ: 'هل هذا يكفي؟ هل هذه الرسومُ تُعبِّرُ حقاً عن هويتي؟'",
+        "imagePrompt": "A partially painted canvas showing a traditional desert scene with a tent, palm tree, and camel"
+      },
+      {
+        "pageNumber": 3,
+        "text": "وفجأةً، بدأتِ الألوانُ على اللوحةِ تتحرَّكُ! وسمعَ سلطانُ صوتاً دافئاً يقولُ: 'يا بُنيَّ، الهويةُ ليستْ مجردَ رسمٍ على ورق. إنها في قلبِكَ وروحِك.'",
+        "imagePrompt": "The painted elements on canvas starting to shimmer mysteriously, with a warm glow"
+      },
+      {
+        "pageNumber": 4,
+        "text": "نظرَ سلطانُ بدهشةٍ إلى لوحتِه. أخذتِ الخيمةُ تحكي قصصَ الكرمِ والضيافة، والنخلةُ همستْ بحكاياتِ الصبرِ والعطاء، والجملُ تحدَّثَ عن رحلاتِ الأجدادِ الشجعان.",
+        "imagePrompt": "The painted elements coming alive with subtle movement, telling stories through visual symbols"
+      },
+      {
+        "pageNumber": 5,
+        "text": "أدركَ سلطانُ أنَّ هويتَهُ تعيشُ في كلِّ تفصيلٍ حولَه: في لهجتِهِ، وفي عاداتِ عائلتِه، وفي قيمِ مجتمعِه. عادَ إلى الرسمِ بحماسٍ جديد، وهذهِ المرةَ تركَ قلبَهُ يقودُ فرشاتَه.",
+        "imagePrompt": "The boy painting with renewed enthusiasm, his brushstrokes more confident and expressive"
+      },
+      {
+        "pageNumber": 6,
+        "text": "أصبحتْ لوحةُ سلطانَ أجملَ ممّا تخيَّل. لم تكنْ مجردَ رسمٍ للصحراءِ والتراث، بل كانتْ نافذةً تُطِلُّ على روحِ وطنٍ عظيم. وأدركَ أنَّ الهويةَ الحقيقيةَ تنبضُ في القلبِ قبلَ أن تظهرَ على اللوحة.",
+        "imagePrompt": "A completed vibrant painting showing a rich cultural scene, with the boy standing proudly beside it"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "فهد في قصر المصمك",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "حب الوطن وتقدير تاريخه",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحٍ مشمسٍ، ذَهَبَ فهدٌ مع والِدِهِ لزيارةِ قصرِ المصمك في مدينةِ الرياض. كانَ فهدٌ متحمساً جداً لرؤيةِ هذا القصرِ التاريخيِّ العظيم.",
+        "imagePrompt": "A young Saudi boy 'Fahad' and his father approaching the historic Masmak Palace in Riyadh, morning sunlight, traditional Saudi dress"
+      },
+      {
+        "pageNumber": 2,
+        "text": "وقفَ فهدٌ أمامَ البابِ الخشبيِّ الضخمِ للقصر. سألَ والدَه: 'يا أبي، لماذا هذا البابُ كبيرٌ هكذا؟' أجابَ الأب: 'لقد صُمِّمَ ليدخلَ منه الفرسانُ وهم على ظهورِ خيولِهم.'",
+        "imagePrompt": "Close-up of Masmak Palace's huge wooden door, with Fahad looking up at it in amazement, father pointing at details"
+      },
+      {
+        "pageNumber": 3,
+        "text": "دخلَ فهدٌ إلى القصرِ وأخذَ يتجولُ في أروقتِه. أغمضَ عينيهِ وتخيلَ صوتَ حوافرِ الخيلِ وصيحاتِ الفرسانِ في ذلك اليومِ التاريخي.",
+        "imagePrompt": "Inside Masmak Palace corridors, Fahad with closed eyes imagining historical scenes, traditional interior architecture visible"
+      },
+      {
+        "pageNumber": 4,
+        "text": "وقفَ فهدٌ أمامَ المعروضاتِ القديمةِ: السيوفِ والخناجرِ والبنادقِ. قالَ والدُه: 'هذه الأسلحةُ استخدمَها الأبطالُ في توحيدِ وطنِنا الغالي.'",
+        "imagePrompt": "Fahad and his father looking at displayed historical weapons in glass cases, traditional Saudi artifacts"
+      },
+      {
+        "pageNumber": 5,
+        "text": "صعدَ فهدٌ إلى سطحِ القصرِ ونظرَ إلى المدينةِ الحديثةِ من الأعلى. قالَ: 'يا أبي، كم تغيرتْ الرياضُ!' ابتسمَ الأبُ وقال: 'نعم يا بُني، هذا بفضلِ الله ثم جهودِ الآباءِ والأجداد.'",
+        "imagePrompt": "Fahad and his father on Masmak Palace roof, viewing modern Riyadh skyline, contrast between old and new"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في طريقِ العودةِ، قالَ فهدٌ: 'أشعرُ بالفخرِ لتاريخِ وطني يا أبي. سأحكي لأصدقائي في المدرسةِ عن قصرِ المصمك.' ربتَ الأبُ على كتفِ ابنِه مبتسماً.",
+        "imagePrompt": "Fahad and his father walking away from Masmak Palace, Fahad looking back at the palace with pride, sunset lighting"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "ألوان علمنا",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "حب الوطن والاعتزاز برموزه",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صباحِ يومِ العَلَمِ السعودي، وقفت نورة أمام المرآةِ تُرتِّبُ مِريولَها المدرسيَّ. سألت أمَّها: 'أمي، لماذا نحتفلُ بيومِ العَلَمِ؟'",
+        "imagePrompt": "A young Saudi girl in school uniform standing in front of mirror, her mother nearby, Saudi flag visible through window"
+      },
+      {
+        "pageNumber": 2,
+        "text": "ابتسمت الأمُّ وقالت: 'علمُنا يا نورة يحكي قصةَ وطنِنا العظيم. اللونُ الأخضرُ يرمزُ للخيرِ والنماء، مثل نخيلِ بلادِنا الشامخة'.",
+        "imagePrompt": "Mother and daughter looking at Saudi flag, with date palms visible through window"
+      },
+      {
+        "pageNumber": 3,
+        "text": "وفي المدرسة، شاركت نورة في الاحتفال. وقفت معلمتُها تشرحُ: 'السيفُ في علمِنا يرمزُ للقوةِ والعدل، وكلمةُ التوحيد تذكِّرُنا بإيمانِنا'.",
+        "imagePrompt": "School assembly with teacher explaining about flag to students, large Saudi flag on display"
+      },
+      {
+        "pageNumber": 4,
+        "text": "تخيَّلت نورة جدَّها يحكي لها عن الماضي: 'كان الناسُ يجتمعون تحت هذا العَلَم، يتعاونون ويبنون وطنَهم بكلِّ حبٍّ وإخلاص'.",
+        "imagePrompt": "Split scene: modern girl imagining her grandfather in traditional Saudi dress telling stories"
+      },
+      {
+        "pageNumber": 5,
+        "text": "رفعت نورة العَلَمَ مع زميلاتِها في ساحةِ المدرسة. شعرت بالفخرِ وهي ترى الألوانَ تتراقصُ في السماء، وكأنَّها تحكي قصةَ الأمسِ واليوم.",
+        "imagePrompt": "Girls raising Saudi flag in school courtyard, flag waving against blue sky"
+      },
+      {
+        "pageNumber": 6,
+        "text": "في المساء، رسمت نورة علمَ بلادِها وكتبت تحتَه: 'علمُنا فخرُنا'. وعلَّقت الرسمةَ في غرفتِها، لتتذكَّرَ دائماً أنها جزءٌ من هذا الوطنِ العظيم.",
+        "imagePrompt": "Girl hanging her drawing of Saudi flag on her bedroom wall, room decorated in traditional and modern style"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "نقوش الشجاعة",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "حب الوطن وتقدير تراثه وتاريخه",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في قريةٍ صغيرةٍ بنجران، عاشَ فتىً يُدعى سلطان. كانَ يُحِبُّ الجلوسَ قُربَ الجِبالِ القديمةِ، يتأمَّلُ نُقوشَها العجيبة، ويتساءَلُ عن أسرارِها الغامضة.",
+        "imagePrompt": "A young Saudi boy sitting near ancient mountain rocks with petroglyphs in Najran, looking curious"
+      },
+      {
+        "pageNumber": 2,
+        "text": "في يومٍ مِنَ الأيام، زارَ جَدُّهُ القريةَ. كانَ جَدُّهُ عالِماً في التاريخِ القديم. عندما رأى شَغَفَ سلطان بالنقوش، قررَ أن يُعلِّمَهُ أسرارَها.",
+        "imagePrompt": "An elderly man in traditional Saudi clothes showing his grandson ancient inscriptions on rocks"
+      },
+      {
+        "pageNumber": 3,
+        "text": "قالَ الجَدُّ: \"هذهِ النقوشُ يا بُنَيَّ تَحكي قِصَصَ أجدادِنا الشجعان. كانوا يَركبونَ الخيلَ ويَعبُرونَ الصحراءَ، ويُدافِعونَ عن أرضِهِم بشجاعةٍ\".",
+        "imagePrompt": "Close-up of ancient Arabian petroglyphs showing horses and warriors"
+      },
+      {
+        "pageNumber": 4,
+        "text": "بَدأَ سلطانُ يَفهَمُ معاني النقوشِ شيئاً فشيئاً. رأى رسوماتٍ لِرجالٍ يَتعاونون في بِناءِ البيوت، ورعيِ الماشية، وحمايةِ القرية.",
+        "imagePrompt": "The boy and his grandfather examining petroglyphs showing community life scenes"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في نهايةِ اليوم، أخرَجَ الجَدُّ دفتراً وقلماً وقالَ: \"والآن يا سلطان، حانَ دورُكَ لِتَحكيَ قصةَ شجاعَتِكَ. ارسُم ما تُريدُ أن يَراهُ أحفادُكَ في المستقبل\".",
+        "imagePrompt": "The grandfather handing a notebook to his grandson near the ancient rocks at sunset"
+      },
+      {
+        "pageNumber": 6,
+        "text": "رَسَمَ سلطانُ صورةً جميلةً لِقريَتِهِ وجِبالِها وناسِها الطيبين. وكَتَبَ تحتَها: \"هُنا في نَجران، تَعيشُ حِكاياتُ الشجاعةِ في قلوبِنا وعلى صخورِنا، نَحفَظُها ونَفخَرُ بها\".",
+        "imagePrompt": "The boy drawing in his notebook, with the ancient mountains and his village in the background"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "حكايات جدتي عن بيت الطين",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "تقدير نعم الحاضر واحترام تاريخ الأجداد",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "جَلَسَتْ نورة مَعَ جَدَّتِها أُمِّ محمد في المَجْلِسِ، وَقَدْ لَفَّهُما دِفْءُ المُكَيِّفِ. سَأَلَتْ نورة: 'جَدَّتي، كَيْفَ كانَ بَيْتُكُمْ القَديمُ؟'",
+        "imagePrompt": "A young Saudi girl sitting with her grandmother in a modern living room with air conditioning"
+      },
+      {
+        "pageNumber": 2,
+        "text": "ابْتَسَمَتْ الجَدَّةُ وَقالَتْ: 'كانَ بَيْتُنا مِنَ الطّينِ، نَنامُ عَلى الأَرْضِ، وَنَسْتَخْدِمُ المَصابيحَ الزَّيْتِيَّةَ لِلإِضاءَةِ. كُنّا نَجْلِسُ في الفِناءِ نَتَسامَرُ تَحْتَ ضَوْءِ القَمَرِ.'",
+        "imagePrompt": "A traditional mud house in old Saudi Arabia with oil lamps and an open courtyard under moonlight"
+      },
+      {
+        "pageNumber": 3,
+        "text": "أَغْمَضَتْ نورة عَيْنَيْها وَتَخَيَّلَتْ: نِساءٌ يَخْبِزْنَ في التَّنّورِ، وَأَطْفالٌ يَلْعَبونَ في السّاحَةِ، وَرائِحَةُ القَهْوَةِ السعودية تَفوحُ مِنْ كُلِّ بَيْتٍ.",
+        "imagePrompt": "Women baking bread in traditional clay oven, children playing in a sandy courtyard, Arabic coffee pots visible"
+      },
+      {
+        "pageNumber": 4,
+        "text": "وَاصَلَتِ الجَدَّةُ: 'كُنّا نَجْمَعُ الماءَ مِنَ البِئْرِ، وَنَطْبُخُ عَلى الحَطَبِ. وَفي الشِّتاءِ نَتَدَفَّأُ حَوْلَ المَوْقِدِ وَنَحْكي الحِكاياتِ.'",
+        "imagePrompt": "People gathering water from a well, cooking on firewood, family gathered around a traditional fireplace"
+      },
+      {
+        "pageNumber": 5,
+        "text": "قالَتْ نورة: 'كانَتْ حَياتُكُمْ صَعْبَةً يا جَدَّتي!' ضَحِكَتِ الجَدَّةُ: 'نَعَمْ، وَلكِنَّها كانَتْ جَميلَةً. كُنّا مُتَعاوِنينَ وَسُعَداءَ.'",
+        "imagePrompt": "Grandmother smiling warmly at her granddaughter, traditional decorations visible in background"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عَرَفَتْ نورة كَمْ نَحْنُ مَحْظوظونَ اليَوْمَ بِكُلِّ هَذِهِ النِّعَمِ. وَأَدْرَكَتْ أَنَّ أَجْدادَنا وحكامنا بَنَوْا لَنا وَطَناً عَظيماً بِصَبْرِهِمْ وَتَعَبِهِمْ.",
+        "imagePrompt": "Modern Saudi city skyline transitioning from old mud houses, symbolizing progress while honoring heritage"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "مقهى عبدالله",
+    "type": "تراث وثقافة",
+    "ageRange": "10-12 سنوات",
+    "moral": "احترام التراث وتقدير الكبار والموازنة بين الأصالة والمعاصرة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في حَيٍّ عَتيقٍ مِنْ أَحْياءِ المَدينَةِ، افْتَتَحَ عَبْدُاللهِ مَقْهاهُ الجَديدَ. كانَ شابًّا طَموحًا يَحْلُمُ بِتَقْديمِ القَهْوَةِ بِطَريقَةٍ عَصْرِيَّةٍ تُناسِبُ الشَّبابَ.",
+        "imagePrompt": "A modern coffee shop next to an old mosque in a traditional Saudi neighborhood, with a young man standing proudly at the entrance"
+      },
+      {
+        "pageNumber": 2,
+        "text": "لَكِنَّ المَقْهى لَمْ يَجْذِبْ إِلّا عَدَدًا قَليلًا مِنَ الزُّوّارِ. وَذاتَ مَساءٍ، جَلَسَ الحاجُّ إِبْراهيمُ، أَحَدُ كِبارِ الحَيِّ، في المَقْهى وَقالَ: 'يا وَلَدي، القَهْوَةُ عِنْدَنا لَيْسَتْ مُجَرَّدَ مَشْروبٍ'.",
+        "imagePrompt": "An elderly Saudi man in traditional dress sitting with the young cafe owner, gesturing while speaking"
+      },
+      {
+        "pageNumber": 3,
+        "text": "أَخَذَ الحاجُّ إِبْراهيمُ يَحْكي لِعَبْدِاللهِ عَنْ تاريخِ القَهْوَةِ في الجَزيرَةِ العَرَبِيَّةِ، وَكَيْفَ كانَتْ مَجْلِسًا لِلضِّيافَةِ وَالحِكْمَةِ وَالأَحاديثِ الطَّيِّبَةِ.",
+        "imagePrompt": "The elderly man demonstrating traditional coffee preparation methods, with ancient coffee pots and traditional settings in the background"
+      },
+      {
+        "pageNumber": 4,
+        "text": "قَرَّرَ عَبْدُاللهِ أَنْ يَتَعَلَّمَ مِنْ كِبارِ السِّنِّ. زارَ بُيوتَهُمْ وَاسْتَمَعَ إِلى قِصَصِهِمْ عَنِ القَهْوَةِ السعودية وَطُقوسِ تَقْديمِها.",
+        "imagePrompt": "The young man visiting traditional homes, sitting with elders and taking notes while they share stories"
+      },
+      {
+        "pageNumber": 5,
+        "text": "أَغْلَقَ عَبْدُاللهِ مَقْهاهُ لِمُدَّةِ أُسْبوعَيْنِ. عَمِلَ خِلالَها عَلى دَمْجِ الأَصالَةِ مَعَ الحَداثَةِ. وَضَعَ في زاوِيَةٍ رَكْنًا لِلقَهْوَةِ السعودية التَّقْليدِيَّةِ، وَعَلَّقَ عَلى الجُدْرانِ صُوَرًا قَديمَةً لِلحَيِّ.",
+        "imagePrompt": "Interior of a renovated cafe showing a blend of modern and traditional elements, with a special corner for traditional coffee"
+      },
+      {
+        "pageNumber": 6,
+        "text": "عِنْدَما أَعادَ افْتِتاحَ المَقْهى، امْتَلَأَ بِالزُّوّارِ مِنْ جَميعِ الأَعْمارِ. أَصْبَحَ مَكانًا يَجْتَمِعُ فيهِ الشَّبابُ مَعَ كِبارِ السِّنِّ، يَتَشارَكونَ القَهْوَةَ وَالحِكاياتِ. وَأَدْرَكَ عَبْدُاللهِ أَنَّ سِرَّ نَجاحِ المَقْهى لَيْسَ في القَهْوَةِ وَحْدَها، بَلْ في الجَمْعِ بَيْنَ عَبَقِ الماضي وَرَوْعَةِ الحاضِرِ.",
+        "imagePrompt": "A bustling cafe filled with people of all ages, young and old sharing coffee and stories, with both modern and traditional elements visible"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "احترام المهن",
+    "type": "اكتشاف",
+    "ageRange": "7-9 سنوات",
+    "moral": "التعرّف على أدوار المجتمع – احترام المهن",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "فِي صَبَاحٍ مُشْمِسٍ، قَالَتِ المُعَلِّمَةُ دَانَةُ لِتَلامِيذِهَا:\n«سَنَخْرُجُ اليَوْمَ فِي رِحْلَةٍ خَاصَّةٍ نَسْتَكْشِفُ فِيهَا مِهَنًا تُسَاعِدُ مَدينَتَنَا كُلَّ يَوْمٍ.»\nفَرَفَعَ الطُّلَّابُ أَيْدِيَهُمْ بِحَمَاسٍ وَهُمْ يَهْتِفُونَ:\n«نَعَمْ! نُرِيدُ أَنْ نَعْرِفَ كَيْفَ يَعْمَلُ النّاسُ مِنْ أَجْلِنَا!»",
+        "imagePrompt": "A cheerful Saudi teacher preparing her students for a school trip, children excited and raising their hands"
+      },
+      {
+        "pageNumber": 2,
+        "text": "أَوَّلُ مَحَطَّةٍ لِلرِّحْلَةِ كَانَتْ عِنْدَ سَاعِي البَرِيدِ.\nشَاهَدَ الأَطْفالُ كَيْفَ يُرَتِّبُ الرَّجُلُ الرَّسائِلَ لِيَصِلَ كُلٌّ مِنْهَا إِلَى أَهْلِهِ.\nفَقَالَ فِرَاسٌ مُعْجَبًا:\n«لَوْلَاكَ لَمَا عَرَفْنَا الخَبَرَ بِسُرْعَةٍ!»",
+        "imagePrompt": "Students watching a friendly postal worker sorting colorful letters in a small neighborhood post office"
+      },
+      {
+        "pageNumber": 3,
+        "text": "ثُمَّ زَارُوا مَرْكَزَ النَّظَافَةِ، حَيْثُ وَقَفَ العَامِلُ يُرِي الأَطْفالَ كَيْفَ تُنَقَّى الشَّوارِعُ وَتُجْمَعُ المُخَلَّفَاتُ.\nوَقَالَتِ المُعَلِّمَةُ:\n«هَؤُلَاءِ أَبْطَالُ النَّظَافَةِ الَّذِينَ يَحْفَظُونَ جَمَالَ مَدِينَتِنَا.»\nفَهَزَّ الطُّلَّابُ رُؤُوسَهُمْ بِإِعْجَابٍ.",
+        "imagePrompt": "Children watching a sanitation worker demonstrating cleaning equipment in a clean Saudi street"
+      },
+      {
+        "pageNumber": 4,
+        "text": "وَفِي المَحَطَّةِ الثَّالِثَةِ، وَقَفُوا فِي مَرْكَزِ الإِسْعَافِ،\nحَيْثُ شَرَحَ المُسْعِفُ لَهُمْ حَقِيبَتَهُ الطِّبِّيَّةَ وَقَالَ:\n«نَخْدُمُ النَّاسَ لِنُسَاعِدَهُمْ فِي أَيِّ وَقْتٍ.»\nفَصَفَّقَ الأَطْفالُ وَقَالُوا:\n«أَنْتَ بَطَلٌ حَقِيقِيٌّ!»",
+        "imagePrompt": "Students learning from a paramedic showing them a medical kit beside an ambulance"
+      },
+      {
+        "pageNumber": 5,
+        "text": "وَعِنْدَ عَوْدَتِهِمْ إِلَى المَدْرَسَةِ، سَأَلَتْهُمُ المُعَلِّمَةُ:\n«مَا المِهْنَةُ الَّتِي أَعْجَبَتْكُمْ أَكْثَرَ؟»\nفَأجَابَ كُلٌّ مِنْهُمْ بِحَمَاسٍ:\nفِرَاسٌ أُعْجِبَ بِسَاعِي البَرِيدِ،\nوَلَيَانُ أُعْجِبَتْ بِالعَامِلِ الَّذِي يُنَظِّفُ الشَّوارِعَ،\nوَسَلْمَى أُعْجِبَتْ بِالمُسْعِفِ.",
+        "imagePrompt": "Students discussing their favorite professions in class, each child holding a small drawing of their chosen job"
+      },
+      {
+        "pageNumber": 6,
+        "text": "مُنْذُ ذَلِكَ اليَوْمِ، أَصْبَحَ الأَطْفالُ يَرَوْنَ النَّاسَ فِي شَوَارِعِ مَدِينَتِهِمْ بِنَظَرٍ جَدِيدٍ؛\nيُسَلِّمُونَ عَلَى سَاعِي البَرِيدِ،\nوَيَشْكُرُونَ عَامِلَ النَّظَافَةِ،\nوَيُحَيُّونَ المُسْعِفِينَ.\nوَصَارُوا يَقُولُونَ:\n«لِكُلِّ مِهْنَةٍ قِيمَتُهَا… وَكُلُّنَا نَبْنِي الوَطَنَ مَعًا.»",
+        "imagePrompt": "Children happily waving to different community workers in their neighborhood as they walk home"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "عباءة جدّتي",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "الاعتزاز بالهوية والتراث",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "في صندوقٍ قديمٍ في بيتِ جدّتي، وجدتُ عباءةً سوداءَ مُطرّزةً بخيوطٍ ذهبيّة. سألتُ جدّتي: 'ما هذه العباءةُ الجميلة؟' ",
+        "imagePrompt": "A young Saudi girl discovering an old ornate abaya in a wooden chest at her grandmother's traditional house"
+      },
+      {
+        "pageNumber": 2,
+        "text": "ابتسمَت جدّتي وقالت: 'هذهِ عباءتي القديمة، لبستُها في شبابي. كانت أمّي رحمها اللهُ تُطرّزُها بيديها.'",
+        "imagePrompt": "Grandmother sitting with her granddaughter, holding the abaya and smiling warmly"
+      },
+      {
+        "pageNumber": 3,
+        "text": "لمستُ التطريزَ بأصابعي وسألتُ: 'لماذا نلبسُ العباءةَ يا جدّتي؟' فأجابت: 'العباءةُ تاجُ المرأةِ السعوديّة، تُظهرُ حياءَها وأصالتَها.'",
+        "imagePrompt": "Close-up of intricate golden embroidery on the black abaya, with small hands touching it"
+      },
+      {
+        "pageNumber": 4,
+        "text": "قلتُ: 'أريدُ أن أكونَ جميلةً مثلَكِ يا جدّتي!' ضحكَت وقالت: 'الجمالُ في الأخلاقِ والحياءِ يا صغيرتي.'",
+        "imagePrompt": "Grandmother helping the little girl try on a small modern abaya"
+      },
+      {
+        "pageNumber": 5,
+        "text": "في اليومِ التالي، رأيتُ أمّي تلبسُ عباءتَها الأنيقة. شعرتُ بالفخرِ وقلتُ: 'عندما أكبرُ سألبسُ العباءةَ مثلَكِ ومثلَ جدّتي.'",
+        "imagePrompt": "Mother wearing an elegant abaya while her daughter looks at her admiringly"
+      },
+      {
+        "pageNumber": 6,
+        "text": "وعندما عُدتُ إلى جدّتي، قالت لي: 'تذكّري يا حبيبتي، اللباسُ ليس قطعةَ قماشٍ... بل حكايةٌ تُروى من جيلٍ إلى جيل.'",
+        "imagePrompt": "Grandmother and granddaughter sitting together, looking at old family photos of women in traditional Saudi dress"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "فنجان القهوة الأول",
+    "type": "تراث وثقافة",
+    "ageRange": "7-9 سنوات",
+    "moral": "الكرم وحسن الضيافة وآداب تقديم القهوة",
+    "cover": null,
+    "backCover": null,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "text": "كانَ سَعدٌ يُراقِبُ والِدَهُ كُلَّ يَومٍ وَهُوَ يُقَدِّمُ القَهوَةَ السعودية لِلضُّيوفِ في مَجلِسِ العائِلَةِ. كانَ يُعجِبُهُ كَيفَ يَحمِلُ والِدُهُ الدَّلَّةَ بِيَدٍ أنيقَةٍ وَيَصُبُّ القَهوَةَ في الفَناجينِ الصَّغيرَةِ.",
+        "imagePrompt": "A Saudi boy watching his father serving Arabic coffee to guests in a traditional majlis setting, father holding a traditional coffee pot (dallah)"
+      },
+      {
+        "pageNumber": 2,
+        "text": "سَأَلَ سَعدٌ والِدَهُ: 'يا أبي، لِماذا نُقَدِّمُ القَهوَةَ لِلضُّيوفِ دائِماً؟' ابتَسَمَ الوالِدُ وَقالَ: 'يا بُنَيَّ، تَقديمُ القَهوَةِ مِن عاداتِنا الجَميلَةِ، وَهُوَ رَمزٌ لِلكَرَمِ وَحُسنِ الضِّيافَةِ.'",
+        "imagePrompt": "Father and son sitting together, father explaining while holding a coffee cup, traditional Saudi dress"
+      },
+      {
+        "pageNumber": 3,
+        "text": "عَلَّمَ الوالِدُ سَعداً آدابَ تَقديمِ القَهوَةِ: 'نَبدَأُ مِنَ اليَمينِ، وَنَملأُ ثُلُثَ الفِنجانِ فَقَط، وَنُقَدِّمُهُ بِاحتِرامٍ وَابتِسامَةٍ.'",
+        "imagePrompt": "Close-up of father demonstrating coffee serving etiquette to his son, showing the right way to hold the dallah and cup"
+      },
+      {
+        "pageNumber": 4,
+        "text": "في يَومٍ مِنَ الأَيّامِ، زارَ جَدُّ سَعدٍ المَنزِلَ. قالَ سَعدٌ: 'يا أبي، هَل تَسمَحُ لي بِتَقديمِ القَهوَةِ لِجَدّي؟' وافَقَ الوالِدُ مُبتَسِماً.",
+        "imagePrompt": "Grandfather arriving at the house, boy excitedly asking his father while looking at the coffee set"
+      },
+      {
+        "pageNumber": 5,
+        "text": "حَمَلَ سَعدٌ الدَّلَّةَ بِحَذَرٍ وَصَبَّ القَهوَةَ في فِنجانٍ صَغيرٍ. قَدَّمَهُ لِجَدِّهِ بِكُلِّ أَدَبٍ وَاحتِرامٍ. فَرِحَ الجَدُّ كَثيراً وَقالَ: 'أَحسَنتَ يا سَعد! أَنتَ تُحافِظُ عَلى عاداتِنا الجَميلَةِ.'",
+        "imagePrompt": "Boy carefully serving coffee to his grandfather who is sitting in the majlis, both wearing traditional Saudi dress"
+      },
+      {
+        "pageNumber": 6,
+        "text": "شَعَرَ سَعدٌ بِالفَخرِ وَالسَّعادَةِ. أَدرَكَ أَنَّ تَقديمَ القَهوَةِ لَيسَ مُجَرَّدَ مَشروبٍ، بَل هُوَ تَقليدٌ جَميلٌ يُعَبِّرُ عَن كَرَمِ وَأَصالَةِ أَهلِ السُّعودِيَّةِ.",
+        "imagePrompt": "Boy looking proud and happy, standing next to his father and grandfather, with the coffee set in front of them in a warm family scene"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply font-arabic bg-rawaa-cream text-rawaa-ink;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Cairo", sans-serif;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid #A02025;
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #A0202533;
+}
+
+/* placeholder for images that will be added manually later */
+.image-slot {
+  @apply flex items-center justify-center bg-rawaa-gray text-rawaa-grayDark text-center text-xs leading-relaxed p-3 rounded-xl2 border border-dashed border-rawaa-grayDark/40;
+}
