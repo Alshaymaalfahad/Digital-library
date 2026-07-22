@@ -22,6 +22,7 @@ export default function AddChild() {
   const [level, setLevel] = useState("beginner");
   const [interests, setInterests] = useState([]);
   const [characterId, setCharacterId] = useState(CHARACTERS[0].id);
+  const [pin, setPin] = useState("");
 
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -33,9 +34,13 @@ export default function AddChild() {
   async function handleSubmit(e) {
     e.preventDefault();
     setError("");
+    if (!/^\d{4}$/.test(pin)) {
+      setError("الرمز الشخصي يجب أن يتكوّن من ٤ أرقام بالضبط.");
+      return;
+    }
     setSubmitting(true);
     try {
-      await actions.addChild({ name, age, gender, readingLevel: level, interests, characterId });
+      await actions.addChild({ name, age, gender, readingLevel: level, interests, characterId, pin });
       markChildPicked();
       navigate("/home");
     } catch (err) {
@@ -49,9 +54,9 @@ export default function AddChild() {
     <div className="min-h-screen bg-rawaa-red flex items-center justify-center px-4 py-10" dir="rtl">
       <div className="w-full max-w-lg bg-white rounded-xl2 shadow-2xl p-6 md:p-8 max-h-[92vh] overflow-y-auto">
         <div className="text-center mb-6">
-          <img src="/images/brand/medad-logo.png" alt="مداد" className="h-8 w-auto mx-auto mb-4" />
+          <span className="font-arabic font-bold text-2xl text-rawaa-red block mb-4">رواة</span>
           <h1 className="font-display text-xl font-bold mb-1">إضافة طفل</h1>
-          <p className="text-sm text-rawaa-grayDark">أهلاً بروّاد رُواء الصغار!</p>
+          <p className="text-sm text-rawaa-grayDark">أهلاً بروّاد رواة الصغار!</p>
         </div>
 
         <form onSubmit={handleSubmit}>
@@ -66,12 +71,12 @@ export default function AddChild() {
                   type="button"
                   key={c.id}
                   onClick={() => setCharacterId(c.id)}
+                  aria-label={c.name}
                   className={`flex flex-col items-center gap-1.5 rounded-xl border py-3 transition ${
                     characterId === c.id ? "border-rawaa-red bg-rawaa-redTint" : "border-rawaa-gray"
                   }`}
                 >
                   <CharacterAvatar characterId={c.id} size="lg" />
-                  <span className="text-xs font-semibold">{c.name}</span>
                 </button>
               ))}
             </div>
@@ -131,6 +136,20 @@ export default function AddChild() {
                 </button>
               ))}
             </div>
+          </Field>
+
+          <Field label="رمز شخصي (٤ أرقام)">
+            <Input
+              required
+              type="password"
+              inputMode="numeric"
+              pattern="\d{4}"
+              maxLength={4}
+              value={pin}
+              onChange={(e) => setPin(e.target.value.replace(/\D/g, "").slice(0, 4))}
+              placeholder="••••"
+              className="tracking-[0.5em] text-center"
+            />
           </Field>
 
           {error && <p className="text-sm text-red-600 mb-3">{error}</p>}

@@ -5,7 +5,7 @@
 //
 // Two badges depend on the not-yet-built AI story-generation feature
 // ("مبدع", "صانع الحكايات") — they're always shown locked until that ships.
-// "سفير رواء" requires ALL badges including those two, so it's locked too.
+// "سفير رواة" requires ALL badges including those two, so it's locked too.
 
 const CORE_VALUES = [
   { id: "honesty", label: "الصدق", keywords: ["صدق", "صادق"] },
@@ -145,7 +145,7 @@ export function computeAchievements({ stories, readingHistory }) {
   const ambassador = {
     id: "ambassador",
     icon: "🦋",
-    label: "سفير رُواء",
+    label: "سفير رواة",
     desc: "اجمع جميع الإنجازات الأساسية",
     achieved: false,
     locked: true,

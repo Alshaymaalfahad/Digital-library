@@ -61,7 +61,7 @@ export default function AppShell({ children, hero }) {
     <div className="min-h-screen bg-rawaa-cream">
       <header className={`z-30 ${hero ? "fixed inset-x-0 top-0" : "sticky top-0 bg-rawaa-cream"}`}>
         <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
-          <img src="/images/brand/medad-logo.png" alt="مداد" className="h-8 w-auto" />
+          <span className="font-arabic font-bold text-2xl text-rawaa-red">رواة</span>
           <nav className="hidden sm:flex items-center">
             {NAV.map((item, i) => (
               <span key={item.to} className="flex items-center">

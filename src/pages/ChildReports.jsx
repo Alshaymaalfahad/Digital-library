@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import AppShell from "../components/AppShell";
 import ImageSlot from "../components/ImageSlot";
-import StoryCard from "../components/StoryCard";
 import SimpleBarChart from "../components/SimpleBarChart";
 import { useApp } from "../context/AppContext";
-import { childStats } from "../utils/mockStats";
+import { supabase } from "../lib/supabaseClient";
 import { computeAchievements } from "../utils/achievements";
 import { computeChildReportStats } from "../utils/childReportStats";
 
@@ -15,32 +14,53 @@ export default function ChildReports() {
   const { state } = useApp();
 
   const child = state.children.find((c) => c.id === childId) || state.children[0];
-  // "مستوى الصداقة" / character blurb still uses mock data — there's no real
-  // signal for it yet (would need a proper "favourite character" concept).
-  const mockExtras = childStats(child?.id || "demo");
-  const favoriteStory =
-    state.stories.length > 0 ? state.stories[(child?.id?.length || 3) % state.stories.length] : null;
+
+  // This report must reflect ONLY the child being viewed here — never
+  // whichever child happens to be "active" elsewhere in the app (e.g. in the
+  // child picker). state.readingHistory in AppContext is scoped to that
+  // globally active child, so it's the wrong source here; fetch this child's
+  // own reading_progress rows directly instead.
+  const [readingHistory, setReadingHistory] = useState([]);
+  const [loadingHistory, setLoadingHistory] = useState(true);
+
+  useEffect(() => {
+    if (!child?.id) return;
+    setLoadingHistory(true);
+    supabase
+      .from("reading_progress")
+      .select("story_id,last_page,updated_at,time_spent_seconds,rating")
+      .eq("child_id", child.id)
+      .then(({ data, error }) => {
+        setLoadingHistory(false);
+        if (error) return console.error(error);
+        setReadingHistory(
+          (data || []).map((p) => ({
+            storyId: p.story_id,
+            lastPage: p.last_page,
+            updatedAt: p.updated_at,
+            timeSpentSeconds: p.time_spent_seconds || 0,
+            rating: p.rating || null,
+          }))
+        );
+      });
+  }, [child?.id]);
 
   const achievements = computeAchievements({
     stories: state.stories,
-    readingHistory: state.readingHistory,
+    readingHistory,
   });
 
   const realStats = computeChildReportStats({
-    readingHistory: state.readingHistory,
+    readingHistory,
     stories: state.stories,
   });
 
-  // NOTE: readingHistory/favorites in AppContext are already scoped to the
-  // currently active child (see refreshChildData) — this report reflects
-  // that child's data specifically, not the guardian's overall account.
-  const favoriteStories = state.stories.filter((s) => state.favorites.includes(s.id));
-  const history = [...state.readingHistory]
+  const history = [...readingHistory]
     .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
     .map((h) => ({ ...h, story: state.stories.find((s) => s.id === h.storyId) }))
     .filter((h) => h.story);
 
-  if (!favoriteStory) {
+  if (state.stories.length === 0 || loadingHistory) {
     return (
       <AppShell>
         <p className="text-rawaa-grayDark text-sm">جارِ تحميل بيانات التقرير...</p>
@@ -92,67 +112,23 @@ export default function ChildReports() {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-[300px_1fr] gap-6">
-        {/* Favorite character card */}
-        <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-4 h-fit">
-          <div className="relative mb-3">
-            <ImageSlot
-              url={favoriteStory.cover?.imageUrl}
-              basePath={`/images/stories/${favoriteStory.id}/cover`}
-              prompt={favoriteStory.cover?.imagePrompt}
-              ratio="aspect-[4/3]"
-            />
-            <span className="absolute top-2 right-2 bg-rawaa-redTint text-rawaa-red text-[11px] font-semibold rounded-full px-2.5 py-1">
-              الشخصية المفضلة
-            </span>
-          </div>
-          <h3 className="font-display font-bold mb-2">"{favoriteStory.title}"</h3>
-          <p className="text-xs text-rawaa-grayDark leading-relaxed mb-4">
-            يحب {child ? child.name : "طفلك"} متابعة مغامرات هذه القصة، وكرر قراءتها عدة مرات هذا الأسبوع، مما ساعده
-            على تعلم كلمات مرتبطة بالبيئة والشجاعة.
-          </p>
-          <div className="mb-4">
-            <div className="flex justify-between text-xs mb-1.5">
-              <span className="font-semibold">{mockExtras.friendshipLevel}%</span>
-              <span className="text-rawaa-grayDark">مستوى الصداقة</span>
-            </div>
-            <div className="h-2 rounded-full bg-rawaa-gray overflow-hidden">
-              <div className="h-full bg-rawaa-red" style={{ width: `${mockExtras.friendshipLevel}%` }} />
-            </div>
-          </div>
-          <button className="w-full rounded-xl bg-rawaa-redDark text-white text-sm font-semibold py-2.5">
-            🖼 عرض ألبوم الصور
-          </button>
+      <div className="space-y-6 mb-6">
+        <div className="grid sm:grid-cols-3 gap-4">
+          <StatCard
+            icon="⏱"
+            label="متوسط الجلسة"
+            value={realStats.avgSessionMinutes > 0 ? `${realStats.avgSessionMinutes} دقيقة` : "لا توجد بيانات بعد"}
+          />
+          <StatCard icon="🧭" label="النوع المفضل" value={realStats.favoriteType} />
+          <StatCard icon="📗" label="مفردات مكتسبة" value={realStats.vocabWords} />
         </div>
 
-        {/* Stats + chart */}
-        <div className="space-y-6">
-          <div className="grid sm:grid-cols-3 gap-4">
-            <StatCard
-              icon="⏱"
-              label="متوسط الجلسة"
-              value={realStats.avgSessionMinutes > 0 ? `${realStats.avgSessionMinutes} دقيقة` : "لا توجد بيانات بعد"}
-            />
-            <StatCard icon="🧭" label="النوع المفضل" value={realStats.favoriteType} />
-            <StatCard icon="📗" label="مفردات مكتسبة" value={realStats.vocabWords} />
+        <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-6">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="font-display font-bold">نشاط القراءة الأسبوعي</h3>
+            <span className="text-xs text-rawaa-grayDark">عدد مرات القراءة لكل يوم</span>
           </div>
-
-          <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-6">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="font-display font-bold">نشاط القراءة الأسبوعي</h3>
-              <span className="text-xs text-rawaa-grayDark">عدد مرات القراءة لكل يوم</span>
-            </div>
-            <SimpleBarChart data={realStats.weeklyActivity} valueKey="count" color="#1EA7DD" unit=" مرة" />
-          </div>
-
-          <div className="rounded-xl2 bg-rawaa-gray/30 p-6 flex flex-col justify-center">
-            <p className="text-sm font-medium mb-3">
-              هل تريد تعزيز مهارة الاستماع؟ بناءً على نشاط طفلك، نقترح سلسلة "رحلات الفضاء" المسموعة لزيادة التركيز.
-            </p>
-            <button className="self-start rounded-full bg-rawaa-red text-white text-sm font-semibold px-4 py-2">
-              ابدأ التجربة الآن
-            </button>
-          </div>
+          <SimpleBarChart data={realStats.weeklyActivity} valueKey="count" color="#1EA7DD" unit=" مرة" />
         </div>
       </div>
 
@@ -187,17 +163,13 @@ export default function ChildReports() {
         )}
       </div>
 
-      <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-6">
-        <h2 className="font-display font-bold text-lg mb-5">القصص المفضلة</h2>
-        {favoriteStories.length === 0 ? (
-          <p className="text-sm text-rawaa-grayDark">لا توجد قصص مفضلة بعد.</p>
-        ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {favoriteStories.map((s) => (
-              <StoryCard key={s.id} story={s} />
-            ))}
-          </div>
-        )}
+      <div className="rounded-xl2 bg-rawaa-gray/30 p-6 flex flex-col justify-center mb-6">
+        <p className="text-sm font-medium mb-3">
+          هل تريد تعزيز مهارة الاستماع؟ بناءً على نشاط طفلك، نقترح سلسلة "رحلات الفضاء" المسموعة لزيادة التركيز.
+        </p>
+        <button className="self-start rounded-full bg-rawaa-red text-white text-sm font-semibold px-4 py-2">
+          ابدأ التجربة الآن
+        </button>
       </div>
     </AppShell>
   );

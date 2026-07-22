@@ -29,7 +29,7 @@ export default function AdminLogin() {
   return (
     <AuthLayout
       accent="navy"
-      title="إدارة منصة رُواء"
+      title="إدارة منصة رواة"
       subtitle="تحكّم كامل بالمحتوى والمستخدمين من مكان واحد"
     >
       <Link to="/login" className="text-sm text-rawaa-grayDark hover:text-rawaa-ink mb-4 inline-block">

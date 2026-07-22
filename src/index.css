@@ -67,6 +67,10 @@ html, body, #root {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply font-arabic bg-rawaa-cream text-rawaa-ink;
   -webkit-font-smoothing: antialiased;

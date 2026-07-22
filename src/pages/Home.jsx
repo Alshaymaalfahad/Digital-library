@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         )}
         <h1 className="font-display text-2xl md:text-4xl font-extrabold mb-3 text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
-          رُواء .. كل طفل راوٍ لحكايته
+          رواة .. كل طفل راوٍ لحكايته
         </h1>
         <p className="text-white/95 mb-6 max-w-xl mx-auto text-sm md:text-base drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)]">
           أنشئ، استمتع، وانطلق في عالم خيالك من خلال قصص تفاعلية مولّدة بالذكاء الاصطناعي.

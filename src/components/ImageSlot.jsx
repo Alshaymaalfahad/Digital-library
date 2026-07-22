@@ -20,20 +20,25 @@ export default function ImageSlot({ url, basePath, src, prompt, className = "", 
     : [];
 
   const currentSrc = candidates[attempt];
+  // A caller-supplied width class (e.g. "w-14") must win over the default
+  // w-full — but Tailwind classes don't override by string order, only by
+  // which one is later in the generated stylesheet, so "w-full" would
+  // otherwise clobber "w-14" regardless of where it sits in the string.
+  const widthClass = /(^|\s)w-/.test(className) ? "" : "w-full";
 
   if (currentSrc) {
     return (
       <img
         src={currentSrc}
         alt={prompt || "رسمة توضيحية"}
-        className={`${ratio} w-full object-cover ${className}`}
+        className={`${ratio} ${widthClass} object-cover ${className}`}
         onError={() => setAttempt((a) => a + 1)}
       />
     );
   }
 
   return (
-    <div className={`image-slot ${ratio} w-full ${className}`} title={prompt}>
+    <div className={`image-slot ${ratio} ${widthClass} ${className}`} title={prompt}>
       <div>
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" className="mx-auto mb-1 opacity-60">
           <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" strokeWidth="1.5" />

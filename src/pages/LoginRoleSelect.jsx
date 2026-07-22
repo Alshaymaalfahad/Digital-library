@@ -65,7 +65,7 @@ export default function LoginRoleSelect() {
             />
           </svg>
         </div>
-        <h1 className="font-display text-2xl font-bold mb-1">مرحباً بك في رُواء!</h1>
+        <h1 className="font-display text-2xl font-bold mb-1">مرحباً بك في رواة!</h1>
         <p className="text-sm text-rawaa-grayDark mb-8"></p>
       </div>
 

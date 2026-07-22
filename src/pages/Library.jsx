@@ -1,8 +1,10 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import AppShell from "../components/AppShell";
 import StoryCard from "../components/StoryCard";
 import { useApp } from "../context/AppContext";
 import { AGE_BUCKETS, bucketForAgeRange } from "../utils/ageBuckets";
+import { useClickOutside } from "../utils/useClickOutside";
 
 export default function Library() {
   const { state } = useApp();
@@ -10,6 +12,10 @@ export default function Library() {
   const [query, setQuery] = useState("");
   const [ageBucket, setAgeBucket] = useState("الكل");
   const [storyType, setStoryType] = useState("الكل");
+  const [favOpen, setFavOpen] = useState(false);
+  const favMenuRef = useRef(null);
+  useClickOutside(favMenuRef, () => setFavOpen(false));
+  const favoriteStories = stories.filter((s) => state.favorites.includes(s.id));
 
   const storyTypes = useMemo(
     () => ["الكل", ...Array.from(new Set(stories.map((s) => s.type).filter(Boolean)))],
@@ -31,9 +37,44 @@ export default function Library() {
 
   return (
     <AppShell>
-      <div className="mb-8">
-        <h1 className="font-display text-2xl font-bold mb-1">مكتبة القصص</h1>
-        <p className="text-rawaa-grayDark text-sm">اكتشف عالماً من القصص المميزة لأطفالك</p>
+      <div className="flex items-start justify-between mb-8">
+        <div>
+          <h1 className="font-display text-2xl font-bold mb-1">مكتبة القصص</h1>
+          <p className="text-rawaa-grayDark text-sm">اكتشف عالماً من القصص المميزة لأطفالك</p>
+        </div>
+
+        <div className="relative" ref={favMenuRef}>
+          <button
+            onClick={() => setFavOpen((v) => !v)}
+            className="w-10 h-10 rounded-full bg-white border border-rawaa-gray/60 shadow-card flex items-center justify-center text-rawaa-red text-lg"
+            aria-label="القصص المفضلة"
+          >
+            {favoriteStories.length > 0 ? "♥" : "♡"}
+          </button>
+
+          {favOpen && (
+            <div className="absolute left-0 top-12 z-20 w-72 bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-3">
+              <h3 className="font-display font-bold text-sm px-2 mb-2">القصص المفضلة</h3>
+              {favoriteStories.length === 0 ? (
+                <p className="text-xs text-rawaa-grayDark px-2 py-2">لا توجد قصص مفضلة بعد.</p>
+              ) : (
+                <div className="max-h-72 overflow-y-auto space-y-1">
+                  {favoriteStories.map((s) => (
+                    <Link
+                      key={s.id}
+                      to={`/story/${s.id}`}
+                      onClick={() => setFavOpen(false)}
+                      className="flex items-center gap-2.5 px-2 py-2 rounded-lg hover:bg-rawaa-cream transition"
+                    >
+                      <span className="text-rawaa-red">♥</span>
+                      <span className="text-sm text-rawaa-ink truncate">{s.title}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </div>
 
       <div className="flex flex-col gap-3 mb-8">

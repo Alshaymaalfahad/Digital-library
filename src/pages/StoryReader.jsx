@@ -66,6 +66,14 @@ export default function StoryReader() {
     setAudioError("");
   }, [index]);
 
+  // Stop narration when leaving the story (route change / unmount) — otherwise
+  // the audio element keeps playing in the background since it lives in a ref.
+  useEffect(() => {
+    return () => {
+      audioRef.current?.pause();
+    };
+  }, []);
+
   // Apply speed live.
   useEffect(() => {
     if (audioRef.current) audioRef.current.playbackRate = speed;
@@ -196,6 +204,7 @@ export default function StoryReader() {
         </button>
       </div>
 
+      <div className="bg-white rounded-xl2 shadow-card p-5 md:p-8">
       <div className="flex gap-6">
         {/* Reading area */}
         <div className="flex-1 py-4 md:py-8">
@@ -319,7 +328,7 @@ export default function StoryReader() {
 
         {/* Settings drawer */}
         {settingsOpen && (
-          <aside className="hidden lg:block w-72 shrink-0 bg-white rounded-xl2 border border-rawaa-gray/60 p-5 h-fit shadow-card">
+          <aside className="hidden lg:block w-72 shrink-0 bg-rawaa-cream rounded-xl2 border border-rawaa-gray/60 p-5 h-fit">
             <div className="flex items-center justify-between mb-5">
               <h3 className="font-display font-bold">🎙 إعدادات القراءة</h3>
               <button onClick={() => setSettingsOpen(false)} className="text-rawaa-grayDark" aria-label="إغلاق">
@@ -347,6 +356,7 @@ export default function StoryReader() {
             </p>
           </aside>
         )}
+      </div>
       </div>
     </AppShell>
   );

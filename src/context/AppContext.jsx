@@ -4,6 +4,12 @@ import { clearChildPicked } from "../utils/childPickerSession";
 
 const AppContext = createContext(null);
 
+// Persisted across reloads — without this, refreshing the page while a
+// child is picked silently falls back to the guardian's FIRST child (see
+// refreshChildren below), so any reading done after a refresh gets
+// attributed to the wrong child's report.
+const ACTIVE_CHILD_KEY = "rawaa_active_child_id";
+
 function shapeStories(storyRows, pageRows) {
   const pagesByStory = {};
   for (const p of pageRows) {
@@ -36,7 +42,7 @@ export function AppProvider({ children }) {
   const [authReady, setAuthReady] = useState(false);
   const [guardian, setGuardian] = useState(null);
   const [childrenList, setChildrenList] = useState([]);
-  const [activeChildId, setActiveChildIdState] = useState(null);
+  const [activeChildId, setActiveChildIdState] = useState(() => localStorage.getItem(ACTIVE_CHILD_KEY));
   const [favorites, setFavorites] = useState([]);
   const [readingHistory, setReadingHistory] = useState([]);
   const [stories, setStories] = useState([]);
@@ -102,9 +108,18 @@ export function AppProvider({ children }) {
       interests: c.interests || [],
       dailyScreenTimeMinutes: c.daily_screen_time_minutes,
       characterId: c.character_id,
+      pin: c.pin,
     }));
     setChildrenList(mapped);
-    setActiveChildIdState((cur) => cur || mapped[0]?.id || null);
+    setActiveChildIdState((cur) => {
+      // `cur` may be a stale id restored from localStorage (deleted child,
+      // or another guardian's child on a shared device) — only keep it if
+      // it still belongs to this guardian's current children.
+      const next = cur && mapped.some((c) => c.id === cur) ? cur : mapped[0]?.id || null;
+      if (next) localStorage.setItem(ACTIVE_CHILD_KEY, next);
+      else localStorage.removeItem(ACTIVE_CHILD_KEY);
+      return next;
+    });
   }, [user]);
 
   useEffect(() => {
@@ -203,6 +218,7 @@ export function AppProvider({ children }) {
       setFavorites([]);
       setReadingHistory([]);
       clearChildPicked();
+      localStorage.removeItem(ACTIVE_CHILD_KEY);
     },
 
     async updateGuardian(patch) {
@@ -230,17 +246,20 @@ export function AppProvider({ children }) {
           reading_level: child.readingLevel,
           interests: child.interests || [],
           character_id: child.characterId || null,
+          pin: child.pin || null,
         })
         .select()
         .single();
       if (error) throw error;
       await refreshChildren();
       setActiveChildIdState(data.id);
+      localStorage.setItem(ACTIVE_CHILD_KEY, data.id);
       return data.id;
     },
 
     setActiveChild(id) {
       setActiveChildIdState(id);
+      localStorage.setItem(ACTIVE_CHILD_KEY, id);
     },
 
     async toggleFavorite(storyId) {

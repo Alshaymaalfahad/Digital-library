@@ -10,7 +10,7 @@ export default function AdminShell({ children }) {
       <header className="sticky top-0 z-30 bg-white border-b border-medad-gray200">
         <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src="/images/brand/medad-logo.png" alt="مداد" className="h-8 w-auto" />
+            <span className="font-arabic font-bold text-2xl text-rawaa-red">رواة</span>
             <span className="text-medad-gray300">|</span>
             <span className="text-sm font-semibold text-medad-900">لوحة تحكم الأدمن</span>
           </div>

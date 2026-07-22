@@ -30,7 +30,7 @@ export default function Register() {
   return (
     <AuthLayout
       title="مرحباً بك في عالم المعرفة السحري"
-      subtitle="انضم إلى رُواء وابدأ رحلة القراءة مع طفلك"
+      subtitle="انضم إلى رواة وابدأ رحلة القراءة مع طفلك"
     >
       <h1 className="text-2xl font-bold mb-1">إنشاء حساب جديد</h1>
       <p className="text-sm text-rawaa-grayDark mb-6">ابدأ رحلتك اليوم</p>

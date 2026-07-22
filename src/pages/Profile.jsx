@@ -114,7 +114,7 @@ export default function Profile() {
               <h2 className="font-display font-bold text-lg mb-5">الإشعارات</h2>
               <ToggleRow label="بريد إلكتروني" hint="ملخص أسبوعي وتحديثات مهمة" checked onChange={() => {}} />
               <ToggleRow label="رسائل SMS" hint="تنبيهات فورية للأحداث المهمة" checked={false} onChange={() => {}} />
-              <ToggleRow label="داخل التطبيق" hint="مركز الإشعارات داخل رُواء" checked onChange={() => {}} />
+              <ToggleRow label="داخل التطبيق" hint="مركز الإشعارات داخل رواة" checked onChange={() => {}} />
             </div>
           )}
 
