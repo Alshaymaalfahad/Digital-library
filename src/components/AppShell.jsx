@@ -4,15 +4,14 @@ import { useApp } from "../context/AppContext";
 import { addTodaySeconds, getTodaySeconds } from "../utils/screenTime";
 
 const NAV = [
-  { to: "/", label: "الرئيسية" },
+  { to: "/home", label: "الرئيسية" },
   { to: "/library", label: "المكتبة" },
-  { to: "/parent-dashboard", label: "ملفات الأطفال" },
   { to: "/create-story", label: "إنشاء قصة", badge: "قريباً" },
 ];
 
 const TICK_SECONDS = 15;
 
-export default function AppShell({ children }) {
+export default function AppShell({ children, hero }) {
   const { state, actions } = useApp();
   const navigate = useNavigate();
   const activeChild = state.children.find((c) => c.id === state.activeChildId) || state.children[0];
@@ -48,7 +47,7 @@ export default function AppShell({ children }) {
         <button
           onClick={async () => {
             await actions.logout();
-            navigate("/login");
+            navigate("/");
           }}
           className="bg-white text-rawaa-red font-bold px-6 py-2.5 rounded-full"
         >
@@ -60,91 +59,64 @@ export default function AppShell({ children }) {
 
   return (
     <div className="min-h-screen bg-rawaa-cream">
-      <header className="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-rawaa-gray">
+      <header className={`z-30 ${hero ? "fixed inset-x-0 top-0" : "sticky top-0 bg-rawaa-cream"}`}>
         <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
           <img src="/images/brand/medad-logo.png" alt="مداد" className="h-8 w-auto" />
-          <nav className="hidden sm:flex items-center gap-1">
-            {NAV.map((item) => (
+          <nav className="hidden sm:flex items-center">
+            {NAV.map((item, i) => (
+              <span key={item.to} className="flex items-center">
+                {i > 0 && <span className="w-px h-4 bg-rawaa-ink/15 mx-1" />}
+                <NavLink
+                  to={item.to}
+                  className={({ isActive }) =>
+                    `relative px-4 py-2 rounded-full text-sm font-semibold transition ${
+                      isActive ? "bg-white text-rawaa-red shadow-sm" : "text-rawaa-ink/70 hover:text-rawaa-ink"
+                    }`
+                  }
+                >
+                  {item.label}
+                  {item.badge && (
+                    <span className="absolute -top-2 -left-2 bg-rawaa-gold text-white text-[10px] px-1.5 py-0.5 rounded-full">
+                      {item.badge}
+                    </span>
+                  )}
+                </NavLink>
+              </span>
+            ))}
+          </nav>
+          <div className="flex items-center gap-2.5">
+            <Link
+              to="/profile"
+              className="text-rawaa-ink/70 hover:text-rawaa-red transition shrink-0"
+              aria-label="الملف الشخصي لولي الأمر"
+              title={state.guardian?.name}
+            >
+              <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7">
+                <circle cx="12" cy="8.5" r="3.25" stroke="currentColor" strokeWidth="1.6" />
+                <path d="M5 19c1.1-3.6 3.9-5.5 7-5.5s5.9 1.9 7 5.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+        <nav className="sm:hidden flex items-center px-4 pb-2 overflow-x-auto">
+          {NAV.map((item, i) => (
+            <span key={item.to} className="flex items-center shrink-0">
+              {i > 0 && <span className="w-px h-3.5 bg-rawaa-ink/15 mx-1" />}
               <NavLink
-                key={item.to}
                 to={item.to}
                 className={({ isActive }) =>
-                  `relative px-4 py-2 rounded-full text-sm font-semibold transition ${
-                    isActive ? "bg-rawaa-redTint text-rawaa-red" : "text-rawaa-ink/70 hover:bg-rawaa-gray/60"
+                  `px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition ${
+                    isActive ? "bg-white text-rawaa-red shadow-sm" : "text-rawaa-ink/70"
                   }`
                 }
               >
                 {item.label}
-                {item.badge && (
-                  <span className="absolute -top-2 -left-2 bg-rawaa-gold text-white text-[10px] px-1.5 py-0.5 rounded-full">
-                    {item.badge}
-                  </span>
-                )}
               </NavLink>
-            ))}
-          </nav>
-          <div className="flex items-center gap-2.5">
-            {activeChild && (
-              <div className="flex items-center gap-1.5 bg-rawaa-gray/40 rounded-full pl-1.5 pr-1 py-1">
-                {state.children.length > 1 ? (
-                  <select
-                    value={activeChild?.id}
-                    onChange={(e) => actions.setActiveChild(e.target.value)}
-                    className="text-xs bg-transparent outline-none max-w-[80px] truncate"
-                  >
-                    {state.children.map((c) => (
-                      <option key={c.id} value={c.id}>
-                        {c.name}
-                      </option>
-                    ))}
-                  </select>
-                ) : (
-                  <span className="text-xs text-rawaa-ink/80 max-w-[80px] truncate">{activeChild.name}</span>
-                )}
-                <span
-                  className="w-7 h-7 rounded-full bg-white flex items-center justify-center text-base shrink-0"
-                  title={activeChild.name}
-                  aria-label={activeChild.gender === "girl" ? "شخصية بنت" : "شخصية ولد"}
-                >
-                  {activeChild.gender === "girl" ? "👧" : "👦"}
-                </span>
-              </div>
-            )}
-            <Link
-              to="/profile"
-              className="w-9 h-9 rounded-full bg-rawaa-red text-white flex items-center justify-center text-sm font-bold shrink-0"
-              aria-label="الملف الشخصي لولي الأمر"
-              title={state.guardian?.name}
-            >
-              {state.guardian?.name?.[0] || "و"}
-            </Link>
-            <button
-              onClick={async () => {
-                await actions.logout();
-                navigate("/login");
-              }}
-              className="text-xs text-rawaa-grayDark hover:text-rawaa-red"
-            >
-              خروج
-            </button>
-          </div>
-        </div>
-        <nav className="sm:hidden flex items-center gap-1 px-4 pb-2 overflow-x-auto">
-          {NAV.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              className={({ isActive }) =>
-                `px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap ${
-                  isActive ? "bg-rawaa-redTint text-rawaa-red" : "text-rawaa-ink/70"
-                }`
-              }
-            >
-              {item.label}
-            </NavLink>
+            </span>
           ))}
         </nav>
       </header>
+      {hero}
       <main className="max-w-6xl mx-auto px-5 py-8">{children}</main>
     </div>
   );

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import AppShell from "../components/AppShell";
 import ImageSlot from "../components/ImageSlot";
+import StoryCard from "../components/StoryCard";
 import SimpleBarChart from "../components/SimpleBarChart";
 import { useApp } from "../context/AppContext";
 import { childStats } from "../utils/mockStats";
@@ -10,6 +11,7 @@ import { computeChildReportStats } from "../utils/childReportStats";
 
 export default function ChildReports() {
   const { childId } = useParams();
+  const navigate = useNavigate();
   const { state } = useApp();
 
   const child = state.children.find((c) => c.id === childId) || state.children[0];
@@ -29,6 +31,15 @@ export default function ChildReports() {
     stories: state.stories,
   });
 
+  // NOTE: readingHistory/favorites in AppContext are already scoped to the
+  // currently active child (see refreshChildData) — this report reflects
+  // that child's data specifically, not the guardian's overall account.
+  const favoriteStories = state.stories.filter((s) => state.favorites.includes(s.id));
+  const history = [...state.readingHistory]
+    .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+    .map((h) => ({ ...h, story: state.stories.find((s) => s.id === h.storyId) }))
+    .filter((h) => h.story);
+
   if (!favoriteStory) {
     return (
       <AppShell>
@@ -46,9 +57,9 @@ export default function ChildReports() {
           </h1>
           <p className="text-rawaa-grayDark text-sm">تتبع نمو مهارات طفلك القرائية واللغوية</p>
         </div>
-        <Link to="/parent-dashboard" className="text-sm text-rawaa-ink font-semibold">
-          ‹ لوحة التحكم
-        </Link>
+        <button onClick={() => navigate(-1)} className="text-sm text-rawaa-ink font-semibold">
+          ‹ رجوع
+        </button>
       </div>
 
       <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-6 mb-6">
@@ -143,6 +154,50 @@ export default function ChildReports() {
             </button>
           </div>
         </div>
+      </div>
+
+      <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-6 mb-6">
+        <h2 className="font-display font-bold text-lg mb-5">سجل القراءة</h2>
+        {history.length === 0 ? (
+          <p className="text-sm text-rawaa-grayDark">لا يوجد سجل قراءة بعد.</p>
+        ) : (
+          <div className="space-y-3">
+            {history.map((h) => (
+              <Link
+                key={h.storyId}
+                to={`/story/${h.storyId}`}
+                className="flex items-center gap-3 bg-rawaa-cream rounded-xl p-3 hover:bg-rawaa-gray/40 transition"
+              >
+                <ImageSlot
+                  url={h.story.cover?.imageUrl}
+                  basePath={`/images/stories/${h.story.id}/cover`}
+                  prompt={h.story.cover?.imagePrompt}
+                  ratio="aspect-square"
+                  className="w-14 rounded-lg"
+                />
+                <div className="flex-1">
+                  <div className="text-sm font-semibold">{h.story.title}</div>
+                  <div className="text-xs text-rawaa-grayDark">
+                    الصفحة {h.lastPage + 1} من {h.story.pages.length + 2}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className="bg-white rounded-xl2 border border-rawaa-gray/60 shadow-card p-6">
+        <h2 className="font-display font-bold text-lg mb-5">القصص المفضلة</h2>
+        {favoriteStories.length === 0 ? (
+          <p className="text-sm text-rawaa-grayDark">لا توجد قصص مفضلة بعد.</p>
+        ) : (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {favoriteStories.map((s) => (
+              <StoryCard key={s.id} story={s} />
+            ))}
+          </div>
+        )}
       </div>
     </AppShell>
   );

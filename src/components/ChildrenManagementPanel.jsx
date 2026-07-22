@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import AppShell from "../components/AppShell";
+import CharacterAvatar from "./CharacterAvatar";
 import { useApp } from "../context/AppContext";
 import { childStats } from "../utils/mockStats";
 import { buildNotifications } from "../utils/notifications";
@@ -12,7 +12,7 @@ const LEVEL_LABELS = {
   advanced: "القارئ المكتشف",
 };
 
-export default function ParentDashboard() {
+export default function ChildrenManagementPanel() {
   const { state, actions } = useApp();
   const navigate = useNavigate();
 
@@ -20,8 +20,7 @@ export default function ParentDashboard() {
 
   // NOTE: notifications and reading history are only fully fetched for the
   // currently-active child (see AppContext) — with multiple children,
-  // switching the active child (top-right selector) refreshes this feed for
-  // that child too.
+  // switching the active child refreshes this feed for that child too.
   const notifications = buildNotifications({
     child: activeChild,
     stories: state.stories,
@@ -29,18 +28,28 @@ export default function ParentDashboard() {
   });
 
   return (
-    <AppShell>
+    <div>
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-8">
         <div>
-          <h1 className="font-display text-2xl font-bold mb-1">لوحة تحكم ولي الأمر</h1>
-          <p className="text-rawaa-grayDark text-sm">أهلاً بك! تابع تقدّم أطفالك في رحلتهم المعرفية.</p>
+          <h1 className="font-display text-2xl font-bold mb-1">ملفات الأطفال</h1>
+          <p className="text-rawaa-grayDark text-sm">تابع تقدّم أطفالك، وحدّد وقت استخدامهم للموقع.</p>
         </div>
-        <Link
-          to="/onboarding/child"
-          className="inline-flex items-center gap-2 bg-rawaa-red text-white text-sm font-semibold rounded-full px-5 py-2.5 hover:bg-rawaa-redDark transition w-fit"
-        >
-          + إضافة طفل جديد
-        </Link>
+        <div className="flex items-center gap-2.5">
+          {state.children.length > 0 && (
+            <Link
+              to="/choose-child"
+              className="inline-flex items-center gap-2 border border-rawaa-red text-rawaa-red text-sm font-semibold rounded-full px-5 py-2.5 hover:bg-rawaa-redTint transition w-fit"
+            >
+              تبديل الطفل
+            </Link>
+          )}
+          <Link
+            to="/onboarding/child"
+            className="inline-flex items-center gap-2 bg-rawaa-red text-white text-sm font-semibold rounded-full px-5 py-2.5 hover:bg-rawaa-redDark transition w-fit"
+          >
+            + إضافة طفل جديد
+          </Link>
+        </div>
       </div>
 
       {/* Children profiles */}
@@ -61,9 +70,7 @@ export default function ParentDashboard() {
                   >
                     ⚙️
                   </button>
-                  <div className="w-12 h-12 rounded-full bg-rawaa-navy text-white flex items-center justify-center font-bold shrink-0">
-                    {c.name?.[0] || "ط"}
-                  </div>
+                  <CharacterAvatar characterId={c.characterId} gender={c.gender} size="md" />
                   <div className="flex-1">
                     <div className="font-semibold text-sm">{c.name}</div>
                     <div className="text-xs text-rawaa-grayDark mb-1.5">
@@ -124,7 +131,7 @@ export default function ParentDashboard() {
           تحليل الذكاء العاطفي
         </button>
       </section>
-    </AppShell>
+    </div>
   );
 }
 

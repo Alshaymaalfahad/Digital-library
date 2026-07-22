@@ -46,8 +46,8 @@ export default {
         },
       },
       fontFamily: {
-        arabic: ["Tajawal", "sans-serif"],
-        display: ["Cairo", "sans-serif"],
+        arabic: ["Thmanyah Sans", "sans-serif"],
+        display: ["Thmanyah Serif Display", "serif"],
       },
       boxShadow: {
         card: "0 6px 24px -8px rgba(36,23,21,0.18)",

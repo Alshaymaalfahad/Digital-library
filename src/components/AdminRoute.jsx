@@ -16,7 +16,7 @@ export default function AdminRoute({ children }) {
 
   if (!state.isAuthenticated) return <Navigate to="/login" replace />;
   if (!state.emailVerified) return <Navigate to="/verify-email" replace />;
-  if (!state.guardian?.isAdmin) return <Navigate to="/" replace />;
+  if (!state.guardian?.isAdmin) return <Navigate to="/home" replace />;
 
   return children;
 }

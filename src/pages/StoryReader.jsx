@@ -5,6 +5,14 @@ import ImageSlot from "../components/ImageSlot";
 import { useApp } from "../context/AppContext";
 import { supabase } from "../lib/supabaseClient";
 
+function IconChevron(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" {...props}>
+      <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export default function StoryReader() {
   const { id } = useParams();
   const { state, actions } = useApp();
@@ -93,6 +101,40 @@ export default function StoryReader() {
       ? `/images/stories/${story.id}/back`
       : `/images/stories/${story.id}/page-${slide.pageNumber}`;
 
+  const pageText = (
+    <>
+      {slide.kind === "cover" && (
+        <>
+          <span className="text-xs text-rawaa-grayDark">
+            {story.ageRange} · {story.type}
+          </span>
+          <h1 className="font-display text-xl md:text-3xl font-extrabold mt-2 text-rawaa-ink">{story.title}</h1>
+        </>
+      )}
+      {slide.kind === "page" && <p className="leading-loose text-base md:text-lg text-rawaa-ink">{slide.text}</p>}
+      {slide.kind === "back" && (
+        <div className="text-center">
+          <h2 className="font-display text-xl md:text-2xl font-bold mb-2 text-rawaa-ink">🎉 أحسنت! أنهيت القصة</h2>
+          {story.moral && <p className="text-rawaa-grayDark mb-4 text-sm md:text-base">الدرس المستفاد: {story.moral}</p>}
+          <StarRating value={currentRating} onChange={(r) => actions.rateStory(story.id, r)} />
+          <Link to="/library" className="inline-block bg-rawaa-red text-white font-bold px-6 py-2.5 rounded-full mt-5">
+            اقرأ قصة أخرى
+          </Link>
+        </div>
+      )}
+    </>
+  );
+
+  const pageImage = (
+    <ImageSlot
+      url={slide.imageUrl}
+      basePath={imageBasePath}
+      prompt={slide.imagePrompt}
+      ratio="aspect-auto"
+      className="h-full w-full border-0 rounded-lg bg-transparent"
+    />
+  );
+
   function goNext() {
     setIndex((i) => Math.min(i + 1, slides.length - 1));
   }
@@ -156,95 +198,50 @@ export default function StoryReader() {
 
       <div className="flex gap-6">
         {/* Reading area */}
-        <div className="flex-1 bg-rawaa-redTint rounded-xl2 p-6 md:p-10">
+        <div className="flex-1 py-4 md:py-8">
           <div className="relative flex items-center justify-center gap-3 md:gap-6">
-            {/* Prev arrow (outer, right side) */}
+            {/* Prev arrow (outer, right side) — points outward, away from the book */}
             <button
               onClick={goPrev}
               disabled={index === 0}
-              className="hidden sm:flex w-11 h-11 shrink-0 rounded-full bg-rawaa-red text-white items-center justify-center text-lg shadow-card disabled:opacity-30"
+              className="hidden sm:flex w-11 h-11 shrink-0 rounded-full bg-rawaa-red text-white items-center justify-center shadow-card disabled:opacity-30"
               aria-label="الصفحة السابقة"
             >
-              ›
+              <IconChevron className="w-5 h-5" />
             </button>
 
             {/* The book */}
             <div className="relative w-full max-w-3xl">
               <button
                 onClick={() => setSettingsOpen((v) => !v)}
-                className="absolute -top-3 -right-3 z-10 w-11 h-11 rounded-xl bg-white shadow-card flex items-center justify-center text-rawaa-red border border-rawaa-gray/60"
+                className="absolute -top-3 -right-3 z-20 w-11 h-11 rounded-xl bg-white shadow-card flex items-center justify-center text-rawaa-red border border-rawaa-gray/60"
                 aria-label="إعدادات القراءة"
               >
                 ⚙️
               </button>
 
-              <div className="relative bg-white rounded-2xl shadow-xl border-4 border-rawaa-red overflow-hidden">
-                {/* center spine shadow */}
-                <div className="hidden md:block absolute inset-y-0 right-1/2 w-3 -mr-1.5 bg-gradient-to-l from-black/10 to-transparent z-10 pointer-events-none" />
-                <div className="grid md:grid-cols-2">
-                  <div className="order-2 md:order-1 min-h-[260px] md:min-h-[380px]">
-                    <ImageSlot
-                      url={slide.imageUrl}
-                      basePath={imageBasePath}
-                      prompt={slide.imagePrompt}
-                      ratio="aspect-auto"
-                      className="h-full min-h-[260px] md:min-h-[380px] border-0 rounded-none"
-                    />
-                  </div>
-                  <div className="order-1 md:order-2 p-6 md:p-8 flex flex-col justify-center min-h-[260px] md:min-h-[380px]">
-                    {slide.kind === "cover" && (
-                      <>
-                        <span className="text-xs text-rawaa-grayDark">
-                          {story.ageRange} · {story.type}
-                        </span>
-                        <h1 className="font-display text-2xl md:text-3xl font-extrabold mt-2 text-rawaa-ink">
-                          {story.title}
-                        </h1>
-                      </>
-                    )}
-                    {slide.kind === "page" && (
-                      <p className="leading-loose text-lg text-rawaa-ink">{slide.text}</p>
-                    )}
-                    {slide.kind === "back" && (
-                      <div className="text-center">
-                        <h2 className="font-display text-2xl font-bold mb-2 text-rawaa-ink">
-                          🎉 أحسنت! أنهيت القصة
-                        </h2>
-                        {story.moral && (
-                          <p className="text-rawaa-grayDark mb-4">الدرس المستفاد: {story.moral}</p>
-                        )}
-                        <StarRating
-                          value={currentRating}
-                          onChange={(r) => actions.rateStory(story.id, r)}
-                        />
-                        <Link
-                          to="/library"
-                          className="inline-block bg-rawaa-red text-white font-bold px-6 py-2.5 rounded-full mt-5"
-                        >
-                          اقرأ قصة أخرى
-                        </Link>
-                      </div>
-                    )}
-                  </div>
+              {/* Desktop / tablet: real open-book artwork, content overlaid on its two pages */}
+              <div className="hidden md:block relative w-full aspect-[3/2]">
+                <img
+                  src="/images/brand/story-book.png"
+                  alt=""
+                  aria-hidden="true"
+                  className="absolute inset-0 w-full h-full object-contain pointer-events-none select-none drop-shadow-2xl"
+                />
+                {/* text page (left side of the spread) */}
+                <div className="absolute top-[7%] bottom-[13%] left-[8.6%] right-[51.4%] flex flex-col justify-center px-3 lg:px-6 overflow-y-auto">
+                  {pageText}
                 </div>
+                {/* illustration page (right side of the spread) */}
+                <div className="absolute top-[7%] bottom-[13%] left-[51%] right-[7.3%] p-2 lg:p-4">
+                  {pageImage}
+                </div>
+              </div>
 
-                {/* inline corner arrows, like the reference */}
-                <button
-                  onClick={goPrev}
-                  disabled={index === 0}
-                  className="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-white shadow border border-rawaa-gray/60 flex items-center justify-center text-rawaa-red disabled:opacity-30"
-                  aria-label="السابق"
-                >
-                  ›
-                </button>
-                <button
-                  onClick={goNext}
-                  disabled={index === slides.length - 1}
-                  className="absolute bottom-3 left-3 w-9 h-9 rounded-full bg-white shadow border border-rawaa-gray/60 flex items-center justify-center text-rawaa-red disabled:opacity-30"
-                  aria-label="التالي"
-                >
-                  ‹
-                </button>
+              {/* Mobile: two pages side by side are too small to read, so stack instead */}
+              <div className="md:hidden bg-rawaa-cream rounded-2xl shadow-xl overflow-hidden">
+                <div className="min-h-[220px]">{pageImage}</div>
+                <div className="p-6 flex flex-col justify-center min-h-[180px]">{pageText}</div>
               </div>
 
               {/* page dots */}
@@ -262,14 +259,14 @@ export default function StoryReader() {
               </div>
             </div>
 
-            {/* Next arrow (outer, left side) */}
+            {/* Next arrow (outer, left side) — points outward, away from the book */}
             <button
               onClick={goNext}
               disabled={index === slides.length - 1}
-              className="hidden sm:flex w-11 h-11 shrink-0 rounded-full bg-rawaa-red text-white items-center justify-center text-lg shadow-card disabled:opacity-30"
+              className="hidden sm:flex w-11 h-11 shrink-0 rounded-full bg-rawaa-red text-white items-center justify-center shadow-card disabled:opacity-30"
               aria-label="الصفحة التالية"
             >
-              ‹
+              <IconChevron className="w-5 h-5 rotate-180" />
             </button>
           </div>
 

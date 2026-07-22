@@ -16,8 +16,10 @@ export default function Register() {
     setError("");
     setSubmitting(true);
     try {
-      await actions.register(form);
-      navigate("/", { state: { email: form.email } });
+      const { needsEmailConfirmation } = await actions.register(form);
+      navigate(needsEmailConfirmation ? "/verify-email" : "/onboarding/guardian", {
+        state: { email: form.email },
+      });
     } catch (err) {
       setError(err.message || "تعذر إنشاء الحساب، حاول مرة أخرى.");
     } finally {
@@ -73,7 +75,7 @@ export default function Register() {
 
       <p className="text-sm text-center text-rawaa-grayDark mt-6">
         لديك حساب بالفعل؟{" "}
-        <Link to="/login" className="text-rawaa-ink font-semibold underline">
+        <Link to="/login/parent" className="text-rawaa-ink font-semibold underline">
           تسجيل الدخول
         </Link>
       </p>

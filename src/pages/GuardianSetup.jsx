@@ -20,7 +20,7 @@ export default function GuardianSetup() {
     setSubmitting(true);
     try {
       await actions.updateGuardian({ language, notifications, region });
-      navigate(state.children.length > 0 ? "/" : "/onboarding/child");
+      navigate(state.children.length > 0 ? "/home" : "/onboarding/child");
     } catch (err) {
       setError(err.message || "تعذر حفظ البيانات، حاول مرة أخرى.");
     } finally {

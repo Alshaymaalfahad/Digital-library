@@ -19,7 +19,7 @@ export default function AdminShell({ children }) {
             <button
               onClick={async () => {
                 await actions.logout();
-                navigate("/login");
+                navigate("/");
               }}
               className="text-xs bg-medad-gray100 hover:bg-medad-gray200 text-medad-gray700 rounded-full px-3 py-1.5 transition"
             >

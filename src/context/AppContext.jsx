@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState, useCallback } from "react";
 import { supabase } from "../lib/supabaseClient";
+import { clearChildPicked } from "../utils/childPickerSession";
 
 const AppContext = createContext(null);
 
@@ -100,6 +101,7 @@ export function AppProvider({ children }) {
       readingLevel: c.reading_level,
       interests: c.interests || [],
       dailyScreenTimeMinutes: c.daily_screen_time_minutes,
+      characterId: c.character_id,
     }));
     setChildrenList(mapped);
     setActiveChildIdState((cur) => cur || mapped[0]?.id || null);
@@ -158,12 +160,24 @@ export function AppProvider({ children }) {
 
   const actions = {
     async register({ name, email, password }) {
-      const { error } = await supabase.auth.signUp({
+      const { data, error } = await supabase.auth.signUp({
         email,
         password,
         options: { data: { name } },
       });
       if (error) throw error;
+      // Supabase's documented way to detect "this email already has an
+      // account": it returns a user object but with an EMPTY identities
+      // array, instead of a clear error (to avoid leaking which emails are
+      // registered). Without this check, the form silently "succeeds" while
+      // nothing new was actually created — very confusing to debug.
+      if (data?.user && Array.isArray(data.user.identities) && data.user.identities.length === 0) {
+        throw new Error("هذا البريد الإلكتروني مسجّل بحساب موجود مسبقاً. جرّبي تسجيل الدخول بدلاً من إنشاء حساب جديد.");
+      }
+      // If "Confirm email" is off in Supabase, signUp() already returns a
+      // live session — the caller can skip straight to guardian setup
+      // instead of routing through the OTP screen with nothing to verify.
+      return { needsEmailConfirmation: !data.session };
     },
 
     async confirmEmailOtp(email, token) {
@@ -188,6 +202,7 @@ export function AppProvider({ children }) {
       setActiveChildIdState(null);
       setFavorites([]);
       setReadingHistory([]);
+      clearChildPicked();
     },
 
     async updateGuardian(patch) {
@@ -214,6 +229,7 @@ export function AppProvider({ children }) {
           gender: child.gender,
           reading_level: child.readingLevel,
           interests: child.interests || [],
+          character_id: child.characterId || null,
         })
         .select()
         .single();
@@ -306,6 +322,7 @@ export function AppProvider({ children }) {
     async updateChildSettings(childId, patch) {
       const dbPatch = {};
       if ("dailyScreenTimeMinutes" in patch) dbPatch.daily_screen_time_minutes = patch.dailyScreenTimeMinutes;
+      if ("characterId" in patch) dbPatch.character_id = patch.characterId;
       const { error } = await supabase.from("children").update(dbPatch).eq("id", childId);
       if (error) throw error;
       await refreshChildren();

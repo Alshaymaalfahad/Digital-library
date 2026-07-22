@@ -4,7 +4,7 @@ import AuthLayout from "../components/AuthLayout";
 import { Field, Input, Button } from "../components/Field";
 import { useApp } from "../context/AppContext";
 
-export default function Login() {
+export default function AdminLogin() {
   const { actions } = useApp();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -18,7 +18,7 @@ export default function Login() {
     setSubmitting(true);
     try {
       await actions.login(email, password);
-      navigate("/choose-child");
+      navigate("/admin");
     } catch (err) {
       setError(err.message || "تعذر تسجيل الدخول، تحقق من البيانات.");
     } finally {
@@ -28,14 +28,15 @@ export default function Login() {
 
   return (
     <AuthLayout
-      title="عالم من القصص ينتظر طفلك"
-      subtitle="سجّل دخولك وتابع رحلة القراءة العائلية"
+      accent="navy"
+      title="إدارة منصة رُواء"
+      subtitle="تحكّم كامل بالمحتوى والمستخدمين من مكان واحد"
     >
       <Link to="/login" className="text-sm text-rawaa-grayDark hover:text-rawaa-ink mb-4 inline-block">
         ‹ رجوع لاختيار الحساب
       </Link>
-      <h1 className="text-2xl font-bold mb-1">تسجيل دخول ولي الأمر</h1>
-      <p className="text-sm text-rawaa-grayDark mb-6">مرحباً بعودتك</p>
+      <h1 className="text-2xl font-bold mb-1">تسجيل دخول الإدمن</h1>
+      <p className="text-sm text-rawaa-grayDark mb-6">للمشرفين المخوّلين فقط</p>
 
       <form onSubmit={handleSubmit}>
         <Field label="البريد الإلكتروني">
@@ -44,24 +45,11 @@ export default function Login() {
         <Field label="كلمة المرور">
           <Input required type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="••••••••" />
         </Field>
-        <div className="flex justify-between text-xs text-rawaa-grayDark mb-6">
-          <label className="flex items-center gap-1.5">
-            <input type="checkbox" className="accent-rawaa-red" /> تذكرني
-          </label>
-          <button type="button" className="text-rawaa-ink font-semibold">نسيت كلمة المرور؟</button>
-        </div>
         {error && <p className="text-sm text-red-600 mb-4">{error}</p>}
-        <Button type="submit" disabled={submitting}>
+        <Button type="submit" disabled={submitting} className="!bg-rawaa-navy hover:!bg-rawaa-navy/90">
           {submitting ? "جارِ الدخول..." : "تسجيل الدخول ←"}
         </Button>
       </form>
-
-      <p className="text-sm text-center text-rawaa-grayDark mt-6">
-        ليس لديك حساب؟{" "}
-        <Link to="/register" className="text-rawaa-ink font-semibold underline">
-          إنشاء حساب
-        </Link>
-      </p>
     </AuthLayout>
   );
 }
